@@ -60,7 +60,6 @@ public class EnemyMovement : MonoBehaviour
                 if (this.transform.position == _pathByTransform[counter].position)
                 {
                     counter++;
-                    Debug.Log(counter);
 
                     if (counter == _pathByTransform.Count)
                         counter = 0;

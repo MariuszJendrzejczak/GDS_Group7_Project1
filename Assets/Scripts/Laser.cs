@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using System.Transactions;
 using UnityEngine;
 
@@ -24,7 +25,7 @@ public class Laser : MonoBehaviour
                 break;
 
             case LasserType.vertical:
-                _destroyTime = 1f;
+                _destroyTime = 1.5f;
                 break;
 
         }
@@ -56,5 +57,10 @@ public class Laser : MonoBehaviour
         yield return new WaitForSeconds(_destroyTime);
         Destroy(gameObject);
         
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Enemy")
+            Destroy(this.gameObject);
     }
 }
