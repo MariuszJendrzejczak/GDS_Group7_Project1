@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    [SerializeField] private float _playerSpeed = 3;
-    [SerializeField] private float _jumpForce = 5;
-    [SerializeField] private enum Type { carBody, carWheel, GroudLayer, FrontGraund, BackGround}
-    [SerializeField] private Type _type;
+    [SerializeField] [Tooltip("Wartość określająca szybkość poruszania się pojazdu (default: 3)")] private float _playerSpeed = 3;
+    [SerializeField] [Tooltip("Wartość określająca siłę skoku pojazdu (default: 5)")]private float _jumpForce = 5;
     private float _move;
     private Rigidbody2D _rigidbody2D;
     private bool _jumping = false;

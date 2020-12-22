@@ -11,7 +11,7 @@ public class Laser : MonoBehaviour
     private LasserType _type;
     private float _destroyTime;
 
-    [SerializeField]
+    [SerializeField][Tooltip("Szybkość poruszania się lasera (Default: 8)")]
     private float _speed = 8.0f;
 
 

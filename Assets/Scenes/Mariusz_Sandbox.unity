@@ -822,6 +822,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 919046580, guid: 2f7886d351cfff14d8196caa7bbded58, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919046580, guid: 2f7886d351cfff14d8196caa7bbded58, type: 3}
       propertyPath: _posXVerticalOffset
       value: -1.11
       objectReference: {fileID: 0}
@@ -1474,6 +1478,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5023590270015277818, guid: 2f7886d351cfff14d8196caa7bbded58, type: 3}
+    - {fileID: 5023590270015277819, guid: 2f7886d351cfff14d8196caa7bbded58, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2f7886d351cfff14d8196caa7bbded58, type: 3}
 --- !u!1001 &5393941514628302625
 PrefabInstance:

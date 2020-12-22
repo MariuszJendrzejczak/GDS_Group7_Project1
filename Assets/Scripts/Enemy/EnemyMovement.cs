@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    [SerializeField] private List<Vector2> _pathPoints;
-    [SerializeField] private List<Transform> _pathByTransform;
+    [SerializeField][Tooltip("Trasa punkt po punkcie dla lotu statku. Wprowadzana parametrami x i y ręcznie (z palca). Size określa wielkość listy punktów. Można wprowadzić ich dowolną ilość. Po osiągniędziu ostatniego punktu statek poleci do pierwszego (0) i będzie kontynłował w kółko.")] private List<Vector2> _pathPoints;
+    [SerializeField][Tooltip("Trasa punkt po punkcie dla lotu statku. W liście znajdują się pola drag and drop dla parametru transport. Algorytm działa tak sami jak z punktami z palca.")] private List<Transform> _pathByTransform;
     private enum ChooseList { transferPoints, fingerPoints };
-    [SerializeField] private ChooseList _list = new ChooseList();
+    [SerializeField][Tooltip("Listy wyboru, za którymi punktami (z palca czy objektami transport) ma podążać statek")] private ChooseList _list = new ChooseList();
     private GameObject currentList;
      
 
     private Vector2 _target, _position;
-    [SerializeField] private float _step = 0.04f;
+    [SerializeField][Tooltip("Prękość poruszania się przeciwnika w jednostkach unity na frame. Dlatego wartość jest tak niska. Zalecam Operować między wartościami 0.01 do 0.06")] private float _step = 0.04f;
     int counter = 0;
 
 
