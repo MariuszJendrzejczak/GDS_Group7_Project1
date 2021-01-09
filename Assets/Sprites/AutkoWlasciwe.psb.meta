@@ -1,0 +1,321 @@
+fileFormatVersion: 2
+guid: 915a4305d813b714db47fd2f00fc72ed
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: "ko\u0142o2 kopia"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 93
+      y: 116
+      width: 31
+      height: 16
+    spriteID: 829383c44944912468ad2be866c0aebe
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 22, y: 93}
+  - name: "ko\u0142o2"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 93
+      y: 140
+      width: 31
+      height: 16
+    spriteID: 7b8004d5461923a4da12b98bdf78d349
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 37, y: 117}
+  - name: "ko\u0142o3"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 93
+      y: 80
+      width: 32
+      height: 28
+    spriteID: a656c5548d10bd94c9e9248d5680e46b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 66, y: 57}
+  - name: Warstwa 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 93
+      y: 4
+      width: 81
+      height: 68
+    spriteID: 7c4f9d0a695d44244991352ed1acbd34
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 72, y: -23}
+  - name: Warstwa 3 kopia 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 90
+      width: 81
+      height: 77
+    spriteID: 86bd613e052f54a43835cd7c5a1b3062
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -17, y: 63}
+  - name: Warstwa 3 kopia 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 81
+      height: 78
+    spriteID: 20713ab59f5438a4093cc74ae696216a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -17, y: -23}
+  - name: Warstwa 3 kopia
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 175
+      width: 81
+      height: 73
+    spriteID: 8f36888c1a55b2c4e946efce29582640
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -17, y: 148}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 1
+  importedTextureWidth: 256
+  importedTextureHeight: 256
+  documentSize: {x: 123, y: 140}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 256
+  textureActualHeight: 256
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: "ko\u0142o2 kopia"
+    spriteName: "ko\u0142o2 kopia"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 829383c44944912468ad2be866c0aebe
+    layerID: 13
+    mosaicPosition: {x: 93, y: 116}
+  - name: "ko\u0142o2"
+    spriteName: "ko\u0142o2"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7b8004d5461923a4da12b98bdf78d349
+    layerID: 10
+    mosaicPosition: {x: 93, y: 140}
+  - name: "ko\u0142o3"
+    spriteName: "ko\u0142o3"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a656c5548d10bd94c9e9248d5680e46b
+    layerID: 8
+    mosaicPosition: {x: 93, y: 80}
+  - name: Warstwa 3 kopia 3
+    spriteName: Warstwa 3 kopia 3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 86bd613e052f54a43835cd7c5a1b3062
+    layerID: 31
+    mosaicPosition: {x: 4, y: 90}
+  - name: Warstwa 3 kopia 2
+    spriteName: Warstwa 3 kopia 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 20713ab59f5438a4093cc74ae696216a
+    layerID: 27
+    mosaicPosition: {x: 4, y: 4}
+  - name: Warstwa 3 kopia
+    spriteName: Warstwa 3 kopia
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8f36888c1a55b2c4e946efce29582640
+    layerID: 25
+    mosaicPosition: {x: 4, y: 175}
+  - name: Warstwa 3
+    spriteName: Warstwa 3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7c4f9d0a695d44244991352ed1acbd34
+    layerID: 6
+    mosaicPosition: {x: 93, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: AutkoWlasciwe Texture
+  prefabAssetName: AutkoWlasciwe Prefab
+  spriteLibAssetName: AutkoWlasciwe Sprite Lib
+  secondarySpriteTextures: []
