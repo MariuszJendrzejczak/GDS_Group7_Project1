@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 8990822253745652}
   - component: {fileID: 7973756341515831518}
   m_Layer: 0
-  m_Name: "Pod\u0142o\u017Ce (x1)"
+  m_Name: "Pod\u0142o\u017Ce"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -162,7 +162,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
+  m_MaskInteraction: 2
   m_SpriteSortPoint: 0
 --- !u!60 &7973756341515831518
 PolygonCollider2D:
