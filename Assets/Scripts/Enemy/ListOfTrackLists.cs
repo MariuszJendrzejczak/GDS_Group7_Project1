@@ -15,9 +15,7 @@ public class ListOfTrackLists : MonoBehaviour
     private void Awake()
     {
         _instance = this;
-    }
-    private void Start()
-    {
+
         TrackLists = new List<List<Transform>>();
         childCount = this.transform.childCount;
 
@@ -29,6 +27,7 @@ public class ListOfTrackLists : MonoBehaviour
 
         }
     }
+
 
     public List<List<Transform>> InportLists()
     {

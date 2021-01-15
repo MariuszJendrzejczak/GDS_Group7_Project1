@@ -42,7 +42,8 @@ public class EnemyMovement : MonoBehaviour
                 break;
             case ChooseList.randomList:
                 _allList = ListOfTrackLists.Instance.InportLists();
-                _currentList = _allList[Random.Range(0, _trackListUsed)];
+                Debug.Log(_allList.Count);
+                _currentList = _allList[Random.Range(0, _allList.Count)];
                 _target = _currentList[0].position;
          
                 

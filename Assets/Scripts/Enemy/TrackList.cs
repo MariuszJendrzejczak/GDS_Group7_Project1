@@ -7,7 +7,7 @@ public class TrackList : MonoBehaviour
     int childCount;
     public List<Transform> transformList;
 
-    void Start()
+    void Awake()
     {
 
         childCount = this.transform.childCount;
