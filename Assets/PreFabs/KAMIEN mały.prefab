@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4489365917933436864}
   - component: {fileID: 7157503533272873100}
   - component: {fileID: 7847180927922795725}
+  - component: {fileID: 1768914804885142306}
   m_Layer: 0
   m_Name: "KAMIEN ma\u0142y"
   m_TagString: Untagged
@@ -93,7 +94,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -115,3 +116,15 @@ PolygonCollider2D:
       - {x: 0.0856434, y: -0.01938387}
       - {x: 0.061661117, y: 0.027220367}
       - {x: 0.023459956, y: 0.057593204}
+--- !u!114 &1768914804885142306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8078006715882939070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58d6be7df2afe314d8879aa3ffd54676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
