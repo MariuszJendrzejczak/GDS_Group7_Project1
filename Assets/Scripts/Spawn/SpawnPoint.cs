@@ -8,6 +8,8 @@ public class SpawnPoint : MonoBehaviour
     [SerializeField]
     private GameObject toSpawn1, toSpawn2, toSpawn3, toSpawn4, toSpawn5, toSpawn6;
     [SerializeField]
+    private bool _SeparatorVeribleDoNotTouchIt;
+    [SerializeField]
     private Transform transform1, transform2, transform3, transform4, transform5, transform6;
 
     private BoxCollider2D _collider;
@@ -19,6 +21,8 @@ public class SpawnPoint : MonoBehaviour
         {
             Debug.Log("Collider is null");
         }
+        if (_SeparatorVeribleDoNotTouchIt == true)
+            Debug.Log("DO NOT TOUCH!!! Co w tych słowach jest niezrozumiałe?");
     }
 
     // Update is called once per frame

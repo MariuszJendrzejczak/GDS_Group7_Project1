@@ -22,7 +22,7 @@ public class ListOfTrackLists : MonoBehaviour
 
         for (int i = 0; i < childCount; i++)
         {
-            var obj = gameObject.transform.GetChild(i).GetComponent<TrackList>();
+            var obj = transform.GetChild(i).GetComponent<TrackList>();
             TrackLists.Add(obj.transformList);
 
         }
