@@ -11,11 +11,19 @@ public class SpawnManager : MonoBehaviour
     }
 
     public List<GameObject> ObjectsToSpawn;
-    public List<Transform> TransformsForSpawn;
+    [SerializeField]
+    private List<Transform> _transformsForSpawn;
+    private int _childCount;
 
     private void Awake()
     {
         _instance = this;
+
+        _childCount = transform.childCount;
+        for (int i = 0; i < _childCount; i++)
+        {
+            _transformsForSpawn.Add(transform.GetChild(i));
+        }
     }
     
     void Start()
@@ -29,17 +37,16 @@ public class SpawnManager : MonoBehaviour
         
     }
 
-    public void AddToSpawn(GameObject obj, Transform transform)
+    public void AddToSpawn(GameObject obj)
     {
         ObjectsToSpawn.Add(obj);
-        TransformsForSpawn.Add(transform);
     }
 
     public void StartSpawn()
     {
         for (int i = 0; i < ObjectsToSpawn.Count; i++)
         {
-            Instantiate(ObjectsToSpawn[i], TransformsForSpawn[i]);
+            Instantiate(ObjectsToSpawn[i], _transformsForSpawn[i]);
             
         }
         
@@ -48,7 +55,6 @@ public class SpawnManager : MonoBehaviour
     public void ClearLists()
     {
         ObjectsToSpawn.Clear();
-        TransformsForSpawn.Clear();
     }
 
 }

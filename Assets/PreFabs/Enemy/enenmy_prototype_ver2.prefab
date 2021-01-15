@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2580299905674333021}
   - component: {fileID: 2580299905674333022}
   - component: {fileID: 3819972852502771805}
-  - component: {fileID: 1283942197286892403}
   - component: {fileID: 3819972852502771801}
   m_Layer: 14
   m_Name: enenmy_prototype_ver2
@@ -155,25 +154,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6210407, y: 0.73171663}
   m_EdgeRadius: 0
---- !u!95 &1283942197286892403
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2580299905674333023}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 56ebcdfdbf8514c4c88223f945b28117, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &3819972852502771801
 MonoBehaviour:
   m_ObjectHideFlags: 0

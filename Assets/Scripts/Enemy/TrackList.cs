@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class TrackList : MonoBehaviour
 {
-    int childCount;
+    int _childCount;
     public List<Transform> transformList;
 
     void Awake()
     {
 
-        childCount = this.transform.childCount;
-        for (int i = 0; i < childCount; i++)
+        _childCount = this.transform.childCount;
+        for (int i = 0; i < _childCount; i++)
         {
             transformList.Add(transform.GetChild(i));
         }
