@@ -18,8 +18,7 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField]
     //private List<Transform> _track01, _track02, _track03, _track04, _track05, _track06;
     private List<List<Transform>> _allList;
-    [SerializeField]
-    private int _trackListUsed = 2;
+
 
 
     [SerializeField]
