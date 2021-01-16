@@ -11,12 +11,14 @@ public class RockDestroy : MonoBehaviour
         if (collision.tag == "Player")
         {
             PlayerDestroy.Instance.DestroyPlayer();
-
-            Destroy(gameObject);
+            SpawnManager.Instance.AddDestroyerObjToList(this.gameObject);
+            gameObject.SetActive(false);
+            
         }
         if (collision.tag == "Lasser")
         {
-            Destroy(gameObject);
+            SpawnManager.Instance.AddDestroyerObjToList(this.gameObject);
+            gameObject.SetActive(false);
         }
 
 

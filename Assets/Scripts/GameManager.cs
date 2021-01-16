@@ -22,6 +22,8 @@ public class GameManager : MonoBehaviour
     private GameState gameState = GameState.play;
     private int _playerLives = 3;
 
+    
+
     private void Awake()
     {
         _instance = this;
@@ -121,6 +123,8 @@ public class GameManager : MonoBehaviour
         _groundObj.transform.SetPositionAndRotation(new Vector2(_ground, _groundObj.transform.position.y), Quaternion.identity);
         _paralax1Obj.transform.SetPositionAndRotation(new Vector2(_paralax1, _paralax1Obj.transform.position.y), Quaternion.identity);
         _paralax2Obj.transform.SetPositionAndRotation(new Vector2(_paralax2, _paralax2Obj.transform.position.y), Quaternion.identity);
+        SpawnManager.Instance.RespawnDestroyedObjects();
+        SpawnManager.Instance.ClearDestroyedObjectList();
             Time.timeScale = 1;
         _respawnPanel.SetActive(false);
            
@@ -136,4 +140,6 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+   
 }

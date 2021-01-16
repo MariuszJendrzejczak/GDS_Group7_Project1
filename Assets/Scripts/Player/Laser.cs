@@ -60,7 +60,7 @@ public class Laser : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Enemy")
+        if (collision.tag == "Enemy" || collision.tag == "Rock") 
             Destroy(this.gameObject);
     }
 }
