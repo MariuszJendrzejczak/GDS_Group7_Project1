@@ -739,6 +739,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7814404263422809085}
   - component: {fileID: 7814404263422809074}
+  - component: {fileID: 4469267561653477818}
   m_Layer: 0
   m_Name: "G\xF3ry Du\u017Ce"
   m_TagString: Untagged
@@ -753,7 +754,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7814404263422809084}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.90242, y: -40.27884, z: 12.546098}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -783,6 +784,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 0.3
+--- !u!114 &4469267561653477818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7814404263422809084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a29b4656dd476c4ab38cba977fed3df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _projectile: {fileID: 3359463606566687038, guid: 2133191915b181d49ae9fa86e9fccabe,
+    type: 3}
 --- !u!1 &7814404263729711414
 GameObject:
   m_ObjectHideFlags: 0
