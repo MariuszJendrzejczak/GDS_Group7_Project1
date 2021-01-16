@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3906342157419723154}
   - component: {fileID: 2376292537406311057}
   - component: {fileID: 2376292537406311061}
+  - component: {fileID: 5018401248179808708}
   m_Layer: 14
   m_Name: Ufo3
   m_TagString: Enemy
@@ -165,3 +166,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57fad70cddf6a9f42bef6c05fb29069d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5018401248179808708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3906342157419723155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a29b4656dd476c4ab38cba977fed3df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _projectile: {fileID: 3359463606566687038, guid: 2133191915b181d49ae9fa86e9fccabe,
+    type: 3}
