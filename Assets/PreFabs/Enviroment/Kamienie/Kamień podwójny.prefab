@@ -267,7 +267,7 @@ GameObject:
   - component: {fileID: 5183579049469150031}
   m_Layer: 0
   m_Name: "Kamie\u0144 podw\xF3jny"
-  m_TagString: Untagged
+  m_TagString: Rock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

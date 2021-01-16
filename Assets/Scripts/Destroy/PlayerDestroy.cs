@@ -27,21 +27,5 @@ public class PlayerDestroy : MonoBehaviour
 
 
 
-    /*/ private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "Rock")
-        {
-            Destroy(transform.parent.gameObject);
-        }
-            
-        if (collision.tag == "EnemyLasser")
-        {
-            Destroy(transform.parent.gameObject);
-        }
 
-        if (collision.tag == "Hole")
-        {
-            Destroy(transform.parent.gameObject);
-        }
-    }*/
 }

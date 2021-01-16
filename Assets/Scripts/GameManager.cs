@@ -12,14 +12,17 @@ public class GameManager : MonoBehaviour
         get { return _instance; }
     }
 
-    public Transform respawnPoint;
+    private float _ground, _paralax1, _paralax2;
+    [SerializeField]
+    private GameObject _groundObj, _paralax1Obj, _paralax2Obj;
     public GameObject PlayerCar;
     [SerializeField]
     private GameObject _pausePanel, _bounsPanel, _respawnPanel, _gameOverPanel;
     private enum GameState { play, paused, playerDead, bounsPanel, gameOver}
     private GameState gameState = GameState.play;
-    private bool _paused = false, _playerDead = false;
     private int _playerLives = 3;
+
+    
 
     private void Awake()
     {
@@ -29,16 +32,22 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         
+     //   _groundObj = GameObject.Find("GroundLayer").GetComponent<GameObject>();
+     //   _paralax1Obj = GameObject.Find("ParalaxLayer1").GetComponent<GameObject>();
+     //   _paralax2Obj = GameObject.Find("ParalaxLayer2").GetComponent<GameObject>();
     }
     private void Update()
     {
         Pause();
-        
+
+
     }
 
-    public void CheckPointUpdate(Transform point)
+    public void CheckPointUpdate(float ground, float paralax1,float paralax2 )
     {
-        respawnPoint = point;
+        _ground = ground;
+        _paralax1 = paralax1;
+        _paralax2 = paralax2;
     }
   
 
@@ -110,9 +119,13 @@ public class GameManager : MonoBehaviour
     public void Respawn()
     {
 
-        //Instantiate(PlayerCar, respawnPoint.position, Quaternion.identity);
         PlayerDestroy.Instance.Respawn();
-        Time.timeScale = 1;
+        _groundObj.transform.SetPositionAndRotation(new Vector2(_ground, _groundObj.transform.position.y), Quaternion.identity);
+        _paralax1Obj.transform.SetPositionAndRotation(new Vector2(_paralax1, _paralax1Obj.transform.position.y), Quaternion.identity);
+        _paralax2Obj.transform.SetPositionAndRotation(new Vector2(_paralax2, _paralax2Obj.transform.position.y), Quaternion.identity);
+        SpawnManager.Instance.RespawnDestroyedObjects();
+        SpawnManager.Instance.ClearDestroyedObjectList();
+            Time.timeScale = 1;
         _respawnPanel.SetActive(false);
            
     }
@@ -127,4 +140,6 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+   
 }
