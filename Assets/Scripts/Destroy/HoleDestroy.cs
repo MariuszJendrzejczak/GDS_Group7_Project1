@@ -2,17 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RockDestroy : MonoBehaviour
+public class HoleDestroy : MonoBehaviour
 {
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Lasser" || collision.tag == "Player")
+        if (collision.tag == "Player")
         {
             PlayerDestroy.Instance.DestroyPlayer();
-            Destroy(gameObject);
-        }
             
-    }
+        }
 
+    }
 }

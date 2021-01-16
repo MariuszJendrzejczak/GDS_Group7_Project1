@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Lasser
   - Enemy
+  - EnemyLasser
+  - Hole
   layers:
   - Default
   - TransparentFX
