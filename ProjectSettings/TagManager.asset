@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - EnemyLasser
   - Hole
+  - Rock
   layers:
   - Default
   - TransparentFX

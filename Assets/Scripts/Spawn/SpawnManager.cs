@@ -33,7 +33,7 @@ public class SpawnManager : MonoBehaviour
     
     void Update()
     {
-        Debug.Log(_destroyerdObjects.Count);
+
     }
 
     public void AwakeTransformList()

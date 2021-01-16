@@ -36,6 +36,7 @@ public class CheckPoint : MonoBehaviour
             _paralax1 = _paralax1Obj.transform.position.x;
             _paralax2 = _paralax2Obj.transform.position.x;
             GameManager.Instance.CheckPointUpdate(_ground, _paralax1, _paralax2);
+            SpawnManager.Instance.ClearDestroyedObjectList();
         }
         
     }
