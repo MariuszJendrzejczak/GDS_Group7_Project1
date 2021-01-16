@@ -15,8 +15,11 @@ public class GameManager : MonoBehaviour
     public Transform respawnPoint;
     public GameObject PlayerCar;
     [SerializeField]
-    private GameObject _pausePanel;
-    private bool _paused = false;
+    private GameObject _pausePanel, _bounsPanel, _respawnPanel, _gameOverPanel;
+    private enum GameState { play, paused, playerDead, bounsPanel, gameOver}
+    private GameState gameState = GameState.play;
+    private bool _paused = false, _playerDead = false;
+    private int _playerLives = 3;
 
     private void Awake()
     {
@@ -30,6 +33,7 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         Pause();
+        
     }
 
     public void CheckPointUpdate(Transform point)
@@ -47,18 +51,80 @@ public class GameManager : MonoBehaviour
 
     private void Pause()
     {
-        if (Input.GetKeyDown(KeyCode.P)&& _paused == false)
+        if (Input.GetKeyDown(KeyCode.P)&& gameState == GameState.play)
         {
             _pausePanel.SetActive(true);
             Time.timeScale = 0;
-            _paused = true;
+            gameState = GameState.paused;
         }
-        else if(Input.GetKeyDown(KeyCode.P) && _paused == true)
+        else if(Input.GetKeyDown(KeyCode.P) && gameState == GameState.paused)
         {
             _pausePanel.SetActive(false);
             Time.timeScale = 1;
-            _paused = false;
+            gameState = GameState.play;
         }
 
+    }
+
+    public void PlayerDestroyerd()
+    {
+        _playerLives--;
+        if (_playerLives > 0)
+        {
+            gameState = GameState.playerDead;
+            RespawnPanel();
+        }
+        else
+        {
+            gameState = GameState.gameOver;
+            GameOver();
+        }
+
+    }
+    public void GameOver()
+    {
+        if (_playerLives == 0)
+        {
+            Time.timeScale = 0;
+            _gameOverPanel.SetActive(true);
+        }
+    }
+    public void BackToMainManu()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(0);
+    }
+    public void ContinueGame()
+    {
+        _playerLives = 3;
+        //score = 0;
+        _gameOverPanel.SetActive(false);
+        Respawn();
+        
+    }
+    public void RespawnPanel()
+    {
+        Time.timeScale = 0;
+        _respawnPanel.SetActive(true);
+    }
+    public void Respawn()
+    {
+
+        //Instantiate(PlayerCar, respawnPoint.position, Quaternion.identity);
+        PlayerDestroy.Instance.Respawn();
+        Time.timeScale = 1;
+        _respawnPanel.SetActive(false);
+           
+    }
+    public void BounsPanel()
+    {
+        Time.timeScale = 0;
+        _bounsPanel.SetActive(true);
+        gameState = GameState.bounsPanel;
+    }
+
+    public void NextLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

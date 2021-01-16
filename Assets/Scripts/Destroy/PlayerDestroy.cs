@@ -17,7 +17,12 @@ public class PlayerDestroy : MonoBehaviour
 
     public void DestroyPlayer()
     {
-        Destroy(gameObject);
+        GameManager.Instance.PlayerDestroyerd();
+        gameObject.SetActive(false);
+    }
+    public void Respawn()
+    {
+        gameObject.SetActive(true);
     }
 
 
