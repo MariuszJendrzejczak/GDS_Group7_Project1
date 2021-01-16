@@ -1,0 +1,350 @@
+fileFormatVersion: 2
+guid: ede46c68b159ec14bab20de7d5992c67
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: DUZA OKRAGLA kopia
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 4
+      width: 28
+      height: 15
+    spriteID: 5c9e3a54bdc9c4a4498e48a9e3c9e6ac
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 43, y: 0}
+  - name: MALA kopia
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 71
+      width: 34
+      height: 20
+    spriteID: b55a2dfd220fdb449ad92c1d3e7f4ce2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3, y: 68}
+  - name: DUZA kopia
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 35
+      height: 29
+    spriteID: 52d36893e8f0bee408c7d3ba63e06943
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  - name: MALA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 99
+      width: 34
+      height: 14
+    spriteID: 8e331b79528daeb41a6fb14e17ec978f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3, y: 96}
+  - name: DUZA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 41
+      width: 35
+      height: 22
+    spriteID: 7cba0498da6a1d040afd6cc79774685c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 41}
+  - name: MALA OKRAGLA kopia
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 27
+      width: 18
+      height: 15
+    spriteID: bd5f83ff653042b4a9c003b7e7752153
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 39, y: 23}
+  - name: MALA OKRAGLA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 67
+      width: 18
+      height: 8
+    spriteID: 13fee0539f03437478fd5a06f4804c89
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 39, y: 63}
+  - name: DUZA OKRAGLA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 50
+      width: 28
+      height: 9
+    spriteID: 3733fac6fd9de0847903fd971d1eec69
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 43, y: 46}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 1
+  importedTextureWidth: 128
+  importedTextureHeight: 128
+  documentSize: {x: 35, y: 43}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 128
+  textureActualHeight: 128
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: MALA kopia
+    spriteName: MALA kopia
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b55a2dfd220fdb449ad92c1d3e7f4ce2
+    layerID: 9
+    mosaicPosition: {x: 4, y: 71}
+  - name: DUZA kopia
+    spriteName: DUZA kopia
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 52d36893e8f0bee408c7d3ba63e06943
+    layerID: 10
+    mosaicPosition: {x: 4, y: 4}
+  - name: MALA
+    spriteName: MALA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8e331b79528daeb41a6fb14e17ec978f
+    layerID: 5
+    mosaicPosition: {x: 4, y: 99}
+  - name: DUZA
+    spriteName: DUZA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7cba0498da6a1d040afd6cc79774685c
+    layerID: 3
+    mosaicPosition: {x: 4, y: 41}
+  - name: MALA OKRAGLA kopia
+    spriteName: MALA OKRAGLA kopia
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bd5f83ff653042b4a9c003b7e7752153
+    layerID: 14
+    mosaicPosition: {x: 47, y: 27}
+  - name: DUZA OKRAGLA kopia
+    spriteName: DUZA OKRAGLA kopia
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5c9e3a54bdc9c4a4498e48a9e3c9e6ac
+    layerID: 13
+    mosaicPosition: {x: 47, y: 4}
+  - name: MALA OKRAGLA
+    spriteName: MALA OKRAGLA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 13fee0539f03437478fd5a06f4804c89
+    layerID: 12
+    mosaicPosition: {x: 47, y: 67}
+  - name: DUZA OKRAGLA
+    spriteName: DUZA OKRAGLA
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3733fac6fd9de0847903fd971d1eec69
+    layerID: 11
+    mosaicPosition: {x: 47, y: 50}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: DZIURY2 Texture
+  prefabAssetName: DZIURY2 Prefab
+  spriteLibAssetName: DZIURY2 Sprite Lib
+  secondarySpriteTextures: []
