@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class EnemyDestroy : MonoBehaviour
 {
+
+    private enum ScoreType { ufo1, ufo2, ufo3 }
+    [SerializeField] private ScoreType _scoreType;
+    [SerializeField]
+    private int _ufo1Dst, _ufo2Dst, _ufo3Dst;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +24,21 @@ public class EnemyDestroy : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Lasser")
+        {
+            switch (_scoreType)
+            {
+                case ScoreType.ufo1:
+                    UIManager.Instance.UpdatePlayerScore(_ufo1Dst);
+                    break;
+                case ScoreType.ufo2:
+                    UIManager.Instance.UpdatePlayerScore(_ufo2Dst);
+                    break;
+                case ScoreType.ufo3:
+                    UIManager.Instance.UpdatePlayerScore(_ufo3Dst);
+                    break;
+            }
             Destroy(gameObject);
+        }
+           
     }
 }
