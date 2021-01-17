@@ -128,3 +128,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58d6be7df2afe314d8879aa3ffd54676, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _scoreType: 0
+  _smallDst: 100
+  _mediumDst: 100
+  _bigDst: 100
+  _smallJump: 50
+  _medJump: 80
+  _bigJump: 100
