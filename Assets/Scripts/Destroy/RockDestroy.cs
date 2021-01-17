@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class RockDestroy : MonoBehaviour
 {
-
+    private enum ScoreType { small, medium, big}
+    [SerializeField] private ScoreType _scoreType;
+    [SerializeField]
+    private int _smallDst, _mediumDst, _bigDst, _smallJump, _medJump, _bigJump;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -18,6 +21,20 @@ public class RockDestroy : MonoBehaviour
         if (collision.tag == "Lasser")
         {
             SpawnManager.Instance.AddDestroyerObjToList(this.gameObject);
+            switch (_scoreType)
+            {
+                case ScoreType.small:
+                    UIManager.Instance.UpdatePlayerScore(_smallDst);
+                    break;
+                case ScoreType.medium:
+                    UIManager.Instance.UpdatePlayerScore(_mediumDst);
+                    break;
+                case ScoreType.big:
+                    UIManager.Instance.UpdatePlayerScore(_bigDst);
+                    break;
+            }
+                
+
             gameObject.SetActive(false);
         }
 
