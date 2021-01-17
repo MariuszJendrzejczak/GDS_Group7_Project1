@@ -10086,7 +10086,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _minSpeed: 0
-  _speed: 1
+  _speed: 0.98
   _maxSpeed: 0
   _adjustmentValue: 0
 --- !u!1 &2068584448
