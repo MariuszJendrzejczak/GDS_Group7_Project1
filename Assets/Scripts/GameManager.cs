@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
     private GameObject _pausePanel, _bounsPanel, _respawnPanel, _gameOverPanel;
     private enum GameState { play, paused, playerDead, bounsPanel, gameOver}
     private GameState gameState = GameState.play;
-    private int _playerLives = 3;
+    private int _playerLives = 4;
 
     
 
@@ -78,6 +78,7 @@ public class GameManager : MonoBehaviour
     public void PlayerDestroyerd()
     {
         _playerLives--;
+        UIManager.Instance.UpdatePlayerLives(_playerLives);
         if (_playerLives > 0)
         {
             gameState = GameState.playerDead;
@@ -105,9 +106,11 @@ public class GameManager : MonoBehaviour
     }
     public void ContinueGame()
     {
-        _playerLives = 3;
-        //score = 0;
+        _playerLives = 4;
+        UIManager.Instance.UpdatePlayerLives(_playerLives);
         _gameOverPanel.SetActive(false);
+        UIManager.Instance.PlayerScore = 0;
+        UIManager.Instance.UpdatePlayerScore(0);
         Respawn();
         
     }
