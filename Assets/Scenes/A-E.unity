@@ -12535,12 +12535,20 @@ PrefabInstance:
     - target: {fileID: 5036171611320599024, guid: 7b22532347be7c44aa4f417f657c296d,
         type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD
       value: -0.733
+=======
+      value: -1.292
+>>>>>>> 8110400 (Ominięcie konfliktowych Merge-y.)
       objectReference: {fileID: 0}
     - target: {fileID: 5036171611320599024, guid: 7b22532347be7c44aa4f417f657c296d,
         type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD
       value: 0.138
+=======
+      value: 0.103
+>>>>>>> 8110400 (Ominięcie konfliktowych Merge-y.)
       objectReference: {fileID: 0}
     - target: {fileID: 5036171611320599024, guid: 7b22532347be7c44aa4f417f657c296d,
         type: 3}
