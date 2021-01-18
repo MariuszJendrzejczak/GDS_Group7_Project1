@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ede46c68b159ec14bab20de7d5992c67
+guid: aa56d9fd32c753d4bb46a7d01fae0d9f
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -87,51 +87,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: DUZA OKRAGLA kopia
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 47
-      y: 4
-      width: 28
-      height: 15
-    spriteID: 5c9e3a54bdc9c4a4498e48a9e3c9e6ac
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 43, y: 0}
-  - name: MALA kopia
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 71
-      width: 34
-      height: 20
-    spriteID: b55a2dfd220fdb449ad92c1d3e7f4ce2
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 3, y: 68}
-  - name: DUZA kopia
+  - name: Warstwa 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -140,9 +96,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 35
-      height: 29
-    spriteID: 52d36893e8f0bee408c7d3ba63e06943
+      width: 67
+      height: 42
+    spriteID: fe3b768477439ea4099d9dbf2454cfac
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -153,7 +109,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
-  - name: MALA
+  - name: Warstwa 5
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -161,10 +117,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 99
-      width: 34
-      height: 14
-    spriteID: 8e331b79528daeb41a6fb14e17ec978f
+      y: 95
+      width: 49
+      height: 37
+    spriteID: c528f777615e1874d8951d356f0b9e3c
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -174,8 +130,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3, y: 96}
-  - name: DUZA
+    uvTransform: {x: -5, y: 90}
+  - name: Warstwa 4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -183,10 +139,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 41
-      width: 35
-      height: 22
-    spriteID: 7cba0498da6a1d040afd6cc79774685c
+      y: 140
+      width: 49
+      height: 37
+    spriteID: f0206929402ad33489c2511d869e16b1
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -196,19 +152,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 41}
-  - name: MALA OKRAGLA kopia
+    uvTransform: {x: -5, y: 135}
+  - name: Warstwa 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 47
-      y: 27
-      width: 18
-      height: 15
-    spriteID: bd5f83ff653042b4a9c003b7e7752153
+      x: 4
+      y: 54
+      width: 67
+      height: 42
+    spriteID: 434a72d9f35aa204780ff0d69d9ebe20
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -218,133 +174,61 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 39, y: 23}
-  - name: MALA OKRAGLA
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 47
-      y: 67
-      width: 18
-      height: 8
-    spriteID: 13fee0539f03437478fd5a06f4804c89
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 39, y: 63}
-  - name: DUZA OKRAGLA
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 47
-      y: 50
-      width: 28
-      height: 9
-    spriteID: 3733fac6fd9de0847903fd971d1eec69
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 43, y: 46}
+    uvTransform: {x: 4, y: 54}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 1
   importedTextureWidth: 128
-  importedTextureHeight: 128
-  documentSize: {x: 35, y: 43}
+  importedTextureHeight: 256
+  documentSize: {x: 67, y: 42}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
   textureActualWidth: 128
-  textureActualHeight: 128
+  textureActualHeight: 256
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: MALA kopia
-    spriteName: MALA kopia
+  - name: Warstwa 5
+    spriteName: Warstwa 5
     isGroup: 0
     parentIndex: -1
-    spriteID: b55a2dfd220fdb449ad92c1d3e7f4ce2
+    spriteID: c528f777615e1874d8951d356f0b9e3c
     layerID: 9
-    mosaicPosition: {x: 4, y: 71}
-  - name: DUZA kopia
-    spriteName: DUZA kopia
+    mosaicPosition: {x: 4, y: 95}
+  - name: Warstwa 4
+    spriteName: Warstwa 4
     isGroup: 0
     parentIndex: -1
-    spriteID: 52d36893e8f0bee408c7d3ba63e06943
-    layerID: 10
+    spriteID: f0206929402ad33489c2511d869e16b1
+    layerID: 8
+    mosaicPosition: {x: 4, y: 140}
+  - name: Warstwa 3
+    spriteName: Warstwa 3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: fe3b768477439ea4099d9dbf2454cfac
+    layerID: 6
     mosaicPosition: {x: 4, y: 4}
-  - name: MALA
-    spriteName: MALA
+  - name: Warstwa 2
+    spriteName: Warstwa 2
     isGroup: 0
     parentIndex: -1
-    spriteID: 8e331b79528daeb41a6fb14e17ec978f
+    spriteID: 434a72d9f35aa204780ff0d69d9ebe20
     layerID: 5
-    mosaicPosition: {x: 4, y: 99}
-  - name: DUZA
-    spriteName: DUZA
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 7cba0498da6a1d040afd6cc79774685c
-    layerID: 3
-    mosaicPosition: {x: 4, y: 41}
-  - name: MALA OKRAGLA kopia
-    spriteName: MALA OKRAGLA kopia
-    isGroup: 0
-    parentIndex: -1
-    spriteID: bd5f83ff653042b4a9c003b7e7752153
-    layerID: 14
-    mosaicPosition: {x: 47, y: 27}
-  - name: DUZA OKRAGLA kopia
-    spriteName: DUZA OKRAGLA kopia
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 5c9e3a54bdc9c4a4498e48a9e3c9e6ac
-    layerID: 13
-    mosaicPosition: {x: 47, y: 4}
-  - name: MALA OKRAGLA
-    spriteName: MALA OKRAGLA
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 13fee0539f03437478fd5a06f4804c89
-    layerID: 12
-    mosaicPosition: {x: 47, y: 67}
-  - name: DUZA OKRAGLA
-    spriteName: DUZA OKRAGLA
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 3733fac6fd9de0847903fd971d1eec69
-    layerID: 11
-    mosaicPosition: {x: 47, y: 50}
+    mosaicPosition: {x: 4, y: 54}
   characterData:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: DZIURY2 Texture
-  prefabAssetName: DZIURY2 Prefab
-  spriteLibAssetName: DZIURY2 Sprite Lib
+  textureAssetName: dzura ostra duza3 Texture
+  prefabAssetName: dzura ostra duza3 Prefab
+  spriteLibAssetName: dzura ostra duza3 Sprite Lib
   secondarySpriteTextures: []

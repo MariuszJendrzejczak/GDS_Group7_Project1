@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 502d73127968dd940bfcac7443e63fe7
+guid: a509bb1d5b1cc544dbebb39101cc635e
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -27,8 +27,8 @@ ScriptedImporter:
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
-    spriteExtrude: 1
-    spriteMeshType: 1
+    spriteExtrude: 32
+    spriteMeshType: 0
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
     spritePixelsToUnits: 100
@@ -63,17 +63,17 @@ ScriptedImporter:
     textureFormatSet: 0
     applyGammaDecoding: 0
   spriteImportData:
-  - name: 
+  - name: Dziury ogomne3_1
     originalName: 
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 0
       y: 0
-      width: 0
-      height: 0
+      width: 56
+      height: 43
     spriteID: 
     internalID: 0
     spriteBone: []
@@ -85,20 +85,19 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
-  mosaicSpriteImportData: []
-  rigSpriteImportData:
-  - name: Warstwa 1
+  mosaicSpriteImportData:
+  - name: Warstwa 4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 66
-      y: 44
-      width: 56
-      height: 32
-    spriteID: ab6dc5afe1bfa6e489564dc9b29c9f8b
+      x: 4
+      y: 55
+      width: 54
+      height: 43
+    spriteID: d5cf16f7c17d9b74c8d82c32c92b3d84
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,8 +107,30 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 66, y: 39}
-  - name: Warstwa 3 kopia
+    uvTransform: {x: 3, y: 55}
+  - name: Warstwa 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 4
+      width: 54
+      height: 38
+    spriteID: 84068a55250c9e9418f12f2e60c736c7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 67, y: 4}
+  - name: Warstwa 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -118,9 +139,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 54
-      height: 42
-    spriteID: cccbca8fbe8112c4c91f93ad4d3595c1
+      width: 56
+      height: 43
+    spriteID: ed59aac8d2a3e3244a197bc8edd80f7c
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -130,19 +151,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3, y: 3}
-  - name: Warstwa 4
+    uvTransform: {x: 4, y: 4}
+  - name: Warstwa 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 66
-      y: 84
-      width: 39
-      height: 38
-    spriteID: 9a00d7f201f8da94d9f2c91dd78a3ad7
+      x: 68
+      y: 50
+      width: 56
+      height: 32
+    spriteID: 4b48e1fe45df2b543845505c2641a14b
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -152,8 +173,9 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 56, y: 79}
-  - name: Warstwa 3
+    uvTransform: {x: 68, y: 50}
+  rigSpriteImportData:
+  - name: Warstwa 4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -163,8 +185,8 @@ ScriptedImporter:
       x: 4
       y: 54
       width: 54
-      height: 42
-    spriteID: 0be916b21d8ea4d40929d1240105bd86
+      height: 43
+    spriteID: 5e7c3d5d9a33ecf42b1c0cc1b5b78a50
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -174,7 +196,29 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 3, y: 53}
+    uvTransform: {x: 3, y: 55}
+  - name: Warstwa 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 4
+      width: 54
+      height: 43
+    spriteID: bbf5543cdfd4c7d4aa16870e0b93f9b5
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 67, y: 4}
   - name: Warstwa 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -182,11 +226,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 66
+      x: 4
       y: 4
       width: 56
-      height: 32
-    spriteID: 1f9967ad76b69764a9497b8eacd99afb
+      height: 43
+    spriteID: a712fc80ec6bd9f419f43844f1b75b0c
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -196,7 +240,29 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 66, y: -1}
+    uvTransform: {x: 4, y: 4}
+  - name: Warstwa 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 50
+      width: 56
+      height: 43
+    spriteID: 709c062f99ab8d547928b094c42537f3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 68, y: 50}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -204,7 +270,7 @@ ScriptedImporter:
   importHiddenLayers: 1
   importedTextureWidth: 128
   importedTextureHeight: 128
-  documentSize: {x: 59, y: 45}
+  documentSize: {x: 56, y: 43}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
@@ -214,50 +280,71 @@ ScriptedImporter:
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
-  mosaicPSDLayers: []
-  rigPSDLayers:
-  - name: Warstwa 3 kopia
-    spriteName: Warstwa 3 kopia
-    isGroup: 0
-    parentIndex: -1
-    spriteID: cccbca8fbe8112c4c91f93ad4d3595c1
-    layerID: 8
-    mosaicPosition: {x: 4, y: 4}
+  mosaicPSDLayers:
   - name: Warstwa 4
     spriteName: Warstwa 4
     isGroup: 0
     parentIndex: -1
-    spriteID: 9a00d7f201f8da94d9f2c91dd78a3ad7
+    spriteID: d5cf16f7c17d9b74c8d82c32c92b3d84
     layerID: 7
-    mosaicPosition: {x: 66, y: 84}
+    mosaicPosition: {x: 4, y: 55}
   - name: Warstwa 3
     spriteName: Warstwa 3
     isGroup: 0
     parentIndex: -1
-    spriteID: 0be916b21d8ea4d40929d1240105bd86
+    spriteID: 84068a55250c9e9418f12f2e60c736c7
     layerID: 6
-    mosaicPosition: {x: 4, y: 54}
+    mosaicPosition: {x: 68, y: 4}
   - name: Warstwa 2
     spriteName: Warstwa 2
     isGroup: 0
     parentIndex: -1
-    spriteID: 1f9967ad76b69764a9497b8eacd99afb
+    spriteID: ed59aac8d2a3e3244a197bc8edd80f7c
     layerID: 4
-    mosaicPosition: {x: 66, y: 4}
+    mosaicPosition: {x: 4, y: 4}
   - name: Warstwa 1
     spriteName: Warstwa 1
     isGroup: 0
     parentIndex: -1
-    spriteID: ab6dc5afe1bfa6e489564dc9b29c9f8b
+    spriteID: 4b48e1fe45df2b543845505c2641a14b
     layerID: 2
-    mosaicPosition: {x: 66, y: 44}
+    mosaicPosition: {x: 68, y: 50}
+  rigPSDLayers:
+  - name: Warstwa 4
+    spriteName: Warstwa 4
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5e7c3d5d9a33ecf42b1c0cc1b5b78a50
+    layerID: 7
+    mosaicPosition: {x: 4, y: 55}
+  - name: Warstwa 3
+    spriteName: Warstwa 3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: bbf5543cdfd4c7d4aa16870e0b93f9b5
+    layerID: 6
+    mosaicPosition: {x: 68, y: 4}
+  - name: Warstwa 2
+    spriteName: Warstwa 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a712fc80ec6bd9f419f43844f1b75b0c
+    layerID: 4
+    mosaicPosition: {x: 4, y: 4}
+  - name: Warstwa 1
+    spriteName: Warstwa 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 709c062f99ab8d547928b094c42537f3
+    layerID: 2
+    mosaicPosition: {x: 68, y: 50}
   characterData:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: Dziury ogomne Texture
-  prefabAssetName: Dziury ogomne Prefab
-  spriteLibAssetName: Dziury ogomne Sprite Lib
+  textureAssetName: Dziury ogomne3 Texture
+  prefabAssetName: Dziury ogomne3 Prefab
+  spriteLibAssetName: Dziury ogomne3 Sprite Lib
   secondarySpriteTextures: []

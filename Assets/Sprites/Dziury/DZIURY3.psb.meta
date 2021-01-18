@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2b5af50223d2bdf40905a095fe114868
+guid: 81abd4e0c6edca64095beb9f12467688
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -87,18 +87,18 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: DUZA OKRAGLA
+  - name: DUZA OKRAGLA kopia
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 82
-      y: 34
+      x: 47
+      y: 4
       width: 28
-      height: 9
-    spriteID: 3782261ffd221a448b9d2915d603bd8e
+      height: 15
+    spriteID: 1011e80b80e047746917a17771258014
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,7 +108,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 78, y: 30}
+    uvTransform: {x: 43, y: 0}
   - name: MALA kopia
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -116,11 +116,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 90
-      y: 4
+      x: 4
+      y: 71
       width: 34
-      height: 14
-    spriteID: 5a8f6b85318650d4e8e745f14ce4d563
+      height: 20
+    spriteID: 07b249db4643fc546b8767d948f44fa9
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -130,7 +130,29 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 89, y: 1}
+    uvTransform: {x: 3, y: 68}
+  - name: MALA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 99
+      width: 34
+      height: 14
+    spriteID: a30c87c63eed68140bb62b570595cd92
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3, y: 96}
   - name: DUZA kopia
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -141,8 +163,8 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 35
-      height: 22
-    spriteID: 2a8beba6af1b48c4882b2740263df6fb
+      height: 29
+    spriteID: ce6dee907eda0e64dbdc98b505a601a7
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -153,28 +175,6 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
-  - name: MALA
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 34
-      width: 34
-      height: 14
-    spriteID: 1b9fd6043a6756b41a6f4d05b78ce1b1
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 3, y: 31}
   - name: DUZA
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -182,11 +182,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 47
-      y: 4
+      x: 4
+      y: 41
       width: 35
-      height: 22
-    spriteID: 7ddfaca1f785ce54e93a3a541c9d6ba3
+      height: 29
+    spriteID: c89ac8c85b773484abdfe2a6296e3ea9
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -196,7 +196,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 47, y: 4}
+    uvTransform: {x: 4, y: 41}
   - name: MALA OKRAGLA kopia
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -204,11 +204,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 56
+      x: 47
+      y: 27
       width: 18
-      height: 8
-    spriteID: 126925fa548ca8b4a9506f759731fb41
+      height: 15
+    spriteID: d0010db7de69c6445831ec03b3f436c5
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -218,29 +218,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -4, y: 52}
-  - name: DUZA OKRAGLA kopia
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 46
-      y: 34
-      width: 28
-      height: 9
-    spriteID: 31c332acd2179d549bc908912fb82f26
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 42, y: 30}
+    uvTransform: {x: 39, y: 23}
   - name: MALA OKRAGLA
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -248,11 +226,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 30
-      y: 56
+      x: 47
+      y: 67
       width: 18
       height: 8
-    spriteID: 5b4ca464faa12db43bc0ae8531ab83ed
+    spriteID: bb33da1618bcba9448886ff540dfdee1
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -262,7 +240,29 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 22, y: 52}
+    uvTransform: {x: 39, y: 63}
+  - name: DUZA OKRAGLA
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 50
+      width: 28
+      height: 9
+    spriteID: 3c6e32c74e333b84c94d42f2f02099ba
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 43, y: 46}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -270,7 +270,7 @@ ScriptedImporter:
   importHiddenLayers: 1
   importedTextureWidth: 128
   importedTextureHeight: 128
-  documentSize: {x: 35, y: 22}
+  documentSize: {x: 35, y: 30}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
@@ -286,65 +286,65 @@ ScriptedImporter:
     spriteName: MALA kopia
     isGroup: 0
     parentIndex: -1
-    spriteID: 5a8f6b85318650d4e8e745f14ce4d563
+    spriteID: 07b249db4643fc546b8767d948f44fa9
     layerID: 9
-    mosaicPosition: {x: 90, y: 4}
-  - name: DUZA kopia
-    spriteName: DUZA kopia
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 2a8beba6af1b48c4882b2740263df6fb
-    layerID: 10
-    mosaicPosition: {x: 4, y: 4}
+    mosaicPosition: {x: 4, y: 71}
   - name: MALA
     spriteName: MALA
     isGroup: 0
     parentIndex: -1
-    spriteID: 1b9fd6043a6756b41a6f4d05b78ce1b1
+    spriteID: a30c87c63eed68140bb62b570595cd92
     layerID: 5
-    mosaicPosition: {x: 4, y: 34}
+    mosaicPosition: {x: 4, y: 99}
+  - name: DUZA kopia
+    spriteName: DUZA kopia
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ce6dee907eda0e64dbdc98b505a601a7
+    layerID: 10
+    mosaicPosition: {x: 4, y: 4}
   - name: DUZA
     spriteName: DUZA
     isGroup: 0
     parentIndex: -1
-    spriteID: 7ddfaca1f785ce54e93a3a541c9d6ba3
+    spriteID: c89ac8c85b773484abdfe2a6296e3ea9
     layerID: 3
-    mosaicPosition: {x: 47, y: 4}
+    mosaicPosition: {x: 4, y: 41}
   - name: MALA OKRAGLA kopia
     spriteName: MALA OKRAGLA kopia
     isGroup: 0
     parentIndex: -1
-    spriteID: 126925fa548ca8b4a9506f759731fb41
+    spriteID: d0010db7de69c6445831ec03b3f436c5
     layerID: 14
-    mosaicPosition: {x: 4, y: 56}
-  - name: DUZA OKRAGLA kopia
-    spriteName: DUZA OKRAGLA kopia
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 31c332acd2179d549bc908912fb82f26
-    layerID: 13
-    mosaicPosition: {x: 46, y: 34}
+    mosaicPosition: {x: 47, y: 27}
   - name: MALA OKRAGLA
     spriteName: MALA OKRAGLA
     isGroup: 0
     parentIndex: -1
-    spriteID: 5b4ca464faa12db43bc0ae8531ab83ed
+    spriteID: bb33da1618bcba9448886ff540dfdee1
     layerID: 12
-    mosaicPosition: {x: 30, y: 56}
+    mosaicPosition: {x: 47, y: 67}
+  - name: DUZA OKRAGLA kopia
+    spriteName: DUZA OKRAGLA kopia
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1011e80b80e047746917a17771258014
+    layerID: 13
+    mosaicPosition: {x: 47, y: 4}
   - name: DUZA OKRAGLA
     spriteName: DUZA OKRAGLA
     isGroup: 0
     parentIndex: -1
-    spriteID: 3782261ffd221a448b9d2915d603bd8e
+    spriteID: 3c6e32c74e333b84c94d42f2f02099ba
     layerID: 11
-    mosaicPosition: {x: 82, y: 34}
+    mosaicPosition: {x: 47, y: 50}
   characterData:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
-  generateGOHierarchy: 1
-  textureAssetName: DZIURY Texture
-  prefabAssetName: DZIURY Prefab
-  spriteLibAssetName: DZIURY Sprite Lib
+  generateGOHierarchy: 0
+  textureAssetName: DZIURY3 Texture
+  prefabAssetName: DZIURY3 Prefab
+  spriteLibAssetName: DZIURY3 Sprite Lib
   secondarySpriteTextures: []
