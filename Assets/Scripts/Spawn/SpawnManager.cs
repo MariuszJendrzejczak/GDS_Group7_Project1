@@ -10,7 +10,7 @@ public class SpawnManager : MonoBehaviour
         get { return _instance; }
     }
 
-    public List<GameObject> EnemyesToSpawn;
+    public List<GameObject> EnemyesToSpawn, SpawnedEnemy;
     [SerializeField]
     private List<Transform> _transformsForSpawn;
     private int _childCount;
@@ -55,6 +55,7 @@ public class SpawnManager : MonoBehaviour
         for (int i = 0; i < EnemyesToSpawn.Count; i++)
         {
             Instantiate(EnemyesToSpawn[i], _transformsForSpawn[i]);
+            SpawnedEnemy.Add(EnemyesToSpawn[i]);
             
         }
         

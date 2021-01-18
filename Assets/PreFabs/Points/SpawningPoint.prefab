@@ -52,12 +52,6 @@ MonoBehaviour:
   toSpawn5: {fileID: 0}
   toSpawn6: {fileID: 0}
   _SeparatorVeribleDoNotTouchIt: 0
-  transform1: {fileID: 0}
-  transform2: {fileID: 0}
-  transform3: {fileID: 0}
-  transform4: {fileID: 0}
-  transform5: {fileID: 0}
-  transform6: {fileID: 0}
 --- !u!212 &2351250538102477361
 SpriteRenderer:
   m_ObjectHideFlags: 0
