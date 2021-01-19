@@ -128,7 +128,7 @@ MonoBehaviour:
   _currentList: []
   _target: {x: 0, y: 0}
   _position: {x: 0, y: 0}
-  _step: 0.02
+  _step: 0.01
 --- !u!114 &4701787191592447604
 MonoBehaviour:
   m_ObjectHideFlags: 0
