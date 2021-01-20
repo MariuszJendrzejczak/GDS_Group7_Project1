@@ -127,7 +127,7 @@ MonoBehaviour:
   _currentList: []
   _target: {x: 0, y: 0}
   _position: {x: 0, y: 0}
-  _step: 0.01
+  _step: 0.015
 --- !u!61 &2361886449912705255
 BoxCollider2D:
   m_ObjectHideFlags: 0
