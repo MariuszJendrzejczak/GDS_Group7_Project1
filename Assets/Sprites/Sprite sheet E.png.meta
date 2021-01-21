@@ -1,22 +1,16 @@
 fileFormatVersion: 2
-guid: 5641314a51c362d4fa2eb647bd956ee8
+guid: 6eb9553808fb1cf4b9b820783c3f7ef7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8303918772185593364
-    second: Sprite sheet miny_0
+      213: 2818758976776188719
+    second: Punkt E_0
   - first:
-      213: 8455970848702251518
-    second: Sprite sheet miny_1
+      213: 2255942262394247956
+    second: Punkt E_1
   - first:
-      213: -6779369680980507199
-    second: Sprite sheet miny_2
-  - first:
-      213: 8976887242199804762
-    second: Sprite sheet miny_3
-  - first:
-      213: 3638736629061635088
-    second: Sprite sheet miny_4
+      213: 9140961999580723922
+    second: Punkt E_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -60,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 250
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -102,13 +96,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite sheet miny_0
+      name: Punkt E_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 24
-        width: 40
-        height: 15
+        x: 17
+        y: 0
+        width: 94
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -116,20 +110,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 416f1d390227d3370800000000000000
-      internalID: 8303918772185593364
+      spriteID: f23303eda5e3e1720800000000000000
+      internalID: 2818758976776188719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite sheet miny_1
+      name: Punkt E_1
       rect:
         serializedVersion: 2
-        x: 76
-        y: 24
-        width: 40
-        height: 15
+        x: 145
+        y: 0
+        width: 94
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef1c4fb6fa4a95570800000000000000
-      internalID: 8455970848702251518
+      spriteID: 41bdccff887be4f10800000000000000
+      internalID: 2255942262394247956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite sheet miny_2
+      name: Punkt E_2
       rect:
         serializedVersion: 2
-        x: 142
-        y: 24
-        width: 40
-        height: 15
+        x: 273
+        y: 0
+        width: 94
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,50 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c58a1c9137dae1a0800000000000000
-      internalID: -6779369680980507199
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite sheet miny_3
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 24
-        width: 40
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5b2e0c926f449c70800000000000000
-      internalID: 8976887242199804762
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite sheet miny_4
-      rect:
-        serializedVersion: 2
-        x: 274
-        y: 24
-        width: 40
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 01ccb6e6fa36f7230800000000000000
-      internalID: 3638736629061635088
+      spriteID: 2da7a5af1883bde70800000000000000
+      internalID: 9140961999580723922
       vertices: []
       indices: 
       edges: []
