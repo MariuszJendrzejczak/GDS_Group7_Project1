@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2361886449912705255}
   - component: {fileID: 2361886449912705251}
   - component: {fileID: 9161732137815155329}
+  - component: {fileID: 429616789559827702}
   m_Layer: 14
   m_Name: Ufo2
   m_TagString: Enemy
@@ -184,3 +185,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _projectile: {fileID: 3359463606566687038, guid: 2133191915b181d49ae9fa86e9fccabe,
     type: 3}
+--- !u!95 &429616789559827702
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3894293372390310885}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7a6c4217d4e52d648b2ef9e865ed2460, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
