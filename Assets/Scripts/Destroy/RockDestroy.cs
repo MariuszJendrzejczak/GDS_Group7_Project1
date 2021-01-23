@@ -33,8 +33,8 @@ public class RockDestroy : MonoBehaviour
                     UIManager.Instance.UpdatePlayerScore(_bigDst);
                     break;
             }
-                
 
+            AudioManager.Instanse.AudioRockDestroy();
             gameObject.SetActive(false);
         }
 

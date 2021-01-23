@@ -18,6 +18,7 @@ public class PlayerDestroy : MonoBehaviour
     public void DestroyPlayer()
     {
         GameManager.Instance.PlayerDestroyerd();
+        AudioManager.Instanse.AudioCarDestroy();
         gameObject.SetActive(false);
     }
     public void Respawn()

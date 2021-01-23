@@ -5,7 +5,7 @@ using UnityEngine;
 public class CheckPoint : MonoBehaviour
 {
     [SerializeField]
-    private bool _isFinal = false;
+    private bool _isFinal = false, _ZPoint = false;
 
     private Transform _groundLayer, _paralax1Layer, _paralax2Layer;
     private float _ground, _paralax1, _paralax2;
@@ -27,6 +27,13 @@ public class CheckPoint : MonoBehaviour
         if (_isFinal == true)
         {
             GameManager.Instance.BounsPanel();
+            AudioManager.Instanse.AudioEndScenePoint();
+        }
+
+        if (_ZPoint == true)
+        {
+            GameManager.Instance.BounsPanel();
+            AudioManager.Instanse.AudioZPoint();
         }
         
             
@@ -37,6 +44,8 @@ public class CheckPoint : MonoBehaviour
             _paralax2 = _paralax2Obj.transform.position.x;
             GameManager.Instance.CheckPointUpdate(_ground, _paralax1, _paralax2);
             SpawnManager.Instance.ClearDestroyedObjectList();
+            AudioManager.Instanse.AudioMiddlePoint();
+            
         }
         
     }

@@ -29,6 +29,7 @@ public class Shooting : MonoBehaviour
                 Instantiate(_lasserHorizontal, _OffsetHorizontal, Quaternion.identity);
                 Instantiate(_lasserVertical, _OffsetVertical, Quaternion.identity);
                 _cooldown = true;
+                AudioManager.Instanse.AudioCarShoot();
                 StartCoroutine(CoolDown());
             }
         }

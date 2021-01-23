@@ -52,6 +52,7 @@ public class Movement : MonoBehaviour
         {
             _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, _jumpForce);
             _jumping = true;
+            AudioManager.Instanse.AudioCarJump();
             StartCoroutine(Jumping());
 
         }

@@ -101,6 +101,7 @@ public class GameManager : MonoBehaviour
         {
             Time.timeScale = 0;
             _gameOverPanel.SetActive(true);
+            AudioManager.Instanse.AudioGameOver();
         }
     }
     public void BackToMainManu()
