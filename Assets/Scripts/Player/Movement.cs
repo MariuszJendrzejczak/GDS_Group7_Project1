@@ -9,10 +9,15 @@ public class Movement : MonoBehaviour
     private float _move;
     private Rigidbody2D _rigidbody2D;
     private bool _jumping = false;
-    private float _jumpingTime = 1f;
+    private float _jumpingTime = 0.9f;
 
     Vector2 rightVector;
     // Start is called before the first frame update
+    private void OnEnable()
+    {
+        _jumping = false;
+    }
+
     void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
