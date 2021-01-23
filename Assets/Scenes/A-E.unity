@@ -23986,6 +23986,7 @@ MonoBehaviour:
   _bounsPanel: {fileID: 955080303}
   _respawnPanel: {fileID: 781278912}
   _gameOverPanel: {fileID: 1058772579}
+  _unlimitedLives: 0
 --- !u!4 &1479322619
 Transform:
   m_ObjectHideFlags: 0
@@ -35211,6 +35212,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3995732446106357045, guid: 7b22532347be7c44aa4f417f657c296d,
+        type: 3}
+      propertyPath: _thrust
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5036171610142587417, guid: 7b22532347be7c44aa4f417f657c296d,
+        type: 3}
+      propertyPath: _thrust
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5036171610491792404, guid: 7b22532347be7c44aa4f417f657c296d,
+        type: 3}
+      propertyPath: _thrust
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5036171611320599024, guid: 7b22532347be7c44aa4f417f657c296d,
         type: 3}
       propertyPath: m_RootOrder
@@ -35275,6 +35291,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5036171611576244118, guid: 7b22532347be7c44aa4f417f657c296d,
+        type: 3}
+      propertyPath: _thrust
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b22532347be7c44aa4f417f657c296d, type: 3}

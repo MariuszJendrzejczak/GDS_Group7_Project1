@@ -7,9 +7,11 @@ public class Movement : MonoBehaviour
     [SerializeField] [Tooltip("Wartość określająca szybkość poruszania się pojazdu (default: 3)")] private float _playerSpeed = 3;
     [SerializeField] [Tooltip("Wartość określająca siłę skoku pojazdu (default: 5)")]private float _jumpForce = 5;
     private float _move;
+    [SerializeField]
+    private float _thrust = 1;
     private Rigidbody2D _rigidbody2D;
     private bool _jumping = false;
-    private float _jumpingTime = 0.9f;
+    private float _jumpingTime = 0.95f;
 
     Vector2 rightVector;
     // Start is called before the first frame update
@@ -28,7 +30,8 @@ public class Movement : MonoBehaviour
     {   
         
         Jump();
-        MovementMethod();
+        if(_jumping == false)
+            MovementMethod();
     }
 
     void MovementMethod()
@@ -36,6 +39,12 @@ public class Movement : MonoBehaviour
         _move = Input.GetAxis("Horizontal");
         _rigidbody2D.velocity = new Vector2(_move * _playerSpeed, _rigidbody2D.velocity.y);
 
+    }
+
+    void MovementMethod2()
+    {
+        _move = Input.GetAxis("Horizontal") * _thrust;
+        _rigidbody2D.AddForce(transform.right * _move);
     }
     void Jump()
     {
