@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
-    [SerializeField] [Tooltip("Pola drag and drop. Do umieszczania prefabów laserów, którymi będzie strzelał pojazd")] private GameObject _lasserHorizontal, _lasserVertical;
+    [Tooltip("Pola drag and drop. Do umieszczania prefabów laserów, którymi będzie strzelał pojazd")] private GameObject _lasserHorizontal, _lasserVertical;
     private Vector2 _OffsetHorizontal, _OffsetVertical;
-    [SerializeField][Tooltip("Ustawienia offsetu dla lasera. Czyli modyfikacja punktu względem pojazdu w którym lasery będą sie pojawiać")]
+    [Tooltip("Ustawienia offsetu dla lasera. Czyli modyfikacja punktu względem pojazdu w którym lasery będą sie pojawiać")]
     private float _posXHorizontalOffset, _posYHorizontalOffset, _posXVerticalOffset, _posYVerticalOffset;
     [SerializeField][Tooltip("Czas przeładowania. Czas między wystrzałami, w którym nie da rady strzelać")]
     private float _cooldownTime = 1f;

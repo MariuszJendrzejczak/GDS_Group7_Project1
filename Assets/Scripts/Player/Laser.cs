@@ -9,6 +9,7 @@ public class Laser : MonoBehaviour
     public enum LasserType { horizontal, vertical}
     [SerializeField]
     private LasserType _type;
+    [SerializeField]
     private float _destroyTime;
 
     [SerializeField][Tooltip("Szybkość poruszania się lasera (Default: 8)")]

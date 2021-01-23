@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
     private enum GameState { play, paused, playerDead, bounsPanel, gameOver}
     private GameState gameState = GameState.play;
     private int _playerLives = 4;
+    [SerializeField]
+    private bool _unlimitedLives = false;
 
     
 
@@ -78,6 +80,8 @@ public class GameManager : MonoBehaviour
     public void PlayerDestroyerd()
     {
         _playerLives--;
+        if (_unlimitedLives == true)
+            _playerLives = 4;
         UIManager.Instance.UpdatePlayerLives(_playerLives);
         if (_playerLives > 0)
         {
