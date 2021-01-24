@@ -1744,6 +1744,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: "DZIURA ma\u0142a ostra"
       objectReference: {fileID: 0}
+    - target: {fileID: 2086937768407811930, guid: 721aee3b94eaf364eabb88dbd1672fd4,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.08512462
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086937768407811930, guid: 721aee3b94eaf364eabb88dbd1672fd4,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.05495202
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 721aee3b94eaf364eabb88dbd1672fd4, type: 3}
 --- !u!1 &131517663
@@ -8604,6 +8614,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: "DZIURY ma\u0142a ostra"
       objectReference: {fileID: 0}
+    - target: {fileID: 2086937768407811930, guid: 721aee3b94eaf364eabb88dbd1672fd4,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.41217697
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086937768407811930, guid: 721aee3b94eaf364eabb88dbd1672fd4,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.08238535
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086937768407811930, guid: 721aee3b94eaf364eabb88dbd1672fd4,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.006852448
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086937768407811930, guid: 721aee3b94eaf364eabb88dbd1672fd4,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.05632166
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 721aee3b94eaf364eabb88dbd1672fd4, type: 3}
 --- !u!1 &582805275
@@ -9560,6 +9590,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: "DZIURY ma\u0142a ostra"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086937768407811930, guid: 721aee3b94eaf364eabb88dbd1672fd4,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.4093969
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086937768407811930, guid: 721aee3b94eaf364eabb88dbd1672fd4,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.07472335
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086937768407811930, guid: 721aee3b94eaf364eabb88dbd1672fd4,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.005462408
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086937768407811930, guid: 721aee3b94eaf364eabb88dbd1672fd4,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.060152657
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 721aee3b94eaf364eabb88dbd1672fd4, type: 3}
@@ -11586,6 +11636,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: "DZIURY ma\u0142a ostra"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086937768407811930, guid: 721aee3b94eaf364eabb88dbd1672fd4,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.4288762
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086937768407811930, guid: 721aee3b94eaf364eabb88dbd1672fd4,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.078554004
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086937768407811930, guid: 721aee3b94eaf364eabb88dbd1672fd4,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.01520206
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086937768407811930, guid: 721aee3b94eaf364eabb88dbd1672fd4,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.05823733
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 721aee3b94eaf364eabb88dbd1672fd4, type: 3}
@@ -14033,6 +14103,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: "DZIURY ma\u0142a okr\u0105g\u0142a"
       objectReference: {fileID: 0}
+    - target: {fileID: 6291092601401071636, guid: 277f2c288887fd74588fc47f2fc19785,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.047626343
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291092601401071636, guid: 277f2c288887fd74588fc47f2fc19785,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.045603573
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 277f2c288887fd74588fc47f2fc19785, type: 3}
 --- !u!1 &907196768
@@ -16016,6 +16096,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: "DZIURY ma\u0142a ostra"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086937768407811930, guid: 721aee3b94eaf364eabb88dbd1672fd4,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.40242907
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086937768407811930, guid: 721aee3b94eaf364eabb88dbd1672fd4,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.08621534
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086937768407811930, guid: 721aee3b94eaf364eabb88dbd1672fd4,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0019785017
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086937768407811930, guid: 721aee3b94eaf364eabb88dbd1672fd4,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.05440666
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 721aee3b94eaf364eabb88dbd1672fd4, type: 3}
@@ -24444,7 +24544,7 @@ MonoBehaviour:
   _bounsPanel: {fileID: 955080303}
   _respawnPanel: {fileID: 781278912}
   _gameOverPanel: {fileID: 1058772579}
-  _unlimitedLives: 0
+  _unlimitedLives: 1
 --- !u!4 &1479322619
 Transform:
   m_ObjectHideFlags: 0
@@ -29780,6 +29880,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: "DZIURY ma\u0142a okr\u0105g\u0142a"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291092601401071636, guid: 277f2c288887fd74588fc47f2fc19785,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.2410797
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291092601401071636, guid: 277f2c288887fd74588fc47f2fc19785,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.054615602
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291092601401071636, guid: 277f2c288887fd74588fc47f2fc19785,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.011897631
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291092601401071636, guid: 277f2c288887fd74588fc47f2fc19785,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.042108946
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 277f2c288887fd74588fc47f2fc19785, type: 3}
