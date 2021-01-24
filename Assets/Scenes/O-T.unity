@@ -4049,7 +4049,7 @@ GameObject:
   - component: {fileID: 174043417}
   - component: {fileID: 174043416}
   m_Layer: 0
-  m_Name: CheckpointE
+  m_Name: CheckpointT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4079,7 +4079,7 @@ Animator:
   m_GameObject: {fileID: 174043414}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e79c4aa5f45cc0644b6dca44f98f2393, type: 2}
+  m_Controller: {fileID: 9100000, guid: ce1664f7175be0e4d8b9107f296e387b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
