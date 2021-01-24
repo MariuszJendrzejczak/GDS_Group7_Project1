@@ -31,21 +31,37 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        UpdateTopScore();
+        UpdateTopScore(PlayerScore);
     }
 
     public void UpdatePlayerScore(int value)
     {
         PlayerScore += value;
-        _scoreText.text = "" + PlayerScore;
+        if (value == 0)
+            _scoreText.text = "00000";
+        if (value >= 100 && value < 1000)
+            _scoreText.text = "00" + PlayerScore;
+        if (value >= 1000 && value < 10000)
+            _scoreText.text = "0" + PlayerScore;
+        if (value >= 10000)
+            _scoreText.text = "" + PlayerScore;
+             
     }
 
-    private void UpdateTopScore()
+    private void UpdateTopScore( int value)
     {
-       if (PlayerScore > _topScore)
+       if (value > _topScore)
         {
             _topScore = PlayerScore;
-            _topScoreText.text = "" + _topScore;
+
+            if (value == 0)
+                _topScoreText.text = "00000";
+            if (value >= 100 && value < 1000)
+                _topScoreText.text = "00" + _topScore;
+            if (value >= 1000 && value < 10000)
+                _topScoreText.text = "0" + _topScore;
+            if (value >= 10000)
+                _topScoreText.text = "" + _topScore;
         }
     }
 
@@ -56,6 +72,11 @@ public class UIManager : MonoBehaviour
 
     public void UpdateTimer(int value)
     {
-        _timer.text = "" + value; 
+        if (value < 10)
+            _timer.text = "00" + value;
+        if (value < 100 && value >= 10)
+            _timer.text = "0" + value;
+        if (value >= 100)
+            _timer.text = "" + value;
     }
 }
