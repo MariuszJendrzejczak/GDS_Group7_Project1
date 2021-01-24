@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     private int _playerLives = 4;
     [SerializeField]
     private bool _unlimitedLives = false;
+    public float Timer { get; set; }
 
     
 
@@ -41,8 +42,17 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         Pause();
+        GameTimer();
 
 
+
+    }
+
+    private void GameTimer()
+    {
+        Timer += Time.deltaTime;
+        int inttimer = (int)Timer;
+        UIManager.Instance.UpdateTimer(inttimer);
     }
 
     public void CheckPointUpdate(float ground, float paralax1,float paralax2 )
