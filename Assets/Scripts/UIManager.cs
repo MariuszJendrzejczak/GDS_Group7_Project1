@@ -12,7 +12,7 @@ public class UIManager : MonoBehaviour
     }
 
     [SerializeField]
-    private Text _scoreText, _topScoreText, _lives;
+    private Text _scoreText, _topScoreText, _lives, _timer;
     private int _topScore = 0;
     public int PlayerScore { get; set; }
 
@@ -54,5 +54,10 @@ public class UIManager : MonoBehaviour
     public void UpdatePlayerLives(int value)
     {
         _lives.text = "Lives: " + value;
+    }
+
+    public void UpdateTimer(int value)
+    {
+        _timer.text = "Timer: " + value; 
     }
 }
