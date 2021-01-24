@@ -1,0 +1,437 @@
+fileFormatVersion: 2
+guid: 864dde19feb31d241b2f0d03f30b20fd
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: A
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 450
+      width: 29
+      height: 24
+    spriteID: 13b953e5764d882428fb3b8e3b8dfe3a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -192, y: 177}
+  - name: REKORD POBITY!
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 174
+      y: 398
+      width: 269
+      height: 16
+    spriteID: 0b08291b10423a24ca823c7feba0fc6e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 57, y: 392}
+  - name: 'BONUSOWE PUNKTY:'
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 450
+      width: 124
+      height: 26
+    spriteID: 72d1458c9bebf364783e5364679174bb
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -57, y: 396}
+  - name: "TW\xD3J CZAS:  \u015AREDNI CZAS:  REKORD:"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 366
+      width: 162
+      height: 76
+    spriteID: 05fd728b78dbee44285ca9832286e361
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -57, y: 225}
+  - name: "DOTAR\u0141E\u015A DO PKT."
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 174
+      y: 366
+      width: 325
+      height: 24
+    spriteID: c26619c27ac5082458b1849193c9cd2b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 113, y: 93}
+  - name: Warstwa 19 kopia
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 501
+      height: 354
+    spriteID: 14ae50b5d99b46845b4e7c4cb142dddd
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  - name: Z
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 451
+      y: 398
+      width: 29
+      height: 24
+    spriteID: 39fb17e32a8116d459e5f48b6e8d0863
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 49, y: 127}
+  - name: T
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 450
+      width: 29
+      height: 24
+    spriteID: aaa0c6667a03f8545bb7cd9b2f108df4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -266, y: 177}
+  - name: O
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 173
+      y: 450
+      width: 29
+      height: 24
+    spriteID: a9582ab5b837e73469469f5b0ed9b0b5
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -229, y: 177}
+  - name: J
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 247
+      y: 450
+      width: 24
+      height: 24
+    spriteID: 6652db72c2b25214eaf3e888b7d6215c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -157, y: 177}
+  - name: E
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 279
+      y: 450
+      width: 24
+      height: 24
+    spriteID: f1db944b383f4264fbb164470fe4eba2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -125, y: 177}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 1
+  importedTextureWidth: 512
+  importedTextureHeight: 512
+  documentSize: {x: 501, y: 354}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 512
+  textureActualHeight: 512
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Z
+    spriteName: Z
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 39fb17e32a8116d459e5f48b6e8d0863
+    layerID: 73
+    mosaicPosition: {x: 451, y: 398}
+  - name: T
+    spriteName: T
+    isGroup: 0
+    parentIndex: -1
+    spriteID: aaa0c6667a03f8545bb7cd9b2f108df4
+    layerID: 71
+    mosaicPosition: {x: 136, y: 450}
+  - name: O
+    spriteName: O
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a9582ab5b837e73469469f5b0ed9b0b5
+    layerID: 70
+    mosaicPosition: {x: 173, y: 450}
+  - name: J
+    spriteName: J
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6652db72c2b25214eaf3e888b7d6215c
+    layerID: 68
+    mosaicPosition: {x: 247, y: 450}
+  - name: E
+    spriteName: E
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f1db944b383f4264fbb164470fe4eba2
+    layerID: 65
+    mosaicPosition: {x: 279, y: 450}
+  - name: A
+    spriteName: A
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 13b953e5764d882428fb3b8e3b8dfe3a
+    layerID: 75
+    mosaicPosition: {x: 210, y: 450}
+  - name: REKORD POBITY!
+    spriteName: REKORD POBITY!
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0b08291b10423a24ca823c7feba0fc6e
+    layerID: 62
+    mosaicPosition: {x: 174, y: 398}
+  - name: 'BONUSOWE PUNKTY:'
+    spriteName: 'BONUSOWE PUNKTY:'
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 72d1458c9bebf364783e5364679174bb
+    layerID: 45
+    mosaicPosition: {x: 4, y: 450}
+  - name: "TW\xD3J CZAS:  \u015AREDNI CZAS:  REKORD:"
+    spriteName: "TW\xD3J CZAS:  \u015AREDNI CZAS:  REKORD:"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 05fd728b78dbee44285ca9832286e361
+    layerID: 44
+    mosaicPosition: {x: 4, y: 366}
+  - name: "DOTAR\u0141E\u015A DO PKT."
+    spriteName: "DOTAR\u0141E\u015A DO PKT."
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c26619c27ac5082458b1849193c9cd2b
+    layerID: 42
+    mosaicPosition: {x: 174, y: 366}
+  - name: Warstwa 19 kopia
+    spriteName: Warstwa 19 kopia
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 14ae50b5d99b46845b4e7c4cb142dddd
+    layerID: 81
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: tabela wynikow Texture
+  prefabAssetName: tabela wynikow Prefab
+  spriteLibAssetName: tabela wynikow Sprite Lib
+  secondarySpriteTextures: []

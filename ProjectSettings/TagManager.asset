@@ -9,6 +9,8 @@ TagManager:
   - EnemyLasser
   - Hole
   - Rock
+  - Ground
+  - Tik
   layers:
   - Default
   - TransparentFX
