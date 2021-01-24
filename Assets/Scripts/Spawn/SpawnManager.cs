@@ -54,7 +54,7 @@ public class SpawnManager : MonoBehaviour
     {
         for (int i = 0; i < EnemyesToSpawn.Count; i++)
         {
-            Instantiate(EnemyesToSpawn[i], _transformsForSpawn[i]);
+            Instantiate(EnemyesToSpawn[i], _transformsForSpawn[i].position, Quaternion.identity);
             SpawnedEnemy.Add(EnemyesToSpawn[i]);
             
         }
