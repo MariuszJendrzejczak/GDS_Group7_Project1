@@ -411,6 +411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isFinal: 0
+  _ZPoint: 0
   _groundObj: {fileID: 0}
   _paralax1Obj: {fileID: 0}
   _paralax2Obj: {fileID: 0}
@@ -7274,6 +7275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isFinal: 0
+  _ZPoint: 0
   _groundObj: {fileID: 0}
   _paralax1Obj: {fileID: 0}
   _paralax2Obj: {fileID: 0}
@@ -13685,7 +13687,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -6972544678692673142, guid: 43a4734488e5c83489a470c059b3d9d0,
+      objectReference: {fileID: -1537041300763379875, guid: 3ab53a01c9776f94699a95d6ee1e061f,
         type: 3}
     - target: {fileID: 5470704545997973946, guid: 516125c8f1992964795361b1f45a25ae,
         type: 3}
@@ -18565,6 +18567,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isFinal: 1
+  _ZPoint: 0
   _groundObj: {fileID: 0}
   _paralax1Obj: {fileID: 0}
   _paralax2Obj: {fileID: 0}
@@ -21118,6 +21121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isFinal: 0
+  _ZPoint: 0
   _groundObj: {fileID: 0}
   _paralax1Obj: {fileID: 0}
   _paralax2Obj: {fileID: 0}
@@ -23753,6 +23757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isFinal: 0
+  _ZPoint: 0
   _groundObj: {fileID: 0}
   _paralax1Obj: {fileID: 0}
   _paralax2Obj: {fileID: 0}
@@ -24325,7 +24330,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1527661820}
   m_Layer: 10
-  m_Name: Punkty OPQRST
+  m_Name: Punkty PQRST
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25146,6 +25151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isFinal: 0
+  _ZPoint: 0
   _groundObj: {fileID: 0}
   _paralax1Obj: {fileID: 0}
   _paralax2Obj: {fileID: 0}
