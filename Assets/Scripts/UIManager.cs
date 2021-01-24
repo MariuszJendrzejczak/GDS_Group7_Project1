@@ -25,9 +25,7 @@ public class UIManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _scoreText.text = "Score: ";
-        _topScoreText.text = "Top Score: "; // do usunięcia w późniejszym czasie!!!
-        _lives.text = "Lives: 4";
+        
     }
 
     // Update is called once per frame
@@ -39,7 +37,7 @@ public class UIManager : MonoBehaviour
     public void UpdatePlayerScore(int value)
     {
         PlayerScore += value;
-        _scoreText.text = "Score: " + PlayerScore;
+        _scoreText.text = "" + PlayerScore;
     }
 
     private void UpdateTopScore()
@@ -47,17 +45,17 @@ public class UIManager : MonoBehaviour
        if (PlayerScore > _topScore)
         {
             _topScore = PlayerScore;
-            _topScoreText.text = "Top Score: " + _topScore;
+            _topScoreText.text = "" + _topScore;
         }
     }
 
     public void UpdatePlayerLives(int value)
     {
-        _lives.text = "Lives: " + value;
+        _lives.text = "" + value;
     }
 
     public void UpdateTimer(int value)
     {
-        _timer.text = "Timer: " + value; 
+        _timer.text = "" + value; 
     }
 }
