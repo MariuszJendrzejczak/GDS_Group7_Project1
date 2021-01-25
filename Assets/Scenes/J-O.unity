@@ -2989,6 +2989,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tik (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tik
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
 --- !u!1 &175247701
@@ -5095,6 +5100,11 @@ PrefabInstance:
     - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_Name
+      value: Tik
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_TagString
       value: Tik
       objectReference: {fileID: 0}
     - target: {fileID: 6647482598726467391, guid: 2548a33598bbcb14c96b187bb8b5c54d,
@@ -7782,7 +7792,7 @@ PrefabInstance:
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 36.518
+      value: 35.445
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
@@ -7833,6 +7843,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tik (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tik
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -8094,12 +8109,12 @@ PrefabInstance:
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 51.2
+      value: 51.216
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.05
+      value: -0.066
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
@@ -8145,6 +8160,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tik (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tik
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -9851,12 +9871,12 @@ PrefabInstance:
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.913
+      value: 19.318
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.055
+      value: -0.067
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
@@ -9902,6 +9922,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tik (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tik
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -12478,12 +12503,12 @@ PrefabInstance:
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 33.187
+      value: 32.485
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.056
+      value: -0.05
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
@@ -12529,6 +12554,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tik (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tik
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -13463,12 +13493,12 @@ PrefabInstance:
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 29.87
+      value: 29.018
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.063
+      value: -0.051
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
@@ -13514,6 +13544,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tik (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tik
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -13897,12 +13932,12 @@ PrefabInstance:
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.319
+      value: 3.9
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.036
+      value: -0.07
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
@@ -13948,6 +13983,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tik (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tik
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -15015,12 +15055,12 @@ PrefabInstance:
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 78.458
+      value: 74.95
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.064
+      value: -0.04
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
@@ -15066,6 +15106,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tik (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tik
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -15408,12 +15453,12 @@ PrefabInstance:
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 74.503
+      value: 71.85
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.059
+      value: -0.05
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
@@ -15459,6 +15504,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tik (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tik
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -15528,6 +15578,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tik (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tik
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -16449,12 +16504,12 @@ PrefabInstance:
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 58.2
+      value: 58.08
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.07
+      value: -0.062
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
@@ -16501,6 +16556,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tik (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tik
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
 --- !u!1001 &1035090180
@@ -16518,12 +16578,12 @@ PrefabInstance:
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.136
+      value: 9.788
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.067
+      value: -0.055
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
@@ -16569,6 +16629,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tik (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tik
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -17294,12 +17359,12 @@ PrefabInstance:
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 47.63
+      value: 47.936
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.04
+      value: -0.052
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
@@ -17346,6 +17411,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tik (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tik
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
 --- !u!1001 &1072224784
@@ -17363,12 +17433,12 @@ PrefabInstance:
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 26.703
+      value: 25.953
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.067
+      value: -0.043
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
@@ -17414,6 +17484,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tik (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tik
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -20240,7 +20315,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1249178296}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 61.573, y: -0.045, z: 2.2440777}
+  m_LocalPosition: {x: 63.3, y: -0.045, z: 2.2440777}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 163140991}
@@ -21369,6 +21444,86 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1311503523
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2128694027}
+    m_Modifications:
+    - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 78.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Name
+      value: Tik (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tik
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
+--- !u!4 &1311503524 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1311503523}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1312804041
 GameObject:
   m_ObjectHideFlags: 0
@@ -21708,12 +21863,12 @@ PrefabInstance:
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.566
+      value: 12.882
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.061
+      value: -0.073
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
@@ -21759,6 +21914,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tik (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tik
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -25636,6 +25796,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tik (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tik
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
 --- !u!1001 &1483084262
@@ -27084,12 +27249,12 @@ PrefabInstance:
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 39.91
+      value: 38.687
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.07
+      value: -0.052
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
@@ -27135,6 +27300,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tik (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tik
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -29473,6 +29643,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tik (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tik
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
 --- !u!1 &1710417001
@@ -30485,7 +30660,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1754062245}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 50.271, y: -0.041, z: 2.2440777}
+  m_LocalPosition: {x: 50.787, y: -0.041, z: 2.2440777}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 163140991}
@@ -30555,7 +30730,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_Sprite: {fileID: -7811954950964234238, guid: 1c0fbdc65d54a6b47ab9142b16b18d97,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -34238,7 +34413,7 @@ PrefabInstance:
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 61.6
+      value: 61.51
       objectReference: {fileID: 0}
     - target: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
         type: 3}
@@ -34289,6 +34464,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tik (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tik
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -34520,6 +34700,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tik (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tik
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -36595,6 +36780,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tik (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927253, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Tik
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
 --- !u!1001 &2126634184
@@ -36795,6 +36985,7 @@ Transform:
   - {fileID: 377425978}
   - {fileID: 98037419}
   - {fileID: 31655558}
+  - {fileID: 1311503524}
   m_Father: {fileID: 258380911}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -37730,7 +37921,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7904855595322123818}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 45.979, y: -0.051, z: 2.2440777}
+  m_LocalPosition: {x: 47.65, y: -0.04, z: 2.2440777}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 163140991}
