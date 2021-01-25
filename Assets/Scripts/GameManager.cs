@@ -52,12 +52,16 @@ public class GameManager : MonoBehaviour
 
     private void UpdateEnviroment()
     {
-        if (_groundObj == null)
-            _groundObj = GameObject.Find("Enviroment").transform.GetChild(0).gameObject;
-        if (_paralax1Obj == null)
-            _paralax1Obj = GameObject.Find("Enviroment").transform.GetChild(1).gameObject;
-        if (_paralax2Obj == null)
-            _paralax2Obj = GameObject.Find("Enviroment").transform.GetChild(2).gameObject;
+        if (SceneManager.GetActiveScene().buildIndex > 0)
+        {
+            if (_groundObj == null)
+                _groundObj = GameObject.Find("Enviroment").transform.GetChild(0).gameObject;
+            if (_paralax1Obj == null)
+                _paralax1Obj = GameObject.Find("Enviroment").transform.GetChild(1).gameObject;
+            if (_paralax2Obj == null)
+                _paralax2Obj = GameObject.Find("Enviroment").transform.GetChild(2).gameObject;
+        }
+
 
     }
 
