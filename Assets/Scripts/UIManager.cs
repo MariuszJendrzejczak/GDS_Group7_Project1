@@ -13,6 +13,8 @@ public class UIManager : MonoBehaviour
 
     [SerializeField]
     private Text _scoreText, _topScoreText, _lives, _timer;
+    [SerializeField]
+    private Text _yourTime, _avgTime, _topTime, _bounsPoints;
     private int _topScore = 0;
     public int PlayerScore { get; set; }
 
@@ -25,7 +27,7 @@ public class UIManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -45,12 +47,12 @@ public class UIManager : MonoBehaviour
             _scoreText.text = "0" + PlayerScore;
         if (value >= 10000)
             _scoreText.text = "" + PlayerScore;
-             
+
     }
 
-    private void UpdateTopScore( int value)
+    private void UpdateTopScore(int value)
     {
-       if (value > _topScore)
+        if (value > _topScore)
         {
             _topScore = PlayerScore;
 
@@ -79,4 +81,13 @@ public class UIManager : MonoBehaviour
         if (value >= 100)
             _timer.text = "" + value;
     }
+    public void BonusPanelUpdate(int yourTime, int avgTime, int topTime, int bonusPoints)
+        {
+        _yourTime.text = yourTime.ToString();
+        _avgTime.text = avgTime.ToString();
+        _topTime.text = topTime.ToString();
+        _bounsPoints.text = bonusPoints.ToString();
+        }
+
+    
 }

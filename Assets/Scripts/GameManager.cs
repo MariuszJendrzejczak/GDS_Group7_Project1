@@ -165,6 +165,8 @@ public class GameManager : MonoBehaviour
         
         _bounsPanel.SetActive(true);
         _bounsPanel.GetComponent<Bonus>().BonusCalculation(_sceneIndex);
+        var bonus = _bounsPanel.GetComponent<Bonus>();
+        UIManager.Instance.BonusPanelUpdate((int)Timer, bonus.currnetTime, bonus.currentTop, bonus.currentBonus);
         Time.timeScale = 0;
         gameState = GameState.bounsPanel;
         // tu ma być kod do obliczania bonusu
