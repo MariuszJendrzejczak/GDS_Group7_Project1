@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
     private GameObject _pausePanel, _bounsPanel, _respawnPanel, _gameOverPanel;
     private enum GameState { play, paused, playerDead, bounsPanel, gameOver}
     private GameState gameState = GameState.play;
-    private int _playerLives = 4;
+    private int _playerLives = 4, _sceneIndex;
     [SerializeField]
     private bool _unlimitedLives = false;
     public float Timer { get; set; }
@@ -45,8 +45,8 @@ public class GameManager : MonoBehaviour
         UpdateEnviroment();
         Pause();
         GameTimer();
-       
 
+        _sceneIndex = SceneManager.GetActiveScene().buildIndex;
 
     }
 
@@ -138,7 +138,7 @@ public class GameManager : MonoBehaviour
         UIManager.Instance.UpdatePlayerLives(_playerLives);
         _gameOverPanel.SetActive(false);
         UIManager.Instance.PlayerScore = 0;
-        UIManager.Instance.UpdatePlayerScore(0);
+        UIManager.Instance.UpdatePlayerScore(0); 
         Respawn();
         
     }
@@ -162,15 +162,19 @@ public class GameManager : MonoBehaviour
     }
     public void BounsPanel()
     {
-        Time.timeScale = 0;
+        
         _bounsPanel.SetActive(true);
+        _bounsPanel.GetComponent<Bonus>().BonusCalculation(_sceneIndex);
+        Time.timeScale = 0;
         gameState = GameState.bounsPanel;
+        // tu ma być kod do obliczania bonusu
     }
 
     public void NextLevel()
     {
         _bounsPanel.SetActive(false);
         Time.timeScale = 1;
+        Timer = 0;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         
        

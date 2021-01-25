@@ -15786,6 +15786,7 @@ GameObject:
   - component: {fileID: 955080304}
   - component: {fileID: 955080306}
   - component: {fileID: 955080305}
+  - component: {fileID: 955080307}
   m_Layer: 5
   m_Name: BounsPanel
   m_TagString: Untagged
@@ -15850,6 +15851,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 955080303}
   m_CullTransparentMesh: 0
+--- !u!114 &955080307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955080303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f3e8bd92d59f74b9c8d1b996de8d6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _time1: 80
+  _time2: 80
+  _time3: 100
+  _time4: 100
+  _time5: 100
 --- !u!1 &961722575
 GameObject:
   m_ObjectHideFlags: 0
