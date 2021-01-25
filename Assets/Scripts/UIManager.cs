@@ -45,13 +45,13 @@ public class UIManager : MonoBehaviour
     public void UpdatePlayerScore(int value)
     {
         PlayerScore += value;
-        if (value == 0)
+        if (PlayerScore == 0)
             _scoreText.text = "00000";
-        if (value >= 100 && value < 1000)
+        if (PlayerScore >= 100 && value < 1000)
             _scoreText.text = "00" + PlayerScore;
-        if (value >= 1000 && value < 10000)
+        if (PlayerScore >= 1000 && value < 10000)
             _scoreText.text = "0" + PlayerScore;
-        if (value >= 10000)
+        if (PlayerScore >= 10000)
             _scoreText.text = "" + PlayerScore;
 
     }
