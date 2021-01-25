@@ -57,11 +57,17 @@ public class EnemyMovement : MonoBehaviour
     void Update()
     {
 
+     
+
+
+    }
+    public void Movement()
+    {
         _position = this.transform.position;
         transform.position = Vector2.MoveTowards(transform.position, _target, _step);
 
-        
-        
+
+
         switch (_list)
         {
             case ChooseList.fingerPoints:
@@ -93,20 +99,18 @@ public class EnemyMovement : MonoBehaviour
 
             case ChooseList.randomList:
 
-                
-                if(this.transform.position == _currentList[counter].position)
+
+                if (this.transform.position == _currentList[counter].position)
                 {
                     counter++;
-                        if (counter == _currentList.Count)
-                            counter = 0;
+                    if (counter == _currentList.Count)
+                        counter = 0;
 
                     _target = _currentList[counter].position;
                 }
 
-                    break;
-                
+                break;
+
         }
-
-
     }
 }

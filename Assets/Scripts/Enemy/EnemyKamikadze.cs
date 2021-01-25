@@ -15,4 +15,9 @@ public class EnemyKamikadze : MonoBehaviour
     {
         
     }
+
+    public void Kamikadze()
+    {
+        Debug.Log("Kamikadze!!");
+    }
 }

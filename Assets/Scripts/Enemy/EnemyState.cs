@@ -5,11 +5,15 @@ using UnityEngine;
 
 public class EnemyState : MonoBehaviour
 {
-    private enum EnemyStateMachine { patrol, shooting, kamikadze, flyout};
-    private EnemyStateMachine _enemyState;
+    public enum EnemyStateMachine { patrol, shooting, kamikadze, flyout};
+    public EnemyStateMachine enemyState;
+    [SerializeField]
     private EnemyShooting _shooting;
+    [SerializeField]
     private EnemyMovement _patrol;
+    [SerializeField]
     private EnemyKamikadze _kamikadze;
+    [SerializeField]
     private EnemyFlyOut _flyOut;
     public int ListIndex;
     
@@ -26,27 +30,25 @@ public class EnemyState : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*switch (_enemyState)
+        switch (enemyState)
         {
             case EnemyStateMachine.patrol:
-                _shooting.gameObject.SetActive(false);
-                _patrol.gameObject.SetActive(true);
-                _kamikadze.gameObject.SetActive(false);
-                _flyOut.gameObject.SetActive(false);
+                //_shooting.gameObject.SetActive(false);
+                _patrol.Movement();
+               // _kamikadze.gameObject.SetActive(false);
+               // _flyOut.gameObject.SetActive(false);
                 break;
 
             case EnemyStateMachine.shooting:
-                _shooting.gameObject.SetActive(true);
-                _patrol.gameObject.SetActive(true);
-                _kamikadze.gameObject.SetActive(false);
-                _flyOut.gameObject.SetActive(false);
+                _shooting.Shooting();
+                _patrol.Movement();
+                //_kamikadze.gameObject.SetActive(false);
+                //_flyOut.gameObject.SetActive(false);
                 break;
 
             case EnemyStateMachine.kamikadze:
-                _shooting.gameObject.SetActive(false);
-                _patrol.gameObject.SetActive(false);
-                _kamikadze.gameObject.SetActive(true);
-                _flyOut.gameObject.SetActive(false);
+                _kamikadze.Kamikadze();
+
                 break;
 
             case EnemyStateMachine.flyout:
@@ -57,6 +59,6 @@ public class EnemyState : MonoBehaviour
                 break;
 
         
-        }*/
+        }
     }
 }

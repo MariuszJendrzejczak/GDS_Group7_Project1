@@ -17,6 +17,11 @@ public class EnemyShooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+      
+    }
+
+    public void Shooting()
+    {
         if (_ifShooted == true)
         {
             StartCoroutine(Shoot());

@@ -17,6 +17,9 @@ public class SpawnManager : MonoBehaviour
 
     private List<GameObject> _destroyerdObjects = new List<GameObject>();
 
+    [SerializeField]
+    private GameObject _enemyContainer;
+
     private void Awake()
     {
         _instance = this;
@@ -39,7 +42,7 @@ public class SpawnManager : MonoBehaviour
     public void AwakeTransformList()
     {
         _childCount = transform.childCount;
-        for (int i = 0; i < _childCount; i++)
+        for (int i = 0; i < _childCount - 1; i++)
         {
             _transformsForSpawn.Add(transform.GetChild(i));
         }
@@ -54,7 +57,8 @@ public class SpawnManager : MonoBehaviour
     {
         for (int i = 0; i < EnemyesToSpawn.Count; i++)
         {
-            Instantiate(EnemyesToSpawn[i], _transformsForSpawn[i].position, Quaternion.identity);
+           Instantiate(EnemyesToSpawn[i], _transformsForSpawn[i].position, Quaternion.identity).transform.SetParent(_enemyContainer.transform);
+
             SpawnedEnemy.Add(EnemyesToSpawn[i]);
             
         }
