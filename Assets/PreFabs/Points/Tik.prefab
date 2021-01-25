@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 6563905245537927252}
   - component: {fileID: 6563905245537927255}
   - component: {fileID: 6647482598726467391}
+  - component: {fileID: 4317811429397444935}
   m_Layer: 0
   m_Name: Tik
-  m_TagString: Untagged
+  m_TagString: Tik
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108,3 +109,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.15, y: 1.0982196}
   m_EdgeRadius: 0
+--- !u!114 &4317811429397444935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6563905245537927253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f519d15e257f3c4ab68d5a844653f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

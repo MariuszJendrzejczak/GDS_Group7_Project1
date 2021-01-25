@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
@@ -18,6 +19,8 @@ public class UIManager : MonoBehaviour
     private int _topScore = 0;
     public int PlayerScore { get; set; }
 
+    
+
 
 
     private void Awake()
@@ -34,7 +37,10 @@ public class UIManager : MonoBehaviour
     void Update()
     {
         UpdateTopScore(PlayerScore);
+        
     }
+
+   
 
     public void UpdatePlayerScore(int value)
     {
@@ -88,6 +94,7 @@ public class UIManager : MonoBehaviour
         _topTime.text = topTime.ToString();
         _bounsPoints.text = bonusPoints.ToString();
         }
+
 
     
 }

@@ -30,12 +30,13 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         _instance = this;
-        _bounsPanel.SetActive(false);
+ 
  
     }
 
     private void Start()
     {
+
        // _groundObj = GameObject.Find("Enviroment").transform.GetChild(0).gameObject;
        // _paralax1Obj = GameObject.Find("Enviroment").transform.GetChild(1).gameObject;
        // _paralax2Obj = GameObject.Find("Enviroment").transform.GetChild(2).gameObject;

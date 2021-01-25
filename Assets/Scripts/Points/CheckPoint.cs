@@ -34,12 +34,14 @@ public class CheckPoint : MonoBehaviour
         {
             GameManager.Instance.BounsPanel();
             AudioManager.Instanse.AudioEndScenePoint();
+            ProgressBar.Instance.ActivateProgressBall();
         }
 
         if (_ZPoint == true)
         {
             GameManager.Instance.BounsPanel();
             AudioManager.Instanse.AudioZPoint();
+            ProgressBar.Instance.ActivateProgressBall();
         }
         
             
