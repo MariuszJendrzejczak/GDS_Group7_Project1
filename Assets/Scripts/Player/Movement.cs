@@ -12,6 +12,8 @@ public class Movement : MonoBehaviour
     private Rigidbody2D _rigidbody2D;
     private bool _jumping = false;
     private float _jumpingTime = 0.95f;
+    [SerializeField]
+
 
     Vector2 rightVector;
     // Start is called before the first frame update
@@ -36,8 +38,13 @@ public class Movement : MonoBehaviour
 
     void MovementMethod()
     {
-        _move = Input.GetAxis("Horizontal");
-        _rigidbody2D.velocity = new Vector2(_move * _playerSpeed, _rigidbody2D.velocity.y);
+
+ 
+        {
+            _move = Input.GetAxis("Horizontal");
+            _rigidbody2D.velocity = new Vector2(_move * _playerSpeed, _rigidbody2D.velocity.y);
+        }
+        
 
     }
 
