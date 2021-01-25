@@ -18,6 +18,12 @@ public class CheckPoint : MonoBehaviour
         _paralax1Obj = GameObject.Find("ParalaxLayer1").GetComponent<Transform>();
         _paralax2Obj = GameObject.Find("ParalaxLayer2").GetComponent<Transform>();
     }
+    private void OnLevelWasLoaded(int level)
+    {
+        _groundObj = GameObject.Find("GroundLayer").GetComponent<Transform>();
+        _paralax1Obj = GameObject.Find("ParalaxLayer1").GetComponent<Transform>();
+        _paralax2Obj = GameObject.Find("ParalaxLayer2").GetComponent<Transform>();
+    }
 
 
 

@@ -30,21 +30,34 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         _instance = this;
+        _bounsPanel.SetActive(false);
+ 
     }
 
     private void Start()
     {
-        
-     //   _groundObj = GameObject.Find("GroundLayer").GetComponent<GameObject>();
-     //   _paralax1Obj = GameObject.Find("ParalaxLayer1").GetComponent<GameObject>();
-     //   _paralax2Obj = GameObject.Find("ParalaxLayer2").GetComponent<GameObject>();
+       // _groundObj = GameObject.Find("Enviroment").transform.GetChild(0).gameObject;
+       // _paralax1Obj = GameObject.Find("Enviroment").transform.GetChild(1).gameObject;
+       // _paralax2Obj = GameObject.Find("Enviroment").transform.GetChild(2).gameObject;
     }
     private void Update()
     {
+        UpdateEnviroment();
         Pause();
         GameTimer();
+       
 
 
+    }
+
+    private void UpdateEnviroment()
+    {
+        if (_groundObj == null)
+            _groundObj = GameObject.Find("Enviroment").transform.GetChild(0).gameObject;
+        if (_paralax1Obj == null)
+            _paralax1Obj = GameObject.Find("Enviroment").transform.GetChild(1).gameObject;
+        if (_paralax2Obj == null)
+            _paralax2Obj = GameObject.Find("Enviroment").transform.GetChild(2).gameObject;
 
     }
 
@@ -156,7 +169,11 @@ public class GameManager : MonoBehaviour
 
     public void NextLevel()
     {
+        _bounsPanel.SetActive(false);
+        Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        
+       
     }
 
     

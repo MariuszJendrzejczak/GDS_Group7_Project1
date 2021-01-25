@@ -17,6 +17,10 @@ public class Shooting : MonoBehaviour
 
     }
 
+    private void OnEnable()
+    {
+        _cooldown = false;
+    }
     // Update is called once per frame
     void Update()
     {
