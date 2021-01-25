@@ -15,6 +15,9 @@ GameObject:
   - component: {fileID: 527292645149212049}
   - component: {fileID: 1121223848522743524}
   - component: {fileID: 6524493691130423017}
+  - component: {fileID: 2150734097154037851}
+  - component: {fileID: 6731990288729572135}
+  - component: {fileID: 2671654178239768232}
   m_Layer: 14
   m_Name: Ufo1.ver02
   m_TagString: Enemy
@@ -180,3 +183,45 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2150734097154037851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121223848522743525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aafa090857318e4a852e13c439cbe74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6731990288729572135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121223848522743525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dd8541d4aa7fd74382d4a3e3f3c40e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2671654178239768232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121223848522743525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb18549f422bce44a949bb82b96cccf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyState: 0
+  _shooting: {fileID: 0}
+  _patrol: {fileID: 0}
+  _kamikadze: {fileID: 0}
+  _flyOut: {fileID: 0}
+  ListIndex: 0

@@ -13,20 +13,20 @@ public class EnemyLasser : MonoBehaviour
     private float _speed = 8.0f;
     private Rigidbody2D _rigidbody;
     [SerializeField]
-    private Transform _carBody;
+    //private Transform _carBody;
     // Start is called before the first frame update
     void Start()
     {
         _destroyTime = 1.5f;
         _rigidbody = GetComponent<Rigidbody2D>();
-        if (transform.position.x > _carBody.position.x)
-        {
+        //if (transform.position.x > _carBody.position.x)
+       // {
             _rigidbody.AddForce(Vector2.left, ForceMode2D.Impulse);
-        }
-        if (transform.position.x < _carBody.position.x)
-        {
-            _rigidbody.AddForce(Vector2.right, ForceMode2D.Impulse);
-        }
+       // }
+       // if (transform.position.x < _carBody.position.x)
+        //{
+        //    _rigidbody.AddForce(Vector2.right, ForceMode2D.Impulse);
+        //}
         
     }
 
