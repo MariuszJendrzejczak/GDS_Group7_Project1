@@ -15,4 +15,9 @@ public class EnemyFlyOut : MonoBehaviour
     {
         
     }
+
+    public void FlyOut()
+    {
+        Debug.Log("FlyOut");
+    }
 }
