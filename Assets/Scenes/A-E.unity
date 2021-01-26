@@ -3839,7 +3839,6 @@ GameObject:
   - component: {fileID: 208341942}
   - component: {fileID: 208341946}
   - component: {fileID: 208341947}
-  - component: {fileID: 208341949}
   - component: {fileID: 208341948}
   m_Layer: 5
   m_Name: Canvas
@@ -3926,7 +3925,7 @@ RectTransform:
   - {fileID: 781278915}
   - {fileID: 1058772580}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3988,27 +3987,6 @@ MonoBehaviour:
   _ballO: {fileID: 323610652}
   _ballT: {fileID: 1202175049}
   _ballZ: {fileID: 1606179968}
---- !u!114 &208341949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 208341941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbe11877249909640bfd661a1d72ecba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _groundObj: {fileID: 0}
-  _paralax1Obj: {fileID: 0}
-  _paralax2Obj: {fileID: 0}
-  PlayerCar: {fileID: 0}
-  _pausePanel: {fileID: 0}
-  _bounsPanel: {fileID: 0}
-  _respawnPanel: {fileID: 0}
-  _gameOverPanel: {fileID: 0}
-  _unlimitedLives: 0
 --- !u!1 &212876590
 GameObject:
   m_ObjectHideFlags: 0
@@ -11811,6 +11789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283855ca360a1fe4db81c768ffca6e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _timeForKamikadze: 3
 --- !u!60 &588421602
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -12284,6 +12263,88 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &599624763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 599624765}
+  - component: {fileID: 599624764}
+  m_Layer: 14
+  m_Name: FlyOutPoint
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &599624764
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599624763}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 4
+  m_Sprite: {fileID: -6488481807875236536, guid: 915a4305d813b714db47fd2f00fc72ed,
+    type: 3}
+  m_Color: {r: 0.96098113, g: 1, b: 0, a: 0.5882353}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.3, y: 0.16}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &599624765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599624763}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &599626356
 GameObject:
   m_ObjectHideFlags: 0
@@ -15725,6 +15786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283855ca360a1fe4db81c768ffca6e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _timeForKamikadze: 3
 --- !u!60 &783749591
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -18833,6 +18895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283855ca360a1fe4db81c768ffca6e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _timeForKamikadze: 3
 --- !u!60 &912748032
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -23639,7 +23702,7 @@ Transform:
   - {fileID: 1823011047}
   - {fileID: 1183197757}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1178823700
 MonoBehaviour:
@@ -23854,6 +23917,7 @@ MonoBehaviour:
   _enemy3: {fileID: 0}
   _enemy4: {fileID: 0}
   _enemy5: {fileID: 0}
+  mode: 0
 --- !u!1001 &1185350388
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31089,7 +31153,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1479322620
 MonoBehaviour:
@@ -35759,7 +35823,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1786737170
 GameObject:
@@ -37344,7 +37408,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1861465593
 GameObject:
@@ -38755,7 +38819,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1939425433
 Transform:
   m_ObjectHideFlags: 0
@@ -38782,6 +38846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283855ca360a1fe4db81c768ffca6e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _timeForKamikadze: 0
 --- !u!60 &1939425435
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -40856,6 +40921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283855ca360a1fe4db81c768ffca6e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _timeForKamikadze: 3
 --- !u!60 &2049599291
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -41674,7 +41740,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2103750845
 MonoBehaviour:
@@ -43389,7 +43455,7 @@ Transform:
   - {fileID: 1774901799}
   - {fileID: 1779687330}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2142148292
 MonoBehaviour:
@@ -44205,9 +44271,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f87da5dabe0e542488ea1d4bba243238, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toSpawn1: {fileID: 5304721879141379328, guid: 835fbed09228c414daec1e8fee583b62,
+  toSpawn1: {fileID: 1121223848522743525, guid: 5a06db8f995ea9a47b8edbf18eb02de9,
     type: 3}
-  toSpawn2: {fileID: 5304721879141379328, guid: 835fbed09228c414daec1e8fee583b62,
+  toSpawn2: {fileID: 1121223848522743525, guid: 5a06db8f995ea9a47b8edbf18eb02de9,
     type: 3}
   toSpawn3: {fileID: 0}
   toSpawn4: {fileID: 0}
@@ -45545,7 +45611,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8128289901379153993
 Transform:
   m_ObjectHideFlags: 0
@@ -45572,6 +45638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283855ca360a1fe4db81c768ffca6e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _timeForKamikadze: 0
 --- !u!60 &8128289901379153995
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -45700,7 +45767,7 @@ PrefabInstance:
     - target: {fileID: 5036171611320599024, guid: 7b22532347be7c44aa4f417f657c296d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.738
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5036171611320599024, guid: 7b22532347be7c44aa4f417f657c296d,
         type: 3}

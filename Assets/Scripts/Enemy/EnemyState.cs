@@ -6,7 +6,7 @@ using UnityEngine;
 public class EnemyState : MonoBehaviour
 {
     public enum EnemyStateMachine { patrol, shooting, kamikadze, flyout};
-    public EnemyStateMachine enemyState;
+    public EnemyStateMachine enemyState = EnemyStateMachine.patrol;
     [SerializeField]
     private EnemyShooting _shooting;
     [SerializeField]
@@ -33,29 +33,17 @@ public class EnemyState : MonoBehaviour
         switch (enemyState)
         {
             case EnemyStateMachine.patrol:
-                //_shooting.gameObject.SetActive(false);
                 _patrol.Movement();
-               // _kamikadze.gameObject.SetActive(false);
-               // _flyOut.gameObject.SetActive(false);
                 break;
-
             case EnemyStateMachine.shooting:
                 _shooting.Shooting();
                 _patrol.Movement();
-                //_kamikadze.gameObject.SetActive(false);
-                //_flyOut.gameObject.SetActive(false);
                 break;
-
             case EnemyStateMachine.kamikadze:
                 _kamikadze.Kamikadze();
-
                 break;
-
             case EnemyStateMachine.flyout:
-                _shooting.gameObject.SetActive(false);
-                _patrol.gameObject.SetActive(false);
-                _kamikadze.gameObject.SetActive(false);
-                _flyOut.gameObject.SetActive(true);
+                _flyOut.FlyOut();
                 break;
 
         

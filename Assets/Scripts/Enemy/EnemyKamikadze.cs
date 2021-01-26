@@ -4,20 +4,30 @@ using UnityEngine;
 
 public class EnemyKamikadze : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField]
+    private Transform _target, _transformLocked;
+    [SerializeField]
+    [Tooltip("Prękość poruszania się przeciwnika w jednostkach unity na frame. Dlatego wartość jest tak niska. Zalecam Operować między wartościami 0.01 do 0.06")]
+    private float _step = 0.04f;
+    private bool _targetLocked = false;
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        _target = GameObject.Find("PlayerCarVer.03").transform.GetChild(0).transform;
     }
-
     public void Kamikadze()
     {
-        Debug.Log("Kamikadze!!");
+        if (_targetLocked == false)
+        {
+            _transformLocked = _target;
+            _targetLocked = true;
+        }
+
+        transform.position = Vector2.MoveTowards(transform.position, _transformLocked.position, _step);
+       
+        if (transform == _transformLocked)
+        {
+            Destroy(this.gameObject);
+        }
     }
 }

@@ -1,44 +1,48 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using UnityEditorInternal;
 using UnityEngine;
 
 public class EnemyStateManager : MonoBehaviour
 {
+    private static EnemyStateManager _instance;
+    public static EnemyStateManager Instance
+    {
+        get { return _instance; }
+    }
+
     [SerializeField]
     private EnemyState _enemy0, _enemy1, _enemy2, _enemy3, _enemy4, _enemy5;
     [SerializeField]
-    //private List<EnemyState> _enemyList;
-    //private int _childCount;
-    // Start is called before the first frame update
-    /*private void Awake()
+    public enum Mode { Normal, Attack}
+    [SerializeField]
+    public Mode mode;
+
+    private void Awake()
     {
-        _childCount = this.transform.childCount;
-        for (int i = 0; i < _childCount; i++)
-        {
-            _enemyList.Add(transform.GetChild(i).GetComponent<EnemyState>());
-        }
-    }*/
+        _instance = this;
+    }
 
     void Start()
     {
-       // _enemyList.Add(_enemy0); _enemyList.Add(_enemy1); _enemyList.Add(_enemy2); _enemyList.Add(_enemy3); _enemyList.Add(_enemy4); _enemyList.Add(_enemy5);
+       
 
     }
 
-    // Update is called once per frame
+  
     void Update()
     {
         GetComponentsToVaribles();
+        if (mode == Mode.Normal)
+            ShootAndPatrol();
+        if (mode == Mode.Attack)
+            KamikadzeAndFlyOut();
+        
     }
 
     private void GetComponentsToVaribles()
     {
-        for (int i = 0; i < transform.GetChildCount(); i++)
-        {
-
-        }
-
-        
         if (transform.GetChildCount() > 0)
         _enemy0 = transform.GetChild(0).GetComponent<EnemyState>();
         if (transform.GetChildCount() > 1)
@@ -50,7 +54,38 @@ public class EnemyStateManager : MonoBehaviour
         if (transform.GetChildCount() > 4)
         _enemy4 = transform.GetChild(4).GetComponent<EnemyState>();
         if (transform.GetChildCount() > 5)
-        _enemy5 = transform.GetChild(5).GetComponent<EnemyState>();
-        
+        _enemy5 = transform.GetChild(5).GetComponent<EnemyState>();       
+    }
+
+    private void ShootAndPatrol()
+    {
+        if (_enemy0)
+            _enemy0.enemyState = EnemyState.EnemyStateMachine.shooting;
+        if (_enemy1)
+            _enemy1.enemyState = EnemyState.EnemyStateMachine.patrol;
+        if (_enemy2)
+            _enemy2.enemyState = EnemyState.EnemyStateMachine.patrol;
+        if (_enemy3)
+            _enemy3.enemyState = EnemyState.EnemyStateMachine.patrol;
+        if (_enemy4)
+            _enemy4.enemyState = EnemyState.EnemyStateMachine.patrol;
+        if (_enemy5)
+            _enemy5.enemyState = EnemyState.EnemyStateMachine.patrol;
+    }
+
+    private void KamikadzeAndFlyOut()
+    {
+        if (_enemy0)
+            _enemy0.enemyState = EnemyState.EnemyStateMachine.kamikadze;
+        if (_enemy1)
+            _enemy1.enemyState = EnemyState.EnemyStateMachine.flyout;
+        if (_enemy2)
+            _enemy2.enemyState = EnemyState.EnemyStateMachine.flyout;
+        if (_enemy3)
+            _enemy3.enemyState = EnemyState.EnemyStateMachine.flyout;
+        if (_enemy4)
+            _enemy4.enemyState = EnemyState.EnemyStateMachine.flyout;
+        if (_enemy5)
+            _enemy5.enemyState = EnemyState.EnemyStateMachine.flyout;
     }
 }

@@ -31,7 +31,7 @@ public class EnemyShooting : MonoBehaviour
 
    IEnumerator Shoot()
     {
-        yield return new WaitForSeconds(Random.Range(4, 10));
+        yield return new WaitForSeconds(3);
         Instantiate(_projectile, transform.position, Quaternion.identity);
         _ifShooted = true;
     }

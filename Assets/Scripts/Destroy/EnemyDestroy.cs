@@ -39,6 +39,11 @@ public class EnemyDestroy : MonoBehaviour
             }
             Destroy(gameObject);
         }
+        if (collision.tag == "Player")
+        {
+            PlayerDestroy.Instance.DestroyPlayer();
+            Destroy(gameObject);
+        }
            
     }
 }

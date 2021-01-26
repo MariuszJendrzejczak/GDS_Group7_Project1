@@ -4,20 +4,17 @@ using UnityEngine;
 
 public class EnemyFlyOut : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [SerializeField]
+    private Vector2 _target;
+    [SerializeField] [Tooltip("Prękość poruszania się przeciwnika w jednostkach unity na frame. Dlatego wartość jest tak niska. Zalecam Operować między wartościami 0.01 do 0.06")] 
+    private float _step = 0.04f;
 
     public void FlyOut()
     {
-        Debug.Log("FlyOut");
+        transform.position = Vector2.MoveTowards(transform.position, _target, _step);
+        if ((Vector2)transform.position == _target)
+        {
+            Destroy(this.gameObject);
+        }
     }
 }

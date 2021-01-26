@@ -5,22 +5,21 @@ using UnityEngine;
 public class KamikadzePoint : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [SerializeField][Tooltip("Czas w kótrym ma zakończyć się Kamikadze i FlyMode. Wszystkie Ufoki obecne na scenie maja byc do tego czasu zniszczone.")]
+    private float _timeForKamikadze;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
-            // tutaj będzie się działo kamikadze i do góry.
+            EnemyStateManager.Instance.mode = EnemyStateManager.Mode.Attack;
+            StartCoroutine(BackToNormal());
         }
+    }
+    IEnumerator BackToNormal()
+    {
+        yield return new WaitForSeconds(_timeForKamikadze);
+        EnemyStateManager.Instance.mode = EnemyStateManager.Mode.Normal;
+
     }
 }
