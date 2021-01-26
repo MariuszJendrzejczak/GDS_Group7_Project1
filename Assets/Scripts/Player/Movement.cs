@@ -13,10 +13,11 @@ public class Movement : MonoBehaviour
     private bool _jumping = false;
     private float _jumpingTime = 0.95f;
     [SerializeField]
+    private Transform _startingPoint;
 
 
     Vector2 rightVector;
-    // Start is called before the first frame update
+ 
     private void OnEnable()
     {
         _jumping = false;
@@ -43,16 +44,15 @@ public class Movement : MonoBehaviour
         {
             _move = Input.GetAxis("Horizontal");
             _rigidbody2D.velocity = new Vector2(_move * _playerSpeed, _rigidbody2D.velocity.y);
-        }
-        
+            if (_move == 0)
+            {
+                transform.position = Vector2.MoveTowards(transform.position, _startingPoint.position, 0.001f);
+            }
+        }  
 
     }
 
-    void MovementMethod2()
-    {
-        _move = Input.GetAxis("Horizontal") * _thrust;
-        _rigidbody2D.AddForce(transform.right * _move);
-    }
+ 
     void Jump()
     {
         if (Input.GetKeyDown(KeyCode.LeftShift) && _jumping == false)
