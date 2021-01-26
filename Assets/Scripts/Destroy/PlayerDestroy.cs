@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class PlayerDestroy : MonoBehaviour
@@ -10,6 +11,11 @@ public class PlayerDestroy : MonoBehaviour
         get { return _instance; }
     }
 
+    [SerializeField]
+    private GameObject _carExplosion;
+    [SerializeField]
+    private Transform _bodyTransform;
+
     private void Awake()
     {
         _instance = this;
@@ -17,8 +23,8 @@ public class PlayerDestroy : MonoBehaviour
 
     public void DestroyPlayer()
     {
-        GameManager.Instance.PlayerDestroyerd();
         AudioManager.Instanse.AudioCarDestroy();
+        Instantiate(_carExplosion, _bodyTransform.position, Quaternion.identity).transform.SetParent(GameObject.Find("Enviroment").transform.GetChild(0).transform);
         gameObject.SetActive(false);
     }
     public void Respawn()
