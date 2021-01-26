@@ -26,6 +26,8 @@ public class Movement : MonoBehaviour
     void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
+        if (_startingPoint == null)
+           _startingPoint = GameObject.Find("GameManager").transform.GetChild(0).transform;
     }
 
     // Update is called once per frame

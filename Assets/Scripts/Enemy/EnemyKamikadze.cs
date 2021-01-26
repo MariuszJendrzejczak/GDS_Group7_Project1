@@ -13,7 +13,7 @@ public class EnemyKamikadze : MonoBehaviour
 
     private void Start()
     {
-        _target = GameObject.Find("PlayerCarVer.03").transform.GetChild(0).transform;
+            _target= GameObject.Find("PlayerCarVer.03(Clone)").transform.GetChild(0).transform;
     }
     public void Kamikadze()
     {

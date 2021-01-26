@@ -26,10 +26,10 @@ public class GameManager : MonoBehaviour
     public float Timer { get; set; }
 
     
-
     private void Awake()
     {
         _instance = this;
+        Debug.Log("Jestem");
  
  
     }
@@ -183,8 +183,16 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
         Timer = 0;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+
+    }
+    private void RespawnCarOnNewScene()
+    {
         
-       
+    }
+    public void AddLive()
+    {
+        _playerLives += 1;
     }
 
     
