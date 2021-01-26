@@ -29,6 +29,10 @@ public class PlayerDestroy : MonoBehaviour
     }
     public void Respawn()
     {
+        for (int i = 0; i < transform.GetChildCount(); i++)
+        {
+            transform.GetChild(i).GetComponent<RespawnMe>().RespawnToStartPos();
+        }
         gameObject.SetActive(true);
     }
 
