@@ -7,10 +7,13 @@ public class EnemyShooting : MonoBehaviour
     [SerializeField]
     private GameObject _projectile;
     private bool _ifShooted = false;
+    private EnemyState _state;
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(Shoot());
+        _state = GetComponent<EnemyState>();
+        if (_state.enemyState == EnemyState.EnemyStateMachine.shooting)
+            StartCoroutine(Shoot());
         
     }
 

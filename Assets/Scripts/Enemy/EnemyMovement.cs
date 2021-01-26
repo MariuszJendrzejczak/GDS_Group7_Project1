@@ -53,14 +53,7 @@ public class EnemyMovement : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
 
-     
-
-
-    }
     public void Movement()
     {
         _position = this.transform.position;
