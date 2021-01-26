@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WarningPointUfo
+  m_Name: WarningPointMine
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,10 +20,10 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -1706523535143673471, guid: 4addd4db4a36b4b428ed9f994788c225,
+      value: {fileID: -4997477979688132445, guid: b72d86c7dc62b0a4c9306d681104cb58,
         type: 3}
     - time: 0.33333334
-      value: {fileID: 2353698877590119061, guid: 4addd4db4a36b4b428ed9f994788c225,
+      value: {fileID: -5458949232996590045, guid: b72d86c7dc62b0a4c9306d681104cb58,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -44,8 +44,8 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -1706523535143673471, guid: 4addd4db4a36b4b428ed9f994788c225, type: 3}
-    - {fileID: 2353698877590119061, guid: 4addd4db4a36b4b428ed9f994788c225, type: 3}
+    - {fileID: -4997477979688132445, guid: b72d86c7dc62b0a4c9306d681104cb58, type: 3}
+    - {fileID: -5458949232996590045, guid: b72d86c7dc62b0a4c9306d681104cb58, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
