@@ -509,7 +509,8 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5578746748114654123, guid: 1100e8b656fff984d82ea24b10ee7bf7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1100e8b656fff984d82ea24b10ee7bf7, type: 3}
 --- !u!4 &39260636 stripped
 Transform:
@@ -562,6 +563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283855ca360a1fe4db81c768ffca6e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _timeForKamikadze: 0
 --- !u!60 &50069689
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1624,6 +1626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283855ca360a1fe4db81c768ffca6e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _timeForKamikadze: 0
 --- !u!60 &349173537
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2373,6 +2376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283855ca360a1fe4db81c768ffca6e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _timeForKamikadze: 0
 --- !u!60 &460191718
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6070,6 +6074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283855ca360a1fe4db81c768ffca6e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _timeForKamikadze: 0
 --- !u!60 &1297790392
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7204,6 +7209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283855ca360a1fe4db81c768ffca6e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _timeForKamikadze: 0
 --- !u!60 &1488972189
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -9050,6 +9056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283855ca360a1fe4db81c768ffca6e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _timeForKamikadze: 0
 --- !u!60 &1985635479
 PolygonCollider2D:
   m_ObjectHideFlags: 0
