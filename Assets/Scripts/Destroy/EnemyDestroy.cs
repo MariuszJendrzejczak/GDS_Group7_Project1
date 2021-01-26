@@ -9,6 +9,8 @@ public class EnemyDestroy : MonoBehaviour
     [SerializeField] private ScoreType _scoreType;
     [SerializeField]
     private int _ufo1Dst, _ufo2Dst, _ufo3Dst;
+    [SerializeField]
+    private GameObject _destroyAnim;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,11 +39,13 @@ public class EnemyDestroy : MonoBehaviour
                     UIManager.Instance.UpdatePlayerScore(_ufo3Dst);
                     break;
             }
+            Instantiate(_destroyAnim, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
         if (collision.tag == "Player")
         {
             PlayerDestroy.Instance.DestroyPlayer();
+            Instantiate(_destroyAnim, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
            
