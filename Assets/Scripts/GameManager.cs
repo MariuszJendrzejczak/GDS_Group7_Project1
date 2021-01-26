@@ -29,7 +29,6 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         _instance = this;
-        Debug.Log("Jestem");
  
  
     }
@@ -186,10 +185,7 @@ public class GameManager : MonoBehaviour
 
 
     }
-    private void RespawnCarOnNewScene()
-    {
-        
-    }
+
     public void AddLive()
     {
         _playerLives += 1;

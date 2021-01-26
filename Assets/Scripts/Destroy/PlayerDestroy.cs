@@ -23,17 +23,20 @@ public class PlayerDestroy : MonoBehaviour
 
     public void DestroyPlayer()
     {
-        AudioManager.Instanse.AudioCarDestroy();
-        Instantiate(_carExplosion, _bodyTransform.position, Quaternion.identity).transform.SetParent(GameObject.Find("Enviroment").transform.GetChild(0).transform);
-        gameObject.SetActive(false);
+         AudioManager.Instanse.AudioCarDestroy();
+         //Instantiate(_carExplosion, _bodyTransform.position, Quaternion.identity).transform.SetParent(GameObject.Find("Enviroment").transform.GetChild(0).transform);
+        GameManager.Instance.PlayerDestroyerd();
+        gameObject.SetActive(false); 
+
     }
     public void Respawn()
     {
-        for (int i = 0; i < transform.GetChildCount(); i++)
-        {
-            transform.GetChild(i).GetComponent<RespawnMe>().RespawnToStartPos();
-        }
         gameObject.SetActive(true);
+        for (int i = 0; i < transform.childCount; i++)
+        {
+           transform.GetChild(i).GetComponent<RespawnMe>().RespawnToStartPos();
+        }
+        
     }
 
 

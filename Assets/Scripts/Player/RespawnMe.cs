@@ -8,11 +8,11 @@ public class RespawnMe : MonoBehaviour
 
     void Start()
     {
-        myPosition = transform.position;
+        myPosition = new Vector2(-0.547f, 0.099f);
     }
 
     public void RespawnToStartPos()
     {
-        transform.position = myPosition;
+     //   transform.position = myPosition;
     }
 }

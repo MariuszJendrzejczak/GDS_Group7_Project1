@@ -11,7 +11,6 @@ public class HoleDestroy : MonoBehaviour
         {
             PlayerDestroy.Instance.DestroyPlayer();
 
-            
         }
 
     }

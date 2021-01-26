@@ -43,17 +43,17 @@ public class EnemyStateManager : MonoBehaviour
 
     private void GetComponentsToVaribles()
     {
-        if (transform.GetChildCount() > 0)
+        if (transform.childCount > 0)
         _enemy0 = transform.GetChild(0).GetComponent<EnemyState>();
-        if (transform.GetChildCount() > 1)
+        if (transform.childCount > 1)
         _enemy1 = transform.GetChild(1).GetComponent<EnemyState>();
-        if (transform.GetChildCount() > 2)
+        if (transform.childCount > 2)
         _enemy2 = transform.GetChild(2).GetComponent<EnemyState>();
-        if (transform.GetChildCount() > 3) 
+        if (transform.childCount > 3) 
         _enemy3 = transform.GetChild(3).GetComponent<EnemyState>();
-        if (transform.GetChildCount() > 4)
+        if (transform.childCount > 4)
         _enemy4 = transform.GetChild(4).GetComponent<EnemyState>();
-        if (transform.GetChildCount() > 5)
+        if (transform.childCount > 5)
         _enemy5 = transform.GetChild(5).GetComponent<EnemyState>();       
     }
 

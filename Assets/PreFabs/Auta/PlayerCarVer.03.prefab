@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5036171610142587416}
   - component: {fileID: 5036171610142587417}
   - component: {fileID: 5036171610142587414}
+  - component: {fileID: 7564884208424874022}
   m_Layer: 12
   m_Name: MiddleWheel
   m_TagString: Untagged
@@ -86,7 +87,7 @@ MonoBehaviour:
   _playerSpeed: 0.45
   _jumpForce: 1
   _thrust: 1
-  _startingPoint: {fileID: 5036171610142587415}
+  _startingPoint: {fileID: 0}
 --- !u!212 &5036171610142587414
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -138,6 +139,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7564884208424874022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5036171610142587412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c73f12defc5795643abd1dfb6b571e88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myPosition: {x: 0, y: 0}
 --- !u!1 &5036171610491792398
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,6 +167,7 @@ GameObject:
   - component: {fileID: 5036171610491792403}
   - component: {fileID: 23489802723836605}
   - component: {fileID: 23489802723836607}
+  - component: {fileID: 3850960836642995828}
   m_Layer: 11
   m_Name: Body
   m_TagString: Player
@@ -210,7 +225,7 @@ MonoBehaviour:
   _playerSpeed: 0.45
   _jumpForce: 1
   _thrust: 1
-  _startingPoint: {fileID: 5036171610491792401}
+  _startingPoint: {fileID: 0}
 --- !u!212 &5036171610491792402
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -401,6 +416,19 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &3850960836642995828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5036171610491792398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c73f12defc5795643abd1dfb6b571e88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myPosition: {x: 0, y: 0}
 --- !u!1 &5036171611320599025
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,6 +492,7 @@ GameObject:
   - component: {fileID: 5036171611576244121}
   - component: {fileID: 5036171611576244118}
   - component: {fileID: 5036171611576244119}
+  - component: {fileID: 6376227468925200895}
   m_Layer: 12
   m_Name: BackWheel
   m_TagString: Untagged
@@ -537,7 +566,7 @@ MonoBehaviour:
   _playerSpeed: 0.45
   _jumpForce: 1
   _thrust: 1
-  _startingPoint: {fileID: 5036171611576244116}
+  _startingPoint: {fileID: 0}
 --- !u!212 &5036171611576244119
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -589,6 +618,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6376227468925200895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5036171611576244117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c73f12defc5795643abd1dfb6b571e88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myPosition: {x: 0, y: 0}
 --- !u!1 &5534278733986134092
 GameObject:
   m_ObjectHideFlags: 0
@@ -602,6 +644,7 @@ GameObject:
   - component: {fileID: 1403297148690581734}
   - component: {fileID: 3995732446106357045}
   - component: {fileID: 6512240303601256207}
+  - component: {fileID: 2857358822308043546}
   m_Layer: 12
   m_Name: FrontWheel
   m_TagString: Untagged
@@ -727,3 +770,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2857358822308043546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5534278733986134092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c73f12defc5795643abd1dfb6b571e88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myPosition: {x: 0, y: 0}
