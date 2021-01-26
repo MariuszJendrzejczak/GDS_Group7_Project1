@@ -52,7 +52,12 @@ public class UIManager : MonoBehaviour
         if (PlayerScore >= 1000 && value < 10000)
             _scoreText.text = "0" + PlayerScore;
         if (PlayerScore >= 10000)
+        {
             _scoreText.text = "" + PlayerScore;
+            GameManager.Instance.AddLive(); // dodać boola
+        }
+        
+            
 
     }
 
@@ -95,6 +100,6 @@ public class UIManager : MonoBehaviour
         _bounsPoints.text = bonusPoints.ToString();
         }
 
-
+    
     
 }

@@ -85,6 +85,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerSpeed: 0.45
   _jumpForce: 1
+  _thrust: 1
+  _startingPoint: {fileID: 5036171610142587415}
 --- !u!212 &5036171610142587414
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -207,6 +209,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerSpeed: 0.45
   _jumpForce: 1
+  _thrust: 1
+  _startingPoint: {fileID: 5036171610491792401}
 --- !u!212 &5036171610491792402
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -444,6 +448,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54275c91016898842a14d277f8b4bea8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _carExplosion: {fileID: 5036171610491792398}
+  _bodyTransform: {fileID: 1378734177582148711, guid: 0f1c1766ad0928d41bab287c98f97f69,
+    type: 3}
 --- !u!1 &5036171611576244117
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,6 +536,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerSpeed: 0.45
   _jumpForce: 1
+  _thrust: 1
+  _startingPoint: {fileID: 5036171611576244116}
 --- !u!212 &5036171611576244119
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -665,6 +674,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _playerSpeed: 0.45
   _jumpForce: 1
+  _thrust: 1
+  _startingPoint: {fileID: 0}
 --- !u!212 &6512240303601256207
 SpriteRenderer:
   m_ObjectHideFlags: 0
