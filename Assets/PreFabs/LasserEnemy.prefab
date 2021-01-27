@@ -147,5 +147,5 @@ MonoBehaviour:
   _type: 1
   _hole: {fileID: 8220663468575842378, guid: 5313037daca2e3b4491d9b6a5f721d7c, type: 3}
   _x: 0
-  _y: 0
+  _y: -0.1
   _enviroment: {fileID: 0}
