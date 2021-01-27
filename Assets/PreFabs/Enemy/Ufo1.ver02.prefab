@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a29b4656dd476c4ab38cba977fed3df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _projectile: {fileID: 3359463606566687038, guid: 2133191915b181d49ae9fa86e9fccabe,
+  _projectile: {fileID: 8643741451053977820, guid: fc954fb56eae36d42ad5361907db646b,
     type: 3}
 --- !u!95 &6524493691130423017
 Animator:

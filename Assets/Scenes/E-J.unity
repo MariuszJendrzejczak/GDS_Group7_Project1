@@ -176,6 +176,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (17)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
 --- !u!4 &10602346 stripped
@@ -238,6 +242,10 @@ PrefabInstance:
     - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (16)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
@@ -1576,6 +1584,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (18)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
 --- !u!4 &324215687 stripped
@@ -2270,6 +2282,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce"
       objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
 --- !u!4 &506332759 stripped
@@ -2401,6 +2417,10 @@ PrefabInstance:
     - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (25)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 127382779828841467, guid: e3dcef1f4afd60049bb1feafb35722b5,
         type: 3}
@@ -3064,6 +3084,10 @@ PrefabInstance:
     - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (8)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
@@ -3973,6 +3997,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (11)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 127382779828841467, guid: e3dcef1f4afd60049bb1feafb35722b5,
         type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.size
@@ -4466,6 +4494,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (7)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
 --- !u!4 &830517726 stripped
@@ -4608,6 +4640,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (24)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
 --- !u!4 &866137993 stripped
@@ -4670,6 +4706,10 @@ PrefabInstance:
     - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (3)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
@@ -5237,6 +5277,10 @@ PrefabInstance:
     - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (9)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 127382779828841467, guid: e3dcef1f4afd60049bb1feafb35722b5,
         type: 3}
@@ -5966,6 +6010,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (23)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 127382779828841467, guid: e3dcef1f4afd60049bb1feafb35722b5,
         type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.size
@@ -6659,6 +6707,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (1)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
 --- !u!4 &1054064646 stripped
@@ -7119,6 +7171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (26)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
 --- !u!4 &1254931864 stripped
@@ -7439,6 +7495,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (4)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
 --- !u!4 &1382334267 stripped
@@ -7505,6 +7565,10 @@ PrefabInstance:
     - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (15)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7973756341515831518, guid: e3dcef1f4afd60049bb1feafb35722b5,
         type: 3}
@@ -7573,6 +7637,10 @@ PrefabInstance:
     - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (2)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
@@ -7716,6 +7784,10 @@ PrefabInstance:
     - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (21)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
@@ -8293,6 +8365,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (22)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
 --- !u!4 &1463016913 stripped
@@ -8638,6 +8714,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (13)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
 --- !u!4 &1549776577 stripped
@@ -8700,6 +8780,10 @@ PrefabInstance:
     - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (12)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 127382779828841467, guid: e3dcef1f4afd60049bb1feafb35722b5,
         type: 3}
@@ -9185,6 +9269,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _type: 0
+  _highWarning: {fileID: 0}
+  _lowWanrning: {fileID: 0}
 --- !u!60 &1560445858
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -9433,6 +9519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (10)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
 --- !u!4 &1593758015 stripped
@@ -9495,6 +9585,10 @@ PrefabInstance:
     - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (6)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 127382779828841467, guid: e3dcef1f4afd60049bb1feafb35722b5,
         type: 3}
@@ -11526,6 +11620,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (14)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
 --- !u!4 &1922495698 stripped
@@ -11663,6 +11761,10 @@ PrefabInstance:
     - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (20)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
@@ -11954,6 +12056,10 @@ PrefabInstance:
     - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (5)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 127382779828841467, guid: e3dcef1f4afd60049bb1feafb35722b5,
         type: 3}
@@ -12929,6 +13035,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (19)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
 --- !u!4 &2123612328 stripped
@@ -12950,6 +13060,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _type: 0
+  _highWarning: {fileID: 0}
+  _lowWanrning: {fileID: 0}
 --- !u!1001 &2191329435921247467
 PrefabInstance:
   m_ObjectHideFlags: 0

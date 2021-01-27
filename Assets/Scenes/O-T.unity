@@ -333,6 +333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isFinal: 0
   _ZPoint: 0
+  _checkPointLetter: 
   _groundObj: {fileID: 1515068946}
   _paralax1Obj: {fileID: 1114549277}
   _paralax2Obj: {fileID: 39260636}
@@ -1907,6 +1908,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (3)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
 --- !u!4 &376346862 stripped
@@ -2065,6 +2070,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isFinal: 0
   _ZPoint: 0
+  _checkPointLetter: 
   _groundObj: {fileID: 1515068946}
   _paralax1Obj: {fileID: 1114549277}
   _paralax2Obj: {fileID: 39260636}
@@ -2970,6 +2976,10 @@ PrefabInstance:
     - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (15)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
@@ -3878,6 +3888,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _type: 0
+  _highWarning: {fileID: 0}
+  _lowWanrning: {fileID: 0}
 --- !u!60 &782482697
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4485,6 +4497,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (4)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
 --- !u!4 &1021522158 stripped
@@ -4698,6 +4714,10 @@ PrefabInstance:
     - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (2)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
@@ -5094,6 +5114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isFinal: 1
   _ZPoint: 0
+  _checkPointLetter: 
   _groundObj: {fileID: 1515068946}
   _paralax1Obj: {fileID: 1114549277}
   _paralax2Obj: {fileID: 39260636}
@@ -5505,6 +5526,10 @@ PrefabInstance:
     - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (13)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
@@ -6318,6 +6343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isFinal: 0
   _ZPoint: 0
+  _checkPointLetter: 
   _groundObj: {fileID: 1515068946}
   _paralax1Obj: {fileID: 1114549277}
   _paralax2Obj: {fileID: 39260636}
@@ -6890,6 +6916,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (16)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
 --- !u!4 &1432019551 stripped
@@ -7427,6 +7457,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isFinal: 0
   _ZPoint: 0
+  _checkPointLetter: 
   _groundObj: {fileID: 1515068946}
   _paralax1Obj: {fileID: 1114549277}
   _paralax2Obj: {fileID: 39260636}
@@ -7803,6 +7834,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isFinal: 0
   _ZPoint: 0
+  _checkPointLetter: 
   _groundObj: {fileID: 1515068946}
   _paralax1Obj: {fileID: 1114549277}
   _paralax2Obj: {fileID: 39260636}
@@ -8594,6 +8626,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Pod\u0142o\u017Ce (22)"
       objectReference: {fileID: 0}
+    - target: {fileID: 8990822253745653, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dcef1f4afd60049bb1feafb35722b5, type: 3}
 --- !u!4 &1832693989 stripped
@@ -9322,6 +9358,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _type: 0
+  _highWarning: {fileID: 0}
+  _lowWanrning: {fileID: 0}
 --- !u!60 &2056697359
 PolygonCollider2D:
   m_ObjectHideFlags: 0

@@ -11,9 +11,7 @@ public class EnemyShooting : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _state = GetComponent<EnemyState>();
-        if (_state.enemyState == EnemyState.EnemyStateMachine.shooting)
-            StartCoroutine(Shoot());
+
         
     }
 
@@ -25,10 +23,10 @@ public class EnemyShooting : MonoBehaviour
 
     public void Shooting()
     {
-        if (_ifShooted == true)
+        if (_ifShooted == false)
         {
             StartCoroutine(Shoot());
-            _ifShooted = false;
+            _ifShooted = true;
         }
     }
 
@@ -36,7 +34,7 @@ public class EnemyShooting : MonoBehaviour
     {
         yield return new WaitForSeconds(3);
         Instantiate(_projectile, transform.position, Quaternion.identity);
-        _ifShooted = true;
+        _ifShooted = false;
     }
 }
 
