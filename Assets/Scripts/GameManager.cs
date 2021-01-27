@@ -112,9 +112,8 @@ public class GameManager : MonoBehaviour
         if (_playerLives > 0)
         {
             gameState = GameState.playerDead;
-            RespawnPanel(); // do usunięcia
-            //Time.timeScale = 0; - dodać po usunięciu RespawnPaneli
-            //Respawn() - dodać
+            Time.timeScale = 0;
+            Respawn();
         }
         else
         {

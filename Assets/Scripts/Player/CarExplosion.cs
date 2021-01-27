@@ -7,7 +7,12 @@ public class CarExplosion : MonoBehaviour
     private Collider2D _frontFrame, _backFrame;
     private Animator _animator;
 
-    void Start()
+    private void Awake()
+    {
+
+    }
+
+    public void CarExplodionAnim()
     {
         _frontFrame = GameObject.Find("MovementFrameLeft").GetComponent<Collider2D>();
         _backFrame = GameObject.Find("MovementFrameRight").GetComponent<Collider2D>();
@@ -21,18 +26,19 @@ public class CarExplosion : MonoBehaviour
     }
 
 
-    void Update()
-    {
- 
-        
-    }
     IEnumerator CarDestroyAnimation()
     {
         Time.timeScale = 0.5f;
+        for (int i = 0; i < transform.childCount -1; i++)
+        {
+            transform.GetChild(i).GetComponent<WheelExplosion>().ThrowWheels();
+        }
         yield return new WaitForSeconds(_animator.GetCurrentAnimatorStateInfo(0).length);
-        GameManager.Instance.PlayerDestroyerd();
+        Debug.Log("Kurwa");
         _backFrame.enabled = true;
-        _frontFrame.enabled = true;
-        Destroy(this.gameObject);
+        _frontFrame.enabled = true; 
+        GameManager.Instance.PlayerDestroyerd();
     }
+
+
 }
