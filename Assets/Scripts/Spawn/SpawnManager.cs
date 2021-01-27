@@ -79,6 +79,18 @@ public class SpawnManager : MonoBehaviour
         _ufo2.GetComponent<NewEnemyStateManager>().FlyOutStateOnly();
         _ufo3.GetComponent<NewEnemyStateManager>().KamikadzeAndFlyOutStateActivation();
     }
+    public void EnemyStateKamikadzeUfo1()
+    {
+        _ufo1.GetComponent<NewEnemyStateManager>().KamikadzeAndFlyOutStateActivation();
+    }
+    public void EnemyStateKamikadzeUfo2()
+    {
+        _ufo2.GetComponent<NewEnemyStateManager>().FlyOutStateOnly();
+    }
+    public void EnemyStateKamikadzeUfo3()
+    {
+        _ufo3.GetComponent<NewEnemyStateManager>().KamikadzeAndFlyOutStateActivation();
+    }
 
     public void ClearLists()
     {
