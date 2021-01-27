@@ -6,9 +6,12 @@ using UnityEngine;
 public class ActivateTank : MonoBehaviour
 {
     [SerializeField]
-    private RoundRock _tank;
+    private Tank _tank;
 
-
+    private void Start()
+    {
+        _tank = GetComponentInParent<Tank>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
