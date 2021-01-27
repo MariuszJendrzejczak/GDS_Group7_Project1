@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class EnemyLasser : MonoBehaviour
 {
-    public enum LasserType { rocket, holeMaker }
+    public enum LasserType { rocket, holeMaker, projectile }
     [SerializeField]
     private LasserType _type;
     [SerializeField]
     private GameObject _hole;
-    [SerializeField][Tooltip("x i y ofset dla spawnowania dziury. Impuls oznacza siłę odrzutu pocisku w prawo/lewo w momencie wystrzału")]
-    private float _x, _y, _impulse;
+    [SerializeField][Tooltip("x i y ofset dla spawnowania dziury. Impuls oznacza siłę odrzutu pocisku w prawo/lewo w momencie wystrzału. Speed tylko dla projectiles")]
+    private float _x, _y, _impulse, _speed;
     private GameObject _enviroment;
     private Transform _carBody;
 
@@ -18,17 +18,26 @@ public class EnemyLasser : MonoBehaviour
     [SerializeField]
     void Start()
     {
-        _enviroment = GameObject.Find("Enviroment");
-        _carBody = GameObject.Find("PlayerCarVer.03(Clone)").transform.GetChild(0).transform;
-        _rigidbody = GetComponent<Rigidbody2D>();
-
-        if (transform.position.x > _carBody.position.x)
-            _rigidbody.AddForce(Vector2.left * _impulse, ForceMode2D.Impulse);
-        if (transform.position.x <= _carBody.position.x)
-            _rigidbody.AddForce(Vector2.right * _impulse, ForceMode2D.Impulse);
         
-        
+       
+        if (_type != LasserType.projectile)
+        {
+            _enviroment = GameObject.Find("Enviroment");
+            _rigidbody = GetComponent<Rigidbody2D>();
+            _carBody = GameObject.Find("PlayerCarVer.03(Clone)").transform.GetChild(0).transform;
+            if (transform.position.x > _carBody.position.x)
+                _rigidbody.AddForce(Vector2.left * _impulse, ForceMode2D.Impulse);
+            if (transform.position.x <= _carBody.position.x)
+                _rigidbody.AddForce(Vector2.right * _impulse, ForceMode2D.Impulse);
+        }
+    }
 
+    private void Update()
+    {
+        if (_type == LasserType.projectile)
+        {
+            transform.Translate(Vector2.left * _speed * Time.deltaTime);
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
