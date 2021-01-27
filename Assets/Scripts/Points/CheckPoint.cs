@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CheckPoint : MonoBehaviour
 {
     [SerializeField]
     private bool _isFinal = false, _ZPoint = false;
+    [SerializeField]
+    private string _checkPointLetter;
 
     private Transform _groundLayer, _paralax1Layer, _paralax2Layer;
     private float _ground, _paralax1, _paralax2;
@@ -29,6 +32,7 @@ public class CheckPoint : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        UIManager.Instance.UpdateCheckPointLetter(_checkPointLetter);
 
         if (_isFinal == true)
         {

@@ -15,7 +15,7 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     private Text _scoreText, _topScoreText, _lives, _timer;
     [SerializeField]
-    private Text _yourTime, _avgTime, _topTime, _bounsPoints;
+    private Text _yourTime, _avgTime, _topTime, _bounsPoints, _pointLetter;
     private int _topScore = 0;
     public int PlayerScore;
 
@@ -93,12 +93,17 @@ public class UIManager : MonoBehaviour
             _timer.text = "" + value;
     }
     public void BonusPanelUpdate(int yourTime, int avgTime, int topTime, int bonusPoints)
-        {
+    {
         _yourTime.text = yourTime.ToString();
         _avgTime.text = avgTime.ToString();
         _topTime.text = topTime.ToString();
         _bounsPoints.text = bonusPoints.ToString();
-        }
+    }
+
+    public void UpdateCheckPointLetter(string value)
+    {
+        _pointLetter.text = value;
+    }
 
     
     

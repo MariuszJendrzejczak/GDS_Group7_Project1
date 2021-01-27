@@ -12,8 +12,8 @@ public class Laser : MonoBehaviour
     [SerializeField]
     private float _destroyTime;
 
-    [SerializeField][Tooltip("Szybkość poruszania się lasera (Default: 8)")]
-    private float _speed = 8.0f;
+    [SerializeField][Tooltip("Szybkość poruszania się lasera. Zasięg w sekundach laserów")]
+    private float _speed = 8.0f, _horizontalRange, _verticalRange;
 
 
     // Update is called once per frame
@@ -22,11 +22,11 @@ public class Laser : MonoBehaviour
         switch (_type)
         {
             case LasserType.horizontal:
-                _destroyTime = 0.5f;
+                _destroyTime = _horizontalRange;
                 break;
 
             case LasserType.vertical:
-                _destroyTime = 1.5f;
+                _destroyTime = _verticalRange;
                 break;
 
         }

@@ -377,7 +377,7 @@ MonoBehaviour:
   _posYHorizontalOffset: -0.09
   _posXVerticalOffset: -0.1
   _posYVerticalOffset: 0.21
-  _cooldownTime: 0.71
+  _cooldownTime: 0.3
 --- !u!1839735485 &23489802723836607
 Tilemap:
   m_ObjectHideFlags: 0

@@ -124,7 +124,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _type: 1
-  _speed: 3
+  _destroyTime: 0
+  _speed: 2
+  _horizontalRange: 0.25
+  _verticalRange: 1.5
 --- !u!50 &-2538274212421140450
 Rigidbody2D:
   serializedVersion: 4
