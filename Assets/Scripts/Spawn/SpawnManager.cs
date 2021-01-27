@@ -19,25 +19,22 @@ public class SpawnManager : MonoBehaviour
 
     [SerializeField]
     private GameObject _enemyContainer;
+    [SerializeField]
+    private SetActiveFalseForChilds _ufo1, _ufo2, _ufo3;
 
     private void Awake()
     {
         _instance = this;
         AwakeTransformList();
-
-        
     }
-    
-    void Start()
+
+    private void Start()
     {
-        
+        _ufo1 = transform.GetChild(6).transform.GetChild(0).GetComponent<SetActiveFalseForChilds>();
+        _ufo2 = transform.GetChild(6).transform.GetChild(1).GetComponent<SetActiveFalseForChilds>();
+        _ufo3 = transform.GetChild(6).transform.GetChild(2).GetComponent<SetActiveFalseForChilds>();
     }
 
-    
-    void Update()
-    {
-
-    }
 
     public void AwakeTransformList()
     {
@@ -57,9 +54,12 @@ public class SpawnManager : MonoBehaviour
     {
         for (int i = 0; i < EnemyesToSpawn.Count; i++)
         {
-           Instantiate(EnemyesToSpawn[i], _transformsForSpawn[i].position, Quaternion.identity).transform.SetParent(_enemyContainer.transform);
+            /*Instantiate(EnemyesToSpawn[i], _transformsForSpawn[i].position, Quaternion.identity).transform.SetParent(_enemyContainer.transform);
 
-            SpawnedEnemy.Add(EnemyesToSpawn[i]);
+             SpawnedEnemy.Add(EnemyesToSpawn[i]);*/
+
+            EnemyesToSpawn[i].transform.position = _transformsForSpawn[i].position;
+            EnemyesToSpawn[i].SetActive(true);
             
         }
         
@@ -85,5 +85,12 @@ public class SpawnManager : MonoBehaviour
     public void ClearDestroyedObjectList()
     {
         _destroyerdObjects.Clear();
+    }
+
+    public void DestroyEnemyOnPlayerDeath()
+    {
+        _ufo1.SetActiveFalseToAll();
+        _ufo2.SetActiveFalseToAll();
+        _ufo3.SetActiveFalseToAll();
     }
 }

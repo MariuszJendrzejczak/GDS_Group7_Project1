@@ -155,6 +155,7 @@ public class GameManager : MonoBehaviour
     }
     public void Respawn()
     {
+        SpawnManager.Instance.DestroyEnemyOnPlayerDeath();
         ProgressBar.Instance.AfterRespawnSliderUpdate();
         PlayerDestroy.Instance.Respawn();
         _groundObj.transform.SetPositionAndRotation(new Vector2(_ground, _groundObj.transform.position.y), Quaternion.identity);

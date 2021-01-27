@@ -40,13 +40,13 @@ public class EnemyDestroy : MonoBehaviour
                     break;
             }
             Instantiate(_destroyAnim, transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            this.gameObject.SetActive(false);
         }
         if (collision.tag == "Player")
         {
             PlayerDestroy.Instance.DestroyPlayer();
             Instantiate(_destroyAnim, transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            this.gameObject.SetActive(false);
         }
            
     }

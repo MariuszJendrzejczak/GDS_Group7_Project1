@@ -54,7 +54,6 @@ public class SpawnPoint : MonoBehaviour
                 SpawnManager.Instance.AddToSpawn(toSpawn6);
 
             SpawnManager.Instance.StartSpawn();
-            _collider.enabled = false;
             SpawnManager.Instance.ClearLists();
             
 
