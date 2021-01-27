@@ -18,6 +18,7 @@ public class UIManager : MonoBehaviour
     private Text _yourTime, _avgTime, _topTime, _bounsPoints, _pointLetter;
     private int _topScore = 0;
     public int PlayerScore;
+    private bool _bunusLife1 = false, _bonusLife2 = false;
 
     
 
@@ -54,10 +55,21 @@ public class UIManager : MonoBehaviour
         if (PlayerScore >= 10000)
         {
             _scoreText.text = "" + PlayerScore;
-            GameManager.Instance.AddLive(); // dodać boola
+            if (_bunusLife1 == false)
+            {
+                GameManager.Instance.AddLive();
+                _bunusLife1 = true;
+            }         
+            if (_bonusLife2 == false && PlayerScore >=30000)
+            {
+                GameManager.Instance.AddLive();
+                _bonusLife2 = false;
+            }
+                
+
         }
-        
-            
+
+
 
     }
 

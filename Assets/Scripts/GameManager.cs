@@ -113,7 +113,9 @@ public class GameManager : MonoBehaviour
         if (_playerLives > 0)
         {
             gameState = GameState.playerDead;
-            RespawnPanel();
+            RespawnPanel(); // do usunięcia
+            //Time.timeScale = 0; - dodać po usunięciu RespawnPaneli
+            //Respawn() - dodać
         }
         else
         {
@@ -161,7 +163,7 @@ public class GameManager : MonoBehaviour
         SpawnManager.Instance.RespawnDestroyedObjects();
         SpawnManager.Instance.ClearDestroyedObjectList();
             Time.timeScale = 1;
-        _respawnPanel.SetActive(false);
+        _respawnPanel.SetActive(false); // do usunięcia 
            
     }
     public void BounsPanel()
@@ -189,6 +191,7 @@ public class GameManager : MonoBehaviour
     public void AddLive()
     {
         _playerLives += 1;
+        UIManager.Instance.UpdatePlayerLives(_playerLives);
     }
 
     
