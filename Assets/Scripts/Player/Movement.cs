@@ -57,7 +57,7 @@ public class Movement : MonoBehaviour
  
     void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift) && _jumping == false)
+        if (Input.GetKeyDown(KeyCode.Space) && _jumping == false)
         {
             _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, _jumpForce);
             _jumping = true;
