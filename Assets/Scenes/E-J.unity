@@ -843,6 +843,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3487838024071652153, guid: c018a16dcf226e44d94d4389207f421f,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.1421452
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487838024071652153, guid: c018a16dcf226e44d94d4389207f421f,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.25377136
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487838024071652153, guid: c018a16dcf226e44d94d4389207f421f,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.044747762
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487838024071652153, guid: c018a16dcf226e44d94d4389207f421f,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.008771811
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c018a16dcf226e44d94d4389207f421f, type: 3}
 --- !u!4 &110935157 stripped
@@ -2076,6 +2096,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: "DZIURA ma\u0142a ostra"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086937768407811930, guid: 721aee3b94eaf364eabb88dbd1672fd4,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.1691788
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086937768407811930, guid: 721aee3b94eaf364eabb88dbd1672fd4,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.27655697
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086937768407811930, guid: 721aee3b94eaf364eabb88dbd1672fd4,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.041859157
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086937768407811930, guid: 721aee3b94eaf364eabb88dbd1672fd4,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.012016833
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 721aee3b94eaf364eabb88dbd1672fd4, type: 3}
@@ -9029,22 +9069,22 @@ PrefabInstance:
     - target: {fileID: 6291092601401071636, guid: 277f2c288887fd74588fc47f2fc19785,
         type: 3}
       propertyPath: m_Size.x
-      value: 0.09031953
+      value: 0.092551835
       objectReference: {fileID: 0}
     - target: {fileID: 6291092601401071636, guid: 277f2c288887fd74588fc47f2fc19785,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.15961306
+      value: 0.1635639
       objectReference: {fileID: 0}
     - target: {fileID: 6291092601401071636, guid: 277f2c288887fd74588fc47f2fc19785,
         type: 3}
       propertyPath: m_Offset.x
-      value: 0.024032772
+      value: 0.031104092
       objectReference: {fileID: 0}
     - target: {fileID: 6291092601401071636, guid: 277f2c288887fd74588fc47f2fc19785,
         type: 3}
       propertyPath: m_Offset.y
-      value: 0.0103897825
+      value: 0.008414358
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 277f2c288887fd74588fc47f2fc19785, type: 3}
@@ -9346,6 +9386,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487838024071652153, guid: c018a16dcf226e44d94d4389207f421f,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.12357942
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487838024071652153, guid: c018a16dcf226e44d94d4389207f421f,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.2694536
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487838024071652153, guid: c018a16dcf226e44d94d4389207f421f,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.02804159
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487838024071652153, guid: c018a16dcf226e44d94d4389207f421f,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.0069623366
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c018a16dcf226e44d94d4389207f421f, type: 3}
@@ -14407,6 +14467,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: "DZIURY ma\u0142a okr\u0105g\u0142a"
       objectReference: {fileID: 0}
+    - target: {fileID: 6291092601401071636, guid: 277f2c288887fd74588fc47f2fc19785,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.098508015
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291092601401071636, guid: 277f2c288887fd74588fc47f2fc19785,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.16850246
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291092601401071636, guid: 277f2c288887fd74588fc47f2fc19785,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.046734676
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291092601401071636, guid: 277f2c288887fd74588fc47f2fc19785,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.0010066703
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 277f2c288887fd74588fc47f2fc19785, type: 3}
 --- !u!4 &1871801244 stripped
@@ -14495,6 +14575,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 620050521}
     m_Modifications:
+    - target: {fileID: 1837316687925157455, guid: 4f892bf69c495d94d947f4205eaa010c,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.12513418
+      objectReference: {fileID: 0}
+    - target: {fileID: 1837316687925157455, guid: 4f892bf69c495d94d947f4205eaa010c,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.28122222
+      objectReference: {fileID: 0}
+    - target: {fileID: 1837316687925157455, guid: 4f892bf69c495d94d947f4205eaa010c,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 0.012568317
+      objectReference: {fileID: 0}
+    - target: {fileID: 1837316687925157455, guid: 4f892bf69c495d94d947f4205eaa010c,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.019837292
+      objectReference: {fileID: 0}
     - target: {fileID: 4675921858940200406, guid: 4f892bf69c495d94d947f4205eaa010c,
         type: 3}
       propertyPath: m_RootOrder
@@ -16389,6 +16489,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3487838024071652153, guid: c018a16dcf226e44d94d4389207f421f,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.14214289
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487838024071652153, guid: c018a16dcf226e44d94d4389207f421f,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.25377262
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487838024071652153, guid: c018a16dcf226e44d94d4389207f421f,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.028043665
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487838024071652153, guid: c018a16dcf226e44d94d4389207f421f,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.0063589215
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c018a16dcf226e44d94d4389207f421f, type: 3}
 --- !u!4 &2191329435921247468 stripped
@@ -16831,6 +16951,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 620050521}
     m_Modifications:
+    - target: {fileID: 1837316687925157455, guid: 4f892bf69c495d94d947f4205eaa010c,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.14724731
+      objectReference: {fileID: 0}
+    - target: {fileID: 1837316687925157455, guid: 4f892bf69c495d94d947f4205eaa010c,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.32149982
+      objectReference: {fileID: 0}
+    - target: {fileID: 1837316687925157455, guid: 4f892bf69c495d94d947f4205eaa010c,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 0.019374222
+      objectReference: {fileID: 0}
+    - target: {fileID: 1837316687925157455, guid: 4f892bf69c495d94d947f4205eaa010c,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.011781751
+      objectReference: {fileID: 0}
     - target: {fileID: 4675921858940200406, guid: 4f892bf69c495d94d947f4205eaa010c,
         type: 3}
       propertyPath: m_RootOrder
