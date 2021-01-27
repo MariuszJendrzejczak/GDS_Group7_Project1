@@ -153,7 +153,7 @@ public class GameManager : MonoBehaviour
     }
     public void Respawn()
     {
-
+        ProgressBar.Instance.AfterRespawnSliderUpdate();
         PlayerDestroy.Instance.Respawn();
         _groundObj.transform.SetPositionAndRotation(new Vector2(_ground, _groundObj.transform.position.y), Quaternion.identity);
         _paralax1Obj.transform.SetPositionAndRotation(new Vector2(_paralax1, _paralax1Obj.transform.position.y), Quaternion.identity);

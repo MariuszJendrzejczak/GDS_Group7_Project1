@@ -33,6 +33,7 @@ public class CheckPoint : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         UIManager.Instance.UpdateCheckPointLetter(_checkPointLetter);
+        ProgressBar.Instance.ResetCounter();
 
         if (_isFinal == true)
         {

@@ -18,6 +18,7 @@ public class ProgressBar : MonoBehaviour
     [SerializeField]
     private GameObject _ballA, _ballE, _ballJ, _ballO, _ballT, _ballZ;
     private GameObject _currentBall;
+    private int _counter;
     private void Awake()
     {
         _instance = this;
@@ -64,10 +65,21 @@ public class ProgressBar : MonoBehaviour
     public void SliderUpdate(int value)
     {
         _currentSlider.value += value;
+        _counter += value;
     }
 
     public void ActivateProgressBall()
     {
         _currentBall.SetActive(true);
+    }
+    public void AfterRespawnSliderUpdate()
+    {
+        _currentSlider.value -= _counter;
+        _counter = 0;
+    }
+
+    public void ResetCounter()
+    {
+        _counter = 0;
     }
 }
