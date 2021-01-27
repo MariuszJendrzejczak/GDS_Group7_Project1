@@ -1360,6 +1360,11 @@ PrefabInstance:
       propertyPath: _paralax1Obj
       value: 
       objectReference: {fileID: 577405755}
+    - target: {fileID: 1173355999740988988, guid: 48006a950f615e14588e9d76f43d13ba,
+        type: 3}
+      propertyPath: _checkPointLetter
+      value: J
+      objectReference: {fileID: 0}
     - target: {fileID: 1173355999740988989, guid: 48006a950f615e14588e9d76f43d13ba,
         type: 3}
       propertyPath: m_RootOrder
@@ -8301,6 +8306,11 @@ PrefabInstance:
       propertyPath: _paralax1Obj
       value: 
       objectReference: {fileID: 577405755}
+    - target: {fileID: 1173355999740988988, guid: 48006a950f615e14588e9d76f43d13ba,
+        type: 3}
+      propertyPath: _checkPointLetter
+      value: N
+      objectReference: {fileID: 0}
     - target: {fileID: 1173355999740988989, guid: 48006a950f615e14588e9d76f43d13ba,
         type: 3}
       propertyPath: m_RootOrder
@@ -11392,6 +11402,11 @@ PrefabInstance:
       propertyPath: _paralax1Obj
       value: 
       objectReference: {fileID: 577405755}
+    - target: {fileID: 1173355999740988988, guid: 48006a950f615e14588e9d76f43d13ba,
+        type: 3}
+      propertyPath: _checkPointLetter
+      value: M
+      objectReference: {fileID: 0}
     - target: {fileID: 1173355999740988989, guid: 48006a950f615e14588e9d76f43d13ba,
         type: 3}
       propertyPath: m_RootOrder
@@ -12087,6 +12102,11 @@ PrefabInstance:
       propertyPath: _paralax1Obj
       value: 
       objectReference: {fileID: 577405755}
+    - target: {fileID: 1173355999740988988, guid: 48006a950f615e14588e9d76f43d13ba,
+        type: 3}
+      propertyPath: _checkPointLetter
+      value: L
+      objectReference: {fileID: 0}
     - target: {fileID: 1173355999740988989, guid: 48006a950f615e14588e9d76f43d13ba,
         type: 3}
       propertyPath: m_RootOrder
@@ -13695,6 +13715,11 @@ PrefabInstance:
       propertyPath: _paralax1Obj
       value: 
       objectReference: {fileID: 577405755}
+    - target: {fileID: 1173355999740988988, guid: 48006a950f615e14588e9d76f43d13ba,
+        type: 3}
+      propertyPath: _checkPointLetter
+      value: K
+      objectReference: {fileID: 0}
     - target: {fileID: 1173355999740988989, guid: 48006a950f615e14588e9d76f43d13ba,
         type: 3}
       propertyPath: m_RootOrder
@@ -14550,7 +14575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 785e785aec565af47a93818b437e06e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _type: 0
+  _type: 1
   _highWarning: {fileID: 0}
   _lowWanrning: {fileID: 0}
 --- !u!1 &5470704545434618213

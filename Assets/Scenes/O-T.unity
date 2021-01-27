@@ -415,7 +415,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isFinal: 0
   _ZPoint: 0
-  _checkPointLetter: 
+  _checkPointLetter: S
   _groundObj: {fileID: 1515068946}
   _paralax1Obj: {fileID: 1114549277}
   _paralax2Obj: {fileID: 39260636}
@@ -2346,7 +2346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isFinal: 0
   _ZPoint: 0
-  _checkPointLetter: 
+  _checkPointLetter: O
   _groundObj: {fileID: 1515068946}
   _paralax1Obj: {fileID: 1114549277}
   _paralax2Obj: {fileID: 39260636}
@@ -7136,7 +7136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isFinal: 1
   _ZPoint: 0
-  _checkPointLetter: 
+  _checkPointLetter: T
   _groundObj: {fileID: 1515068946}
   _paralax1Obj: {fileID: 1114549277}
   _paralax2Obj: {fileID: 39260636}
@@ -8800,7 +8800,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isFinal: 0
   _ZPoint: 0
-  _checkPointLetter: 
+  _checkPointLetter: P
   _groundObj: {fileID: 1515068946}
   _paralax1Obj: {fileID: 1114549277}
   _paralax2Obj: {fileID: 39260636}
@@ -10547,7 +10547,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isFinal: 0
   _ZPoint: 0
-  _checkPointLetter: 
+  _checkPointLetter: R
   _groundObj: {fileID: 1515068946}
   _paralax1Obj: {fileID: 1114549277}
   _paralax2Obj: {fileID: 39260636}
@@ -10924,7 +10924,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isFinal: 0
   _ZPoint: 0
-  _checkPointLetter: 
+  _checkPointLetter: Q
   _groundObj: {fileID: 1515068946}
   _paralax1Obj: {fileID: 1114549277}
   _paralax2Obj: {fileID: 39260636}
