@@ -133,7 +133,7 @@ MonoBehaviour:
   _currentList: []
   _target: {x: 0, y: 0}
   _position: {x: 0, y: 0}
-  _step: 0.015
+  _step: 0.017
 --- !u!114 &527292645149212049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,7 +198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _target: {x: 0, y: 2}
-  _step: 0.04
+  _step: 0.017
 --- !u!114 &6731990288729572135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,7 +213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 0}
   _transformLocked: {fileID: 0}
-  _step: 0.04
+  _step: 0.017
 --- !u!114 &2671654178239768232
 MonoBehaviour:
   m_ObjectHideFlags: 0
