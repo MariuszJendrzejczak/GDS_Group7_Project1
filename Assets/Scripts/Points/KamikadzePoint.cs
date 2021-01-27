@@ -13,13 +13,8 @@ public class KamikadzePoint : MonoBehaviour
         if (collision.tag == "Player")
         {
             EnemyStateManager.Instance.mode = EnemyStateManager.Mode.Attack;
-            StartCoroutine(BackToNormal());
+            SpawnManager.Instance.EnemyStateKamikadzePointUpdate();
         }
     }
-    IEnumerator BackToNormal()
-    {
-        yield return new WaitForSeconds(_timeForKamikadze);
-        EnemyStateManager.Instance.mode = EnemyStateManager.Mode.Normal;
-
-    }
+ 
 }

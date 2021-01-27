@@ -123,10 +123,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0.25
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -148,4 +148,4 @@ MonoBehaviour:
   _hole: {fileID: 8220663468575842378, guid: 5313037daca2e3b4491d9b6a5f721d7c, type: 3}
   _x: 0
   _y: -0.1
-  _enviroment: {fileID: 0}
+  _impulse: 0.8

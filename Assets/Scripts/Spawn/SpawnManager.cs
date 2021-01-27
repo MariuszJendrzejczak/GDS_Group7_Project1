@@ -20,7 +20,7 @@ public class SpawnManager : MonoBehaviour
     [SerializeField]
     private GameObject _enemyContainer;
     [SerializeField]
-    private SetActiveFalseForChilds _ufo1, _ufo2, _ufo3;
+    private GameObject _ufo1, _ufo2, _ufo3;
 
     private void Awake()
     {
@@ -30,9 +30,9 @@ public class SpawnManager : MonoBehaviour
 
     private void Start()
     {
-        _ufo1 = transform.GetChild(6).transform.GetChild(0).GetComponent<SetActiveFalseForChilds>();
-        _ufo2 = transform.GetChild(6).transform.GetChild(1).GetComponent<SetActiveFalseForChilds>();
-        _ufo3 = transform.GetChild(6).transform.GetChild(2).GetComponent<SetActiveFalseForChilds>();
+        _ufo1 = transform.GetChild(6).transform.GetChild(0).gameObject;
+        _ufo2 = transform.GetChild(6).transform.GetChild(1).gameObject;
+        _ufo3 = transform.GetChild(6).transform.GetChild(2).gameObject;
     }
 
 
@@ -62,7 +62,22 @@ public class SpawnManager : MonoBehaviour
             EnemyesToSpawn[i].SetActive(true);
             
         }
-        
+        EnemyStateUpdateNormal();
+
+    }
+    
+    public void EnemyStateUpdateNormal()
+    {
+        _ufo1.GetComponent<NewEnemyStateManager>().StateUptadeNormal();
+        _ufo2.GetComponent<NewEnemyStateManager>().StateUptadeNormal();
+        _ufo3.GetComponent<NewEnemyStateManager>().StateUptadeNormal();
+    }
+
+    public void EnemyStateKamikadzePointUpdate()
+    {
+        _ufo1.GetComponent<NewEnemyStateManager>().KamikadzeAndFlyOutStateActivation();
+        _ufo2.GetComponent<NewEnemyStateManager>().FlyOutStateOnly();
+        _ufo3.GetComponent<NewEnemyStateManager>().KamikadzeAndFlyOutStateActivation();
     }
 
     public void ClearLists()
@@ -89,8 +104,8 @@ public class SpawnManager : MonoBehaviour
 
     public void DestroyEnemyOnPlayerDeath()
     {
-        _ufo1.SetActiveFalseToAll();
-        _ufo2.SetActiveFalseToAll();
-        _ufo3.SetActiveFalseToAll();
+        _ufo1.GetComponent<SetActiveFalseForChilds>().SetActiveFalseToAll();
+        _ufo2.GetComponent<SetActiveFalseForChilds>().SetActiveFalseToAll();
+        _ufo3.GetComponent<SetActiveFalseForChilds>().SetActiveFalseToAll();
     }
 }
