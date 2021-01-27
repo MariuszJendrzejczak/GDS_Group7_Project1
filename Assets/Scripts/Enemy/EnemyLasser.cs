@@ -9,20 +9,25 @@ public class EnemyLasser : MonoBehaviour
     private LasserType _type;
     [SerializeField]
     private GameObject _hole;
-    [SerializeField]
-    private float _x, _y;
-    [SerializeField]
+    [SerializeField][Tooltip("x i y ofset dla spawnowania dziury. Impuls oznacza siłę odrzutu pocisku w prawo/lewo w momencie wystrzału")]
+    private float _x, _y, _impulse;
     private GameObject _enviroment;
-
+    private Transform _carBody;
 
     private Rigidbody2D _rigidbody;
     [SerializeField]
     void Start()
     {
-
-        _rigidbody = GetComponent<Rigidbody2D>();
-        _rigidbody.AddForce(Vector2.left, ForceMode2D.Impulse);
         _enviroment = GameObject.Find("Enviroment");
+        _carBody = GameObject.Find("PlayerCarVer.03(Clone)").transform.GetChild(0).transform;
+        _rigidbody = GetComponent<Rigidbody2D>();
+
+        if (transform.position.x > _carBody.position.x)
+            _rigidbody.AddForce(Vector2.left * _impulse, ForceMode2D.Impulse);
+        if (transform.position.x <= _carBody.position.x)
+            _rigidbody.AddForce(Vector2.right * _impulse, ForceMode2D.Impulse);
+        
+        
 
     }
     private void OnTriggerEnter2D(Collider2D collision)

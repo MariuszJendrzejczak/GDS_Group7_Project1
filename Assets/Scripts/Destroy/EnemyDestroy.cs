@@ -23,6 +23,8 @@ public class EnemyDestroy : MonoBehaviour
         
     }
 
+
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Lasser")
@@ -41,6 +43,8 @@ public class EnemyDestroy : MonoBehaviour
             }
             Instantiate(_destroyAnim, transform.position, Quaternion.identity);
             this.gameObject.SetActive(false);
+            SpawnManager.Instance.EnemyStateUpdateNormal();
+
         }
         if (collision.tag == "Player")
         {
