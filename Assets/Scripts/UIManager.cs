@@ -17,7 +17,7 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     private Text _yourTime, _avgTime, _topTime, _bounsPoints;
     private int _topScore = 0;
-    public int PlayerScore { get; set; }
+    public int PlayerScore;
 
     
 

@@ -423,6 +423,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mina (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_RootOrder
@@ -1270,6 +1280,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mina
       objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_RootOrder
@@ -1351,6 +1371,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mina (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_RootOrder
@@ -1425,6 +1455,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mina (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
@@ -1730,6 +1770,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mina
       objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_RootOrder
@@ -1953,6 +2003,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mina (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_RootOrder
@@ -2109,6 +2169,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mina
       objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_RootOrder
@@ -2229,6 +2299,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mina (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_RootOrder
@@ -2303,6 +2383,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mina
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
@@ -2458,6 +2548,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mina (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
@@ -2676,6 +2776,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mina
       objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_RootOrder
@@ -2862,6 +2972,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mina (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_RootOrder
@@ -2942,6 +3062,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mina (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
@@ -3091,6 +3221,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mina
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
@@ -4235,6 +4375,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mina (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_RootOrder
@@ -4472,6 +4622,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mina (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
@@ -4767,6 +4927,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mina (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_RootOrder
@@ -4912,6 +5082,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mina (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
@@ -5136,6 +5316,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mina (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_RootOrder
@@ -5211,6 +5401,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mina (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_RootOrder
@@ -5285,6 +5485,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mina (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
@@ -5549,6 +5759,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mina (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_RootOrder
@@ -5623,6 +5843,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mina (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
@@ -5908,6 +6138,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mina (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
@@ -6222,7 +6462,7 @@ GameObject:
   - component: {fileID: 1346231559}
   m_Layer: 0
   m_Name: Miny
-  m_TagString: Untagged
+  m_TagString: Rock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7290,6 +7530,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mina
       objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_RootOrder
@@ -7568,6 +7818,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mina (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_RootOrder
@@ -7642,6 +7902,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mina (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
@@ -8161,6 +8431,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mina (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
@@ -8982,6 +9262,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mina (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_RootOrder
@@ -9057,6 +9347,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mina (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_RootOrder
@@ -9131,6 +9431,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mina (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
@@ -9348,6 +9658,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mina (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_RootOrder
@@ -9422,6 +9742,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mina (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
@@ -9852,6 +10182,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mina
       objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_RootOrder
@@ -9926,6 +10266,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mina
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
@@ -10152,6 +10502,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mina
       objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
+      objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_RootOrder
@@ -10300,6 +10660,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mina
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
@@ -10502,6 +10872,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mina
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
@@ -10873,6 +11253,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mina
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 4178582984742486194, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}

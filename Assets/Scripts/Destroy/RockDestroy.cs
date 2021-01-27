@@ -7,7 +7,7 @@ public class RockDestroy : MonoBehaviour
     private enum ScoreType { small, medium, big}
     [SerializeField] private ScoreType _scoreType;
     [SerializeField]
-    private int _smallDst, _mediumDst, _bigDst, _smallJump, _medJump, _bigJump;
+    private int _smallDst, _mediumDst, _bigDst;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -16,6 +16,7 @@ public class RockDestroy : MonoBehaviour
             PlayerDestroy.Instance.DestroyPlayer();
             SpawnManager.Instance.AddDestroyerObjToList(this.gameObject);
             gameObject.SetActive(false);
+            Debug.Log("Colision with Player");
             
         }
         if (collision.tag == "Lasser")
