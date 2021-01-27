@@ -6949,6 +6949,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: "DZIURY ma\u0142a okr\u0105g\u0142a"
       objectReference: {fileID: 0}
+    - target: {fileID: 6291092601401071636, guid: 277f2c288887fd74588fc47f2fc19785,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.09031953
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291092601401071636, guid: 277f2c288887fd74588fc47f2fc19785,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.15961306
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291092601401071636, guid: 277f2c288887fd74588fc47f2fc19785,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.024032772
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291092601401071636, guid: 277f2c288887fd74588fc47f2fc19785,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.0103897825
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 277f2c288887fd74588fc47f2fc19785, type: 3}
 --- !u!4 &1234140627 stripped
