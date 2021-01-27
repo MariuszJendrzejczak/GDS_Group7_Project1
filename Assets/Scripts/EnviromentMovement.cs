@@ -8,27 +8,53 @@ public class EnviromentMovement : MonoBehaviour
     private float _minSpeed, _speed = 0.98f, _maxSpeed;
     [SerializeField] [Tooltip("Wartość procentowa zapisana w ułamku dziesiętnym. Skrypt automatycznie przypiszę wartości min i max zmodyfikowane przez tę wartość")]
     private float _adjustmentValue;
+    private enum Leyer { Ground, Other}
+    [SerializeField]
+    private Leyer _leyer;
+    [SerializeField]
+    public Vector2 moving;
   
     void Start()
     {
         _minSpeed = _speed * (1f - _adjustmentValue);
         _maxSpeed = _speed * (1f + _adjustmentValue);
+        moving = Vector2.left;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.D))
+        if (_leyer == Leyer.Other)
         {
-            transform.Translate(Vector2.left * _maxSpeed * Time.deltaTime);
+            if (Input.GetKey(KeyCode.D))
+            {
+                transform.Translate(Vector2.left * _maxSpeed * Time.deltaTime);
+            }
+            else if (Input.GetKey(KeyCode.A))
+            {
+                transform.Translate(Vector2.left * _minSpeed * Time.deltaTime);
+            }
+            else
+            {
+                transform.Translate(Vector2.left * _speed * Time.deltaTime);
+            }
         }
-        else if (Input.GetKey(KeyCode.A))
+       
+
+        if (_leyer == Leyer.Ground)
         {
-            transform.Translate(Vector2.left * _minSpeed * Time.deltaTime);
-        }
-        else
-        {
-            transform.Translate(Vector2.left * _speed * Time.deltaTime);
+            if (Input.GetKey(KeyCode.D))
+            {
+                transform.Translate(moving * _maxSpeed * Time.deltaTime);
+            }
+            else if (Input.GetKey(KeyCode.A))
+            {
+                transform.Translate(moving * _minSpeed * Time.deltaTime);
+            }
+            else
+            {
+                transform.Translate(moving * _speed * Time.deltaTime);
+            }
         }
         
     }

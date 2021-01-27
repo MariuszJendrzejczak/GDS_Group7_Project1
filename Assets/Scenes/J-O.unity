@@ -690,6 +690,7 @@ GameObject:
   m_Component:
   - component: {fileID: 101161878}
   - component: {fileID: 101161879}
+  - component: {fileID: 101161880}
   m_Layer: 0
   m_Name: Ufo3
   m_TagString: Untagged
@@ -733,6 +734,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59dfecf69ca55f842a29815ae812282d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &101161880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101161877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321c130c7228bbd489c97b0d6b7f7fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemyList: []
 --- !u!4 &107552606 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
@@ -1338,6 +1352,8 @@ MonoBehaviour:
   _speed: 0.98
   _maxSpeed: 0
   _adjustmentValue: 0
+  _leyer: 0
+  moving: {x: 0, y: 0}
 --- !u!1001 &265534917
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2488,6 +2504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 447689064}
   - component: {fileID: 447689065}
+  - component: {fileID: 447689066}
   m_Layer: 0
   m_Name: Ufo1
   m_TagString: Untagged
@@ -2531,6 +2548,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59dfecf69ca55f842a29815ae812282d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &447689066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447689063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321c130c7228bbd489c97b0d6b7f7fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemyList: []
 --- !u!1001 &448002576
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7893,6 +7923,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1194218171}
   - component: {fileID: 1194218172}
+  - component: {fileID: 1194218173}
   m_Layer: 0
   m_Name: Ufo2
   m_TagString: Untagged
@@ -7936,6 +7967,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59dfecf69ca55f842a29815ae812282d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1194218173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194218170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321c130c7228bbd489c97b0d6b7f7fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemyList: []
 --- !u!4 &1223004546 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6563905245537927252, guid: 2548a33598bbcb14c96b187bb8b5c54d,
@@ -8240,7 +8284,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1289294870}
-  - component: {fileID: 1289294869}
   m_Layer: 0
   m_Name: EnemyContainer
   m_TagString: Untagged
@@ -8248,25 +8291,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1289294869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1289294868}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9f4dbf1ca1b57d479e3b32ca64e83d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _enemy0: {fileID: 0}
-  _enemy1: {fileID: 0}
-  _enemy2: {fileID: 0}
-  _enemy3: {fileID: 0}
-  _enemy4: {fileID: 0}
-  _enemy5: {fileID: 0}
-  mode: 0
 --- !u!4 &1289294870
 Transform:
   m_ObjectHideFlags: 0
@@ -9899,7 +9923,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283855ca360a1fe4db81c768ffca6e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timeForKamikadze: 0
+  _ufoType: 0
 --- !u!60 &1455908807
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -12733,7 +12757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283855ca360a1fe4db81c768ffca6e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timeForKamikadze: 0
+  _ufoType: 0
 --- !u!60 &1934679220
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -13439,7 +13463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283855ca360a1fe4db81c768ffca6e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timeForKamikadze: 0
+  _ufoType: 0
 --- !u!60 &2052286821
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -14479,7 +14503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283855ca360a1fe4db81c768ffca6e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timeForKamikadze: 0
+  _ufoType: 0
 --- !u!60 &935566348394747567
 PolygonCollider2D:
   m_ObjectHideFlags: 0

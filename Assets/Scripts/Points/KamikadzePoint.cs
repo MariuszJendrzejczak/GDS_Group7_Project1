@@ -12,7 +12,6 @@ public class KamikadzePoint : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            EnemyStateManager.Instance.mode = EnemyStateManager.Mode.Attack;
             switch (_ufoType)
             {
                 case UfoType.Ufo1:
