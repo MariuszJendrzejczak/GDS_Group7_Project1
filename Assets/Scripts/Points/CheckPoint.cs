@@ -11,7 +11,7 @@ public class CheckPoint : MonoBehaviour
     private string _checkPointLetter;
 
     private Transform _groundLayer, _paralax1Layer, _paralax2Layer;
-    private float _ground, _paralax1, _paralax2;
+    private float _ground, _paralax1, _paralax2, _groundY, _paralax1Y, _paralax2Y;
     [SerializeField]
     private Transform _groundObj, _paralax1Obj, _paralax2Obj;
 
@@ -53,10 +53,16 @@ public class CheckPoint : MonoBehaviour
         if (collision.tag == "Player")
         {
             _ground = _groundObj.transform.position.x;
+            _groundY = _groundObj.transform.position.y;
             _paralax1 = _paralax1Obj.transform.position.x;
+            _paralax1Y = _paralax1Obj.transform.position.y;
             if (_paralax2 != null)
+            {
                 _paralax2 = _paralax2Obj.transform.position.x;
-            GameManager.Instance.CheckPointUpdate(_ground, _paralax1, _paralax2);
+                _paralax2Y = _paralax2Obj.transform.position.y;
+            }
+                
+            GameManager.Instance.CheckPointUpdate(_ground, _paralax1, _paralax2, _groundY, _paralax1Y, _paralax2Y);
             SpawnManager.Instance.ClearDestroyedObjectList();
             AudioManager.Instanse.AudioMiddlePoint();
             

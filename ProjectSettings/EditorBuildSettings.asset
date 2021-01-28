@@ -17,10 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/J-O.unity
     guid: 9348f46f49e7a3143bc8d0e7b7276334
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/O-T.unity
     guid: 8ea82f3f3437efb448bd4a8222efe1c9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/T-Z.unity
     guid: b69fa46e614fd0d4c87a2d63182ad286
   - enabled: 1

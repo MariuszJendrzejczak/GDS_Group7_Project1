@@ -10,8 +10,8 @@ public class GameManager : MonoBehaviour
     {
         get { return _instance; }
     }
-
-    private float _ground, _paralax1, _paralax2;
+    [SerializeField]
+    private float _ground, _paralax1, _paralax2, _groundY, _paralax1Y, _paralax2Y;
     [SerializeField]
     private GameObject _groundObj, _paralax1Obj, _paralax2Obj;
     public GameObject PlayerCar;
@@ -37,9 +37,6 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
 
-       // _groundObj = GameObject.Find("Enviroment").transform.GetChild(0).gameObject;
-       // _paralax1Obj = GameObject.Find("Enviroment").transform.GetChild(1).gameObject;
-       // _paralax2Obj = GameObject.Find("Enviroment").transform.GetChild(2).gameObject;
     }
     private void Update()
     {
@@ -91,11 +88,11 @@ public class GameManager : MonoBehaviour
         UIManager.Instance.UpdateTimer(inttimer);
     }
 
-    public void CheckPointUpdate(float ground, float paralax1,float paralax2 )
+    public void CheckPointUpdate(float ground, float paralax1,float paralax2, float groundY, float paralax1Y, float paralax2Y )
     {
-        _ground = ground;
-        _paralax1 = paralax1;
-        _paralax2 = paralax2;
+        _ground = ground; _groundY = groundY;
+        _paralax1 = paralax1; _paralax1Y = paralax1;
+        _paralax2 = paralax2; _paralax2Y = paralax2;
     }
   
 
@@ -176,7 +173,7 @@ public class GameManager : MonoBehaviour
         SpawnManager.Instance.DestroyEnemyOnPlayerDeath();
         ProgressBar.Instance.AfterRespawnSliderUpdate();
         PlayerDestroy.Instance.Respawn();
-        _groundObj.transform.SetPositionAndRotation(new Vector2(_ground, _groundObj.transform.position.y), Quaternion.identity);
+        _groundObj.transform.SetPositionAndRotation(new Vector2(_ground, _groundY), Quaternion.identity);
         _paralax1Obj.transform.SetPositionAndRotation(new Vector2(_paralax1, _paralax1Obj.transform.position.y), Quaternion.identity);
         _paralax2Obj.transform.SetPositionAndRotation(new Vector2(_paralax2, _paralax2Obj.transform.position.y), Quaternion.identity);
         SpawnManager.Instance.RespawnDestroyedObjects();
