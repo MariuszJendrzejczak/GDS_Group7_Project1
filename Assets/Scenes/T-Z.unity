@@ -15401,6 +15401,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckPoint O
       objectReference: {fileID: 0}
+    - target: {fileID: 1173355999740988978, guid: 48006a950f615e14588e9d76f43d13ba,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1173355999740988988, guid: 48006a950f615e14588e9d76f43d13ba,
         type: 3}
       propertyPath: _groundObj
@@ -15434,7 +15439,7 @@ PrefabInstance:
     - target: {fileID: 1173355999740988989, guid: 48006a950f615e14588e9d76f43d13ba,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.1070004
+      value: -2.342
       objectReference: {fileID: 0}
     - target: {fileID: 1173355999740988989, guid: 48006a950f615e14588e9d76f43d13ba,
         type: 3}
