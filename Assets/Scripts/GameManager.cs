@@ -23,6 +23,8 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private bool _unlimitedLives = false;
     public float Timer { get; set; }
+    [SerializeField]
+    private AudioSource _music;
 
     
     private void Awake()
@@ -46,6 +48,24 @@ public class GameManager : MonoBehaviour
         GameTimer();
 
         _sceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
+        }
+        if (Input.GetKeyDown(KeyCode.O))
+            _music.volume += 0.1f;
+        if (Input.GetKeyDown(KeyCode.I))
+            _music.volume -= 0.1f;
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            if (_music.mute == true)
+                _music.mute = false;
+            else if (_music.mute == false)
+                _music.mute = true;
+        }
+            
+        
 
     }
 
@@ -184,8 +204,6 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
         Timer = 0;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-
-
     }
 
     public void AddLive()
@@ -193,8 +211,5 @@ public class GameManager : MonoBehaviour
         _playerLives += 1;
         UIManager.Instance.UpdatePlayerLives(_playerLives);
     }
-
-    
-
-   
+ 
 }
