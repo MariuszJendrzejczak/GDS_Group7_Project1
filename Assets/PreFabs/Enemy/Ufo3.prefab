@@ -131,7 +131,7 @@ MonoBehaviour:
   _currentList: []
   _target: {x: 0, y: 0}
   _position: {x: 0, y: 0}
-  _step: 0.017
+  _step: 0.015
 --- !u!61 &2376292537406311057
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -222,8 +222,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _target: {fileID: 0}
-  _transformLocked: {fileID: 0}
-  _step: 0.017
+  _transformLocked: {x: 0, y: 0}
+  _step: 0.015
 --- !u!114 &1248842953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,7 +237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _target: {x: 0, y: 2}
-  _step: 0.017
+  _step: 0.015
 --- !u!114 &1248842954
 MonoBehaviour:
   m_ObjectHideFlags: 0
