@@ -7020,7 +7020,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283855ca360a1fe4db81c768ffca6e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ufoType: 0
+  _ufoType: 1
 --- !u!60 &421484121
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -11240,7 +11240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283855ca360a1fe4db81c768ffca6e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ufoType: 0
+  _ufoType: 2
 --- !u!60 &701958996
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -25967,7 +25967,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283855ca360a1fe4db81c768ffca6e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ufoType: 0
+  _ufoType: 1
 --- !u!60 &1786763341
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -29363,7 +29363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 283855ca360a1fe4db81c768ffca6e5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ufoType: 0
+  _ufoType: 2
 --- !u!60 &2001397837
 PolygonCollider2D:
   m_ObjectHideFlags: 0
