@@ -853,7 +853,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 50069686}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -968,6 +968,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Tik
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927255, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -1503,6 +1508,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Tik
       objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927255, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
 --- !u!4 &161873069 stripped
@@ -1924,6 +1934,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Tik
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927255, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -2608,7 +2623,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 349173534}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -3442,6 +3457,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Tik
       objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927255, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
 --- !u!4 &441513524 stripped
@@ -3787,7 +3807,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 460191715}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -3999,6 +4019,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Tik
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927255, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -5774,6 +5799,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Tik
       objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927255, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
 --- !u!4 &682367446 stripped
@@ -5951,7 +5981,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 688586917}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -6144,6 +6174,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Tik
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927255, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -6461,6 +6496,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Tik
       objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927255, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
 --- !u!4 &757002968 stripped
@@ -6540,6 +6580,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Tik
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927255, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -6896,7 +6941,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 782482694}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8729,6 +8774,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Tik
       objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927255, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
 --- !u!4 &1033859032 stripped
@@ -9005,7 +9055,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082357083}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9218,6 +9268,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Tik
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927255, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -10466,6 +10521,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Tik
       objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927255, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
 --- !u!4 &1202966759 stripped
@@ -11475,7 +11535,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1297790389}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -12272,6 +12332,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Tik
       objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927255, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
 --- !u!4 &1359510402 stripped
@@ -12523,6 +12588,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Tik
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927255, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -13088,6 +13158,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Tik
       objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927255, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
 --- !u!4 &1440261802 stripped
@@ -13292,6 +13367,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Tik
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927255, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -13670,7 +13750,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488972186}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -14237,6 +14317,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Tik
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927255, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -16629,7 +16714,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1760633417}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -16968,6 +17053,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Tik
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927255, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -18306,6 +18396,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Tik
       objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927255, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
 --- !u!4 &1900098332 stripped
@@ -18628,6 +18723,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Tik
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927255, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -18976,6 +19076,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Tik
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927255, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
@@ -19378,7 +19483,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1985635476}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -19630,6 +19735,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Tik
       objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927255, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
 --- !u!4 &1993496370 stripped
@@ -19810,7 +19920,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2056697356}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -20571,6 +20681,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Tik
       objectReference: {fileID: 0}
+    - target: {fileID: 6563905245537927255, guid: 2548a33598bbcb14c96b187bb8b5c54d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2548a33598bbcb14c96b187bb8b5c54d, type: 3}
 --- !u!4 &2105728654 stripped
@@ -20683,7 +20798,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 854889225649572379}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
