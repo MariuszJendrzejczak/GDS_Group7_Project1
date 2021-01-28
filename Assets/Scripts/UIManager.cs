@@ -15,7 +15,7 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     private Text _scoreText, _topScoreText, _lives, _timer;
     [SerializeField]
-    private Text _yourTime, _avgTime, _topTime, _bounsPoints, _pointLetter;
+    private Text _yourTime, _avgTime, _topTime, _bounsPoints, _pointLetter, _bonusPanelText;
     private int _topScore = 0;
     public int PlayerScore;
     private bool _bunusLife1 = false, _bonusLife2 = false;
@@ -41,8 +41,6 @@ public class UIManager : MonoBehaviour
         
     }
 
-   
-
     public void UpdatePlayerScore(int value)
     {
         PlayerScore += value;
@@ -64,13 +62,8 @@ public class UIManager : MonoBehaviour
             {
                 GameManager.Instance.AddLive();
                 _bonusLife2 = false;
-            }
-                
-
+            }             
         }
-
-
-
     }
 
     private void UpdateTopScore(int value)
@@ -115,6 +108,7 @@ public class UIManager : MonoBehaviour
     public void UpdateCheckPointLetter(string value)
     {
         _pointLetter.text = value;
+        _bonusPanelText.text = value;
     }
 
     

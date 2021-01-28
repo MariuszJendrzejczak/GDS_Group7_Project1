@@ -5,7 +5,9 @@ using UnityEngine;
 public class EnemyKamikadze : MonoBehaviour
 {
     [SerializeField]
-    private Transform _target, _transformLocked;
+    private Transform _target;
+    [SerializeField]
+    private Vector2 _transformLocked;
     [SerializeField]
     [Tooltip("Prękość poruszania się przeciwnika w jednostkach unity na frame. Dlatego wartość jest tak niska. Zalecam Operować między wartościami 0.01 do 0.06")]
     private float _step = 0.04f;
@@ -19,13 +21,13 @@ public class EnemyKamikadze : MonoBehaviour
     {
         if (_targetLocked == false)
         {
-            _transformLocked = _target;
+            _transformLocked = _target.position;
             _targetLocked = true;
         }
 
-        transform.position = Vector2.MoveTowards(transform.position, _transformLocked.position, _step);
+        transform.position = Vector2.MoveTowards(transform.position, _transformLocked, _step);
        
-        if (transform == _transformLocked)
+        if ((Vector2)transform.position == _transformLocked)
         {
             Destroy(this.gameObject);
         }

@@ -32,7 +32,8 @@ public class Bonus : MonoBehaviour
             case 1:
                 if (GameManager.Instance.Timer < _time1)
                 {
-                    currentBonus = (_time1 - (int)GameManager.Instance.Timer) * 100 + 1000;
+                    currentBonus = (_time1 - (int)GameManager.Instance.Timer) * 100;
+                    currentBonus += 1000;
                     UIManager.Instance.UpdatePlayerScore(currentBonus);
                     if (top1 < GameManager.Instance.Timer)
                     {
@@ -50,7 +51,8 @@ public class Bonus : MonoBehaviour
             case 2:
                 if (GameManager.Instance.Timer < _time2)
                 {
-                    currentBonus = (_time2 - (int)GameManager.Instance.Timer) * 100 + 1000;
+                    currentBonus = (_time2 - (int)GameManager.Instance.Timer) * 100;
+                    currentBonus += 1000;
                     UIManager.Instance.UpdatePlayerScore(currentBonus);
                     if (top2 < GameManager.Instance.Timer)
                     {
@@ -69,7 +71,8 @@ public class Bonus : MonoBehaviour
             case 3:
                 if (GameManager.Instance.Timer < _time3)
                 {
-                    currentBonus = (_time3 - (int)GameManager.Instance.Timer) * 100 + 1000;
+                    currentBonus = (_time3 - (int)GameManager.Instance.Timer) * 100;
+                    currentBonus += 1000;
                     UIManager.Instance.UpdatePlayerScore(currentBonus);
                     if (top3 < GameManager.Instance.Timer)
                     {
@@ -87,7 +90,8 @@ public class Bonus : MonoBehaviour
             case 4:
                 if (GameManager.Instance.Timer < _time4)
                 {
-                    currentBonus = (_time4 - (int)GameManager.Instance.Timer) * 100 + 1000;
+                    currentBonus = (_time4 - (int)GameManager.Instance.Timer) * 100;
+                    currentBonus += 1000;
                     UIManager.Instance.UpdatePlayerScore(currentBonus);
                     if (top4 < GameManager.Instance.Timer)
                     {
@@ -105,7 +109,8 @@ public class Bonus : MonoBehaviour
             case 5:
                 if (GameManager.Instance.Timer < _time5)
                 {
-                    currentBonus = (_time5 - (int)GameManager.Instance.Timer) * 100 + 5000;
+                    currentBonus = (_time5 - (int)GameManager.Instance.Timer) * 100;
+                    currentBonus += 5000;
                     UIManager.Instance.UpdatePlayerScore(currentBonus);
                     if (top5 < GameManager.Instance.Timer)
                     {
