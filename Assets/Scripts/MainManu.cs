@@ -7,7 +7,7 @@ public class MainManu : MonoBehaviour
 {
 
     [SerializeField]
-    private GameObject _creditsPanel;
+    private GameObject _creditsPanel, _controls;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,5 +33,15 @@ public class MainManu : MonoBehaviour
     public void HideCredits()
     {
         _creditsPanel.SetActive(false);
+    }
+
+    public void ShowControls()
+    {
+        _controls.SetActive(true);
+    }
+
+    public void HideControls()
+    {
+        _controls.SetActive(false);
     }
 }
