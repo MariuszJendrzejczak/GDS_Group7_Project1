@@ -44,4 +44,9 @@ public class MainManu : MonoBehaviour
     {
         _controls.SetActive(false);
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }
