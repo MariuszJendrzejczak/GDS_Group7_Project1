@@ -161,6 +161,7 @@ public class GameManager : MonoBehaviour
         _paralax2Obj.transform.SetPositionAndRotation(new Vector2(_paralax2, _paralax2Obj.transform.position.y), Quaternion.identity);
         SpawnManager.Instance.RespawnDestroyedObjects();
         SpawnManager.Instance.ClearDestroyedObjectList();
+        SetActiceFalseForAllChildren.Instance.SetAllChildrenActiveFalse();
             Time.timeScale = 1;
         _respawnPanel.SetActive(false); // do usunięcia 
            

@@ -54,7 +54,7 @@ public class EnemyLasser : MonoBehaviour
             }
             if(_type == LasserType.holeMaker)
             {
-                Instantiate(_hole, (Vector2)transform.position + new Vector2(_x, _y), Quaternion.identity).transform.SetParent(_enviroment.transform.GetChild(0));
+                Instantiate(_hole, (Vector2)transform.position + new Vector2(_x, _y), Quaternion.identity).transform.SetParent(_enviroment.transform.GetChild(0).transform.GetChild(0));
                 Destroy(this.gameObject);
             } 
         }
