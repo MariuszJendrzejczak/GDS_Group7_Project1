@@ -18,17 +18,12 @@ public class PlayerDestroy : MonoBehaviour
     private void Awake()
     {
         _instance = this;
-        _carExplosion = transform.GetChild(0).transform.GetChild(0).gameObject;
-        _carExplosion.SetActive(false);
     }
 
     public void DestroyPlayer()
     {
         AudioManager.Instanse.AudioCarDestroy();
-        var explosion = transform.GetChild(0).transform.GetChild(0).gameObject;
-        explosion.SetActive(true);
-        explosion.transform.SetParent(GameObject.Find("Enviroment").transform.GetChild(0));
-        explosion.GetComponent<CarExplosion>().CarExplodionAnim();
+        Instantiate(_carExplosion, transform.GetChild(0).transform.position, Quaternion.identity).transform.SetParent(GameObject.Find("Enviroment").transform.GetChild(0));
         gameObject.SetActive(false); 
 
     }
@@ -39,9 +34,7 @@ public class PlayerDestroy : MonoBehaviour
         {
            transform.GetChild(i).GetComponent<RespawnMe>().RespawnToStartPos();
         }
-        _carExplosion.transform.SetParent(transform.GetChild(0));
-        _carExplosion.transform.position = transform.GetChild(0).transform.position;
-        _carExplosion.SetActive(false);
+
 
     }
 
