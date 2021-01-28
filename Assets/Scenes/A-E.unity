@@ -4496,6 +4496,7 @@ MonoBehaviour:
   _topTime: {fileID: 1850287473}
   _bounsPoints: {fileID: 1937059645}
   _pointLetter: {fileID: 1104147008}
+  _bonusPanelText: {fileID: 986077586}
   PlayerScore: 0
 --- !u!114 &208341947
 MonoBehaviour:
@@ -21773,7 +21774,7 @@ GameObject:
   - component: {fileID: 986077587}
   - component: {fileID: 986077586}
   m_Layer: 5
-  m_Name: Text
+  m_Name: BonusPanelLetter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
