@@ -56,9 +56,11 @@ public class EnemyLasser : MonoBehaviour
             {
                 Instantiate(_hole, (Vector2)transform.position + new Vector2(_x, _y), Quaternion.identity).transform.SetParent(_enviroment.transform.GetChild(0));
                 Destroy(this.gameObject);
-            }
-
-            
+            } 
+        }
+        if (collision.tag == "Lasser")
+        {
+            Destroy(this.gameObject);
         }
     }
 

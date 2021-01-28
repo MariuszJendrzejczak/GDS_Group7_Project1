@@ -10,6 +10,5 @@ public class NewSceneRespawn : MonoBehaviour
     private void Awake()
     {
         Instantiate(_playerCar, new Vector2(-0.547f, 0.099f), Quaternion.identity);
-        Debug.Log("Jestem");
     }
 }
