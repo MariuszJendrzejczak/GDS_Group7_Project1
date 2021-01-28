@@ -12,19 +12,23 @@ public class PlayerDestroy : MonoBehaviour
 
     [SerializeField]
     private GameObject _carExplosion;
-    [SerializeField]
-    private Transform _bodyTransform;
+
+
 
     private void Awake()
     {
         _instance = this;
+        _carExplosion = transform.GetChild(0).transform.GetChild(0).gameObject;
+        _carExplosion.SetActive(false);
     }
 
     public void DestroyPlayer()
     {
-         AudioManager.Instanse.AudioCarDestroy();
-         //Instantiate(_carExplosion, _bodyTransform.position, Quaternion.identity).transform.SetParent(GameObject.Find("Enviroment").transform.GetChild(0).transform);
-        GameManager.Instance.PlayerDestroyerd();
+        AudioManager.Instanse.AudioCarDestroy();
+        var explosion = transform.GetChild(0).transform.GetChild(0).gameObject;
+        explosion.SetActive(true);
+        explosion.transform.SetParent(GameObject.Find("Enviroment").transform.GetChild(0));
+        explosion.GetComponent<CarExplosion>().CarExplodionAnim();
         gameObject.SetActive(false); 
 
     }
@@ -35,7 +39,10 @@ public class PlayerDestroy : MonoBehaviour
         {
            transform.GetChild(i).GetComponent<RespawnMe>().RespawnToStartPos();
         }
-        
+        _carExplosion.transform.SetParent(transform.GetChild(0));
+        _carExplosion.transform.position = transform.GetChild(0).transform.position;
+        _carExplosion.SetActive(false);
+
     }
 
 
