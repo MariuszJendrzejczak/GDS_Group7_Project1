@@ -5,10 +5,15 @@ using UnityEngine;
 public class AnimateAndDestroy : MonoBehaviour
 {
     private Animator _animator;
+    [SerializeField]
+    private bool _withSound;
+
 
     void Start()
     {
         _animator = GetComponent<Animator>();
+        if (_withSound)
+            AudioManager.Instanse.DestroyUfo();
         StartCoroutine(AnimateMe());
     }
 

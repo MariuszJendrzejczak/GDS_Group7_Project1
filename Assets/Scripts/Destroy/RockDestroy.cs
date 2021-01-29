@@ -10,6 +10,9 @@ public class RockDestroy : MonoBehaviour
     private int _smallDst, _mediumDst, _bigDst;
     [SerializeField]
     private bool _isMine = false;
+    [SerializeField]
+    private GameObject _destroyAnim;
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -17,8 +20,9 @@ public class RockDestroy : MonoBehaviour
         {
             PlayerDestroy.Instance.DestroyPlayer();
             SpawnManager.Instance.AddDestroyerObjToList(this.gameObject);
+            if (_destroyAnim)
+                Instantiate(_destroyAnim, transform.position, Quaternion.identity).transform.SetParent(GameObject.Find("Enviroment").transform.GetChild(0));
             gameObject.SetActive(false);
-            Debug.Log("Colision with Player");
             
         }
         if (collision.tag == "Lasser")
@@ -38,6 +42,11 @@ public class RockDestroy : MonoBehaviour
                     UIManager.Instance.UpdatePlayerScore(_bigDst);
                     break;
             }
+            if (_destroyAnim)
+                {
+                    Instantiate(_destroyAnim, transform.position, Quaternion.identity).transform.SetParent(GameObject.Find("Enviroment").transform.GetChild(0));
+                    Debug.Log("Boom");
+                }
 
             AudioManager.Instanse.AudioRockDestroy();
             gameObject.SetActive(false);

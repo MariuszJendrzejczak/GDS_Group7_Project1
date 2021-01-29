@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _type: 0
   _destroyTime: 0
-  _speed: 3
+  _speed: 2
   _horizontalRange: 0.35
   _verticalRange: 1.5
 --- !u!61 &5722911349797391289

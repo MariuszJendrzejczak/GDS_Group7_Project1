@@ -623,6 +623,12 @@ PrefabInstance:
       propertyPath: _isMine
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3231899299335627927, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: _destroyAnim
+      value: 
+      objectReference: {fileID: 4390451510029553401, guid: 5d032c6cc39dd9540ae966c7cc24fdb8,
+        type: 3}
     - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_Name
@@ -1522,6 +1528,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1002657120}
     m_Modifications:
+    - target: {fileID: -873452554232822913, guid: e1cdc5d898ca31848b6af9f2809238c9,
+        type: 3}
+      propertyPath: _destroyAnim
+      value: 
+      objectReference: {fileID: 4390451510029553401, guid: f1bd481eb1d76ee4e8d4be63d0f6ebbc,
+        type: 3}
     - target: {fileID: 8806697515847276766, guid: e1cdc5d898ca31848b6af9f2809238c9,
         type: 3}
       propertyPath: m_Name
@@ -4002,6 +4014,12 @@ PrefabInstance:
       propertyPath: _isMine
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3231899299335627927, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: _destroyAnim
+      value: 
+      objectReference: {fileID: 4390451510029553401, guid: 5d032c6cc39dd9540ae966c7cc24fdb8,
+        type: 3}
     - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_Name
@@ -5502,6 +5520,12 @@ PrefabInstance:
       propertyPath: _scoreType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3276633900029222263, guid: 74a4d025f991cc142847fc9db145f6b8,
+        type: 3}
+      propertyPath: _destroyAnim
+      value: 
+      objectReference: {fileID: 4390451510029553401, guid: f1bd481eb1d76ee4e8d4be63d0f6ebbc,
+        type: 3}
     - target: {fileID: 5178314487310165683, guid: 74a4d025f991cc142847fc9db145f6b8,
         type: 3}
       propertyPath: _bigDst
@@ -5522,6 +5546,12 @@ PrefabInstance:
       propertyPath: _scoreType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5178314487310165683, guid: 74a4d025f991cc142847fc9db145f6b8,
+        type: 3}
+      propertyPath: _destroyAnim
+      value: 
+      objectReference: {fileID: 4390451510029553401, guid: f1bd481eb1d76ee4e8d4be63d0f6ebbc,
+        type: 3}
     - target: {fileID: 5183579049469150031, guid: 74a4d025f991cc142847fc9db145f6b8,
         type: 3}
       propertyPath: m_RootOrder
@@ -7439,6 +7469,12 @@ PrefabInstance:
       propertyPath: _isMine
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3231899299335627927, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: _destroyAnim
+      value: 
+      objectReference: {fileID: 4390451510029553401, guid: 5d032c6cc39dd9540ae966c7cc24fdb8,
+        type: 3}
     - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_Name
@@ -8914,6 +8950,12 @@ PrefabInstance:
       propertyPath: _isMine
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3231899299335627927, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: _destroyAnim
+      value: 
+      objectReference: {fileID: 4390451510029553401, guid: 5d032c6cc39dd9540ae966c7cc24fdb8,
+        type: 3}
     - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_Name
@@ -10200,6 +10242,12 @@ PrefabInstance:
       propertyPath: _isMine
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3231899299335627927, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: _destroyAnim
+      value: 
+      objectReference: {fileID: 4390451510029553401, guid: 5d032c6cc39dd9540ae966c7cc24fdb8,
+        type: 3}
     - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_Name
@@ -13127,6 +13175,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1002657120}
     m_Modifications:
+    - target: {fileID: -873452554232822913, guid: e1cdc5d898ca31848b6af9f2809238c9,
+        type: 3}
+      propertyPath: _destroyAnim
+      value: 
+      objectReference: {fileID: 4390451510029553401, guid: f1bd481eb1d76ee4e8d4be63d0f6ebbc,
+        type: 3}
     - target: {fileID: 8806697515847276766, guid: e1cdc5d898ca31848b6af9f2809238c9,
         type: 3}
       propertyPath: m_Name
@@ -19574,6 +19628,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1002657120}
     m_Modifications:
+    - target: {fileID: -873452554232822913, guid: e1cdc5d898ca31848b6af9f2809238c9,
+        type: 3}
+      propertyPath: _destroyAnim
+      value: 
+      objectReference: {fileID: 4390451510029553401, guid: f1bd481eb1d76ee4e8d4be63d0f6ebbc,
+        type: 3}
     - target: {fileID: 8806697515847276766, guid: e1cdc5d898ca31848b6af9f2809238c9,
         type: 3}
       propertyPath: m_Name
@@ -19654,6 +19714,12 @@ PrefabInstance:
       propertyPath: _isMine
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3231899299335627927, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: _destroyAnim
+      value: 
+      objectReference: {fileID: 4390451510029553401, guid: 5d032c6cc39dd9540ae966c7cc24fdb8,
+        type: 3}
     - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_Name
@@ -19976,6 +20042,12 @@ PrefabInstance:
       propertyPath: _isMine
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3231899299335627927, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
+        type: 3}
+      propertyPath: _destroyAnim
+      value: 
+      objectReference: {fileID: 4390451510029553401, guid: 5d032c6cc39dd9540ae966c7cc24fdb8,
+        type: 3}
     - target: {fileID: 3907959222397645364, guid: 37f73e7d8cf458c4192bf7c84996d6a2,
         type: 3}
       propertyPath: m_Name
@@ -23947,6 +24019,12 @@ PrefabInstance:
       propertyPath: _scoreType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3276633900029222263, guid: 74a4d025f991cc142847fc9db145f6b8,
+        type: 3}
+      propertyPath: _destroyAnim
+      value: 
+      objectReference: {fileID: 4390451510029553401, guid: f1bd481eb1d76ee4e8d4be63d0f6ebbc,
+        type: 3}
     - target: {fileID: 5178314487310165683, guid: 74a4d025f991cc142847fc9db145f6b8,
         type: 3}
       propertyPath: _bigDst
@@ -23967,6 +24045,12 @@ PrefabInstance:
       propertyPath: _scoreType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5178314487310165683, guid: 74a4d025f991cc142847fc9db145f6b8,
+        type: 3}
+      propertyPath: _destroyAnim
+      value: 
+      objectReference: {fileID: 4390451510029553401, guid: f1bd481eb1d76ee4e8d4be63d0f6ebbc,
+        type: 3}
     - target: {fileID: 5183579049469150031, guid: 74a4d025f991cc142847fc9db145f6b8,
         type: 3}
       propertyPath: m_RootOrder
@@ -27428,6 +27512,12 @@ PrefabInstance:
       propertyPath: _scoreType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3276633900029222263, guid: 74a4d025f991cc142847fc9db145f6b8,
+        type: 3}
+      propertyPath: _destroyAnim
+      value: 
+      objectReference: {fileID: 4390451510029553401, guid: f1bd481eb1d76ee4e8d4be63d0f6ebbc,
+        type: 3}
     - target: {fileID: 5178314487310165683, guid: 74a4d025f991cc142847fc9db145f6b8,
         type: 3}
       propertyPath: _bigDst
@@ -27448,6 +27538,12 @@ PrefabInstance:
       propertyPath: _scoreType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5178314487310165683, guid: 74a4d025f991cc142847fc9db145f6b8,
+        type: 3}
+      propertyPath: _destroyAnim
+      value: 
+      objectReference: {fileID: 4390451510029553401, guid: f1bd481eb1d76ee4e8d4be63d0f6ebbc,
+        type: 3}
     - target: {fileID: 5183579049469150031, guid: 74a4d025f991cc142847fc9db145f6b8,
         type: 3}
       propertyPath: m_RootOrder
@@ -28244,6 +28340,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1002657120}
     m_Modifications:
+    - target: {fileID: -873452554232822913, guid: e1cdc5d898ca31848b6af9f2809238c9,
+        type: 3}
+      propertyPath: _destroyAnim
+      value: 
+      objectReference: {fileID: 4390451510029553401, guid: f1bd481eb1d76ee4e8d4be63d0f6ebbc,
+        type: 3}
     - target: {fileID: 8806697515847276766, guid: e1cdc5d898ca31848b6af9f2809238c9,
         type: 3}
       propertyPath: m_Name

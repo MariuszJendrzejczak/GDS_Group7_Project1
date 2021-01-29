@@ -24,7 +24,7 @@ public class AudioManager : MonoBehaviour
         }
 
     }
-    // 0 - GameOver, 1 - ZPoint, 2 - MiddleCheckpoints, 3 - EndOdScenCheckPoint, 4 - RocketHole, 5 - CarJump, 6 - CarShoot, 7 - ReckDestroy, 8 - CarDestroy
+    // 0 - GameOver, 1 - ZPoint, 2 - MiddleCheckpoints, 3 - EndOdScenCheckPoint, 4 - RocketHole, 5 - CarJump, 6 - CarShoot, 7 - ReckDestroy, 8 - CarDestroy - 9 - DestroyUfo
     // Start is called before the first frame update
     void Start()
     {
@@ -80,5 +80,10 @@ public class AudioManager : MonoBehaviour
     public void AudioCarDestroy()
     {
         _audioList[8].Play();
+    }
+
+    public void DestroyUfo()
+    {
+        _audioList[9].Play();
     }
 }
