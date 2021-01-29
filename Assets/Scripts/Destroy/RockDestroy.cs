@@ -8,6 +8,8 @@ public class RockDestroy : MonoBehaviour
     [SerializeField] private ScoreType _scoreType;
     [SerializeField]
     private int _smallDst, _mediumDst, _bigDst;
+    [SerializeField]
+    private bool _isMine = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -21,7 +23,9 @@ public class RockDestroy : MonoBehaviour
         }
         if (collision.tag == "Lasser")
         {
-            SpawnManager.Instance.AddDestroyerObjToList(this.gameObject);
+            if (_isMine == false)
+            {
+                SpawnManager.Instance.AddDestroyerObjToList(this.gameObject);
             switch (_scoreType)
             {
                 case ScoreType.small:
@@ -37,6 +41,8 @@ public class RockDestroy : MonoBehaviour
 
             AudioManager.Instanse.AudioRockDestroy();
             gameObject.SetActive(false);
+            }
+            
         }
 
 
