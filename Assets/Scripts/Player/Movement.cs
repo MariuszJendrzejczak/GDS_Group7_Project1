@@ -11,6 +11,7 @@ public class Movement : MonoBehaviour
     private float _thrust = 1;
     private Rigidbody2D _rigidbody2D;
     private bool _jumping = false;
+    [SerializeField]
     private float _jumpingTime = 0.95f;
     [SerializeField]
     private Transform _startingPoint;

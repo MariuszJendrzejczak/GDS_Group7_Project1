@@ -72,7 +72,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &5036171610142587417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88,6 +88,7 @@ MonoBehaviour:
   _playerSpeed: 0.45
   _jumpForce: 1
   _thrust: 1
+  _jumpingTime: 0.95
   _startingPoint: {fileID: 0}
 --- !u!212 &5036171610142587414
 SpriteRenderer:
@@ -245,6 +246,7 @@ MonoBehaviour:
   _playerSpeed: 0.45
   _jumpForce: 1
   _thrust: 1
+  _jumpingTime: 0.95
   _startingPoint: {fileID: 0}
 --- !u!212 &5036171610491792402
 SpriteRenderer:
@@ -574,7 +576,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &5036171611576244118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -590,6 +592,7 @@ MonoBehaviour:
   _playerSpeed: 0.45
   _jumpForce: 1
   _thrust: 1
+  _jumpingTime: 0.95
   _startingPoint: {fileID: 0}
 --- !u!212 &5036171611576244119
 SpriteRenderer:
@@ -746,7 +749,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &3995732446106357045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -762,6 +765,7 @@ MonoBehaviour:
   _playerSpeed: 0.45
   _jumpForce: 1
   _thrust: 1
+  _jumpingTime: 0.95
   _startingPoint: {fileID: 0}
 --- !u!212 &6512240303601256207
 SpriteRenderer:

@@ -14,7 +14,7 @@ public class EnemyFlyOut : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, _target, _step);
         if ((Vector2)transform.position == _target)
         {
-            Destroy(this.gameObject);
+            gameObject.SetActive(false);
         }
     }
 }

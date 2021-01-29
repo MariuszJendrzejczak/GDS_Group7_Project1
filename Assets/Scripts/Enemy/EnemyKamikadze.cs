@@ -9,6 +9,8 @@ public class EnemyKamikadze : MonoBehaviour
     [SerializeField]
     private Vector2 _transformLocked;
     [SerializeField]
+    private GameObject _animmationDestroy;
+    [SerializeField]
     [Tooltip("Prękość poruszania się przeciwnika w jednostkach unity na frame. Dlatego wartość jest tak niska. Zalecam Operować między wartościami 0.01 do 0.06")]
     private float _step = 0.04f;
     private bool _targetLocked = false;
@@ -29,7 +31,9 @@ public class EnemyKamikadze : MonoBehaviour
        
         if ((Vector2)transform.position == _transformLocked)
         {
-            Destroy(this.gameObject);
+            if(_animmationDestroy)
+                _animmationDestroy.SetActive(true);
+            gameObject.SetActive(false);
         }
     }
 }
