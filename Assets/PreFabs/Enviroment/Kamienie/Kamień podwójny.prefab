@@ -110,8 +110,8 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: 0.011979714, y: 0.059842583}
-      - {x: -0.077515975, y: -0.0155016035}
-      - {x: -0.085, y: -0.055}
+      - {x: -0.035240985, y: -0.026147831}
+      - {x: 0.01453352, y: -0.051759854}
       - {x: 0.085, y: -0.055}
       - {x: 0.07135275, y: 0.015629683}
       - {x: 0.043303136, y: 0.038271073}
@@ -131,9 +131,6 @@ MonoBehaviour:
   _smallDst: 0
   _mediumDst: 0
   _bigDst: 0
-  _smallJump: 0
-  _medJump: 0
-  _bigJump: 0
 --- !u!1 &6071469969447258389
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,9 +264,6 @@ MonoBehaviour:
   _smallDst: 0
   _mediumDst: 0
   _bigDst: 0
-  _smallJump: 0
-  _medJump: 0
-  _bigJump: 0
 --- !u!1 &8806028652376682191
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,6 +313,3 @@ MonoBehaviour:
   _smallDst: 100
   _mediumDst: 100
   _bigDst: 100
-  _smallJump: 50
-  _medJump: 80
-  _bigJump: 100
