@@ -14,6 +14,8 @@ public class CheckPoint : MonoBehaviour
     private float _ground, _paralax1, _paralax2, _groundY, _paralax1Y, _paralax2Y;
     [SerializeField]
     private Transform _groundObj, _paralax1Obj, _paralax2Obj;
+    [SerializeField]
+
 
     private void Start()
     {
@@ -38,6 +40,8 @@ public class CheckPoint : MonoBehaviour
         if (_isFinal == true)
         {
             GameManager.Instance.BounsPanel();
+            GameObject.Find("Canvas").transform.GetChild(3).transform.GetChild(0).gameObject.SetActive(false);
+            GameObject.Find("Canvas").transform.GetChild(3).transform.GetChild(1).gameObject.SetActive(true);
             AudioManager.Instanse.AudioEndScenePoint();
             ProgressBar.Instance.ActivateProgressBall();
         }
