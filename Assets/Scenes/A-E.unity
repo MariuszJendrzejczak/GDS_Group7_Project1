@@ -49423,7 +49423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isFinal: 0
-  _ZPoint: 1
+  _ZPoint: 0
   _checkPointLetter: A
   _groundObj: {fileID: 0}
   _paralax1Obj: {fileID: 0}
