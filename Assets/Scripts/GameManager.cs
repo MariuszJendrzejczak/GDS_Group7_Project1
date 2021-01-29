@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         UpdateEnviroment();
-        Pause();
+       // Pause();
         GameTimer();
 
         _sceneIndex = SceneManager.GetActiveScene().buildIndex;
