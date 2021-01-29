@@ -40,8 +40,7 @@ public class CheckPoint : MonoBehaviour
         if (_isFinal == true)
         {
             GameManager.Instance.BounsPanel();
-            GameObject.Find("Canvas").transform.GetChild(3).transform.GetChild(0).gameObject.SetActive(false);
-            GameObject.Find("Canvas").transform.GetChild(3).transform.GetChild(1).gameObject.SetActive(true);
+            AudioManager.Instanse.StopBackgroundMusic();
             AudioManager.Instanse.AudioEndScenePoint();
             ProgressBar.Instance.ActivateProgressBall();
         }
@@ -49,6 +48,9 @@ public class CheckPoint : MonoBehaviour
         if (_ZPoint == true)
         {
             GameManager.Instance.BounsPanel();
+            GameObject.Find("Canvas").transform.GetChild(3).transform.GetChild(0).gameObject.SetActive(false);
+            GameObject.Find("Canvas").transform.GetChild(3).transform.GetChild(1).gameObject.SetActive(true);
+            AudioManager.Instanse.StopBackgroundMusic();
             AudioManager.Instanse.AudioZPoint();
             ProgressBar.Instance.ActivateProgressBall();
         }

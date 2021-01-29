@@ -5,7 +5,7 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     private static AudioManager _instance;
-    public static  AudioManager Instanse
+    public static AudioManager Instanse
     {
         get { return _instance; }
     }
@@ -13,6 +13,10 @@ public class AudioManager : MonoBehaviour
     [SerializeField]
     private List<AudioSource> _audioList;
     private int _childCount;
+
+    [SerializeField]
+    private AudioSource _backgroundMusic;
+
     void Awake()
     {
         _instance = this;
@@ -28,13 +32,16 @@ public class AudioManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (_backgroundMusic == null)
+        {
+            GameObject.Find("Music").GetComponent<AudioSource>();
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void AudioGameOver()
@@ -86,4 +93,15 @@ public class AudioManager : MonoBehaviour
     {
         _audioList[9].Play();
     }
+
+    public void StopBackgroundMusic()
+    {
+        _backgroundMusic.Stop();
+    }
+
+    public void StartBackgroundMusic()
+    {
+        _backgroundMusic.Play();
+    }
+
 }

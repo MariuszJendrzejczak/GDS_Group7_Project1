@@ -48348,6 +48348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _audioList: []
+  _backgroundMusic: {fileID: 1043918389}
 --- !u!4 &2142148291
 Transform:
   m_ObjectHideFlags: 0
@@ -49422,7 +49423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isFinal: 0
-  _ZPoint: 0
+  _ZPoint: 1
   _checkPointLetter: A
   _groundObj: {fileID: 0}
   _paralax1Obj: {fileID: 0}

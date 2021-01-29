@@ -13,6 +13,11 @@ public class Bonus : MonoBehaviour
     public int currentTop, currnetTime, currentBonus;
     // Start is called before the first frame update
 
+    private void Awake()
+    {
+        transform.GetChild(0).gameObject.SetActive(true);
+        transform.GetChild(1).gameObject.SetActive(false);
+    }
 
     void Start()
     {
