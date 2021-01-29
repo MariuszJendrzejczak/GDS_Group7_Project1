@@ -21870,7 +21870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0f3e8bd92d59f74b9c8d1b996de8d6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _time1: 100
+  _time1: 80
   _time2: 100
   _time3: 100
   _time4: 100

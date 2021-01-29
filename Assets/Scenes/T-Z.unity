@@ -18977,8 +18977,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2736d344096c82847b77477ca1a5e68b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _isFinal: 1
-  _ZPoint: 0
+  _isFinal: 0
+  _ZPoint: 1
   _checkPointLetter: Z
   _groundObj: {fileID: 834788376}
   _paralax1Obj: {fileID: 1474773177}

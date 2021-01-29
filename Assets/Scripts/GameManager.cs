@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     public GameObject PlayerCar;
     [SerializeField]
     private GameObject _pausePanel, _bounsPanel, _respawnPanel, _gameOverPanel, _finalPanel;
-    private enum GameState { play, paused, playerDead, bounsPanel, gameOver}
+    private enum GameState { play, paused }
     private GameState gameState = GameState.play;
     private int _playerLives = 4, _sceneIndex;
     [SerializeField]
@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         _instance = this;
+        Time.timeScale = 1;
  
  
     }
@@ -128,13 +129,11 @@ public class GameManager : MonoBehaviour
         UIManager.Instance.UpdatePlayerLives(_playerLives);
         if (_playerLives > 0)
         {
-            gameState = GameState.playerDead;
             Time.timeScale = 0;
             Respawn();
         }
         else
         {
-            gameState = GameState.gameOver;
             GameOver();
         }
 
@@ -179,8 +178,8 @@ public class GameManager : MonoBehaviour
         SpawnManager.Instance.RespawnDestroyedObjects();
         SpawnManager.Instance.ClearDestroyedObjectList();
         SetActiceFalseForAllChildren.Instance.SetAllChildrenActiveFalse();
-            Time.timeScale = 1;
-        _respawnPanel.SetActive(false); // do usunięcia 
+        Time.timeScale = 1;
+
            
     }
     public void BounsPanel()
@@ -191,7 +190,6 @@ public class GameManager : MonoBehaviour
         var bonus = _bounsPanel.GetComponent<Bonus>();
         UIManager.Instance.BonusPanelUpdate((int)Timer, bonus.currnetTime, bonus.currentTop, bonus.currentBonus);
         Time.timeScale = 0;
-        gameState = GameState.bounsPanel;
     }
     public void BounsPanelFinal()
     {
