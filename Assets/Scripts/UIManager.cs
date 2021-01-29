@@ -58,7 +58,7 @@ public class UIManager : MonoBehaviour
                 GameManager.Instance.AddLive();
                 _bunusLife1 = true;
             }         
-            if (_bonusLife2 == false && PlayerScore >=30000)
+            if (_bonusLife2 == false && PlayerScore >=15000)
             {
                 GameManager.Instance.AddLive();
                 _bonusLife2 = false;
