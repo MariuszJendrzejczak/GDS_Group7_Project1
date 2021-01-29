@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
     private GameObject _groundObj, _paralax1Obj, _paralax2Obj;
     public GameObject PlayerCar;
     [SerializeField]
-    private GameObject _pausePanel, _bounsPanel, _respawnPanel, _gameOverPanel;
+    private GameObject _pausePanel, _bounsPanel, _respawnPanel, _gameOverPanel, _finalPanel;
     private enum GameState { play, paused, playerDead, bounsPanel, gameOver}
     private GameState gameState = GameState.play;
     private int _playerLives = 4, _sceneIndex;
@@ -192,7 +192,12 @@ public class GameManager : MonoBehaviour
         UIManager.Instance.BonusPanelUpdate((int)Timer, bonus.currnetTime, bonus.currentTop, bonus.currentBonus);
         Time.timeScale = 0;
         gameState = GameState.bounsPanel;
-        // tu ma być kod do obliczania bonusu
+    }
+    public void BounsPanelFinal()
+    {
+        _finalPanel.SetActive(true);
+        UIManager.Instance.FinalPanelUpdate();
+
     }
 
     public void NextLevel()
@@ -208,5 +213,14 @@ public class GameManager : MonoBehaviour
         _playerLives += 1;
         UIManager.Instance.UpdatePlayerLives(_playerLives);
     }
+
+    public void OdNowa()
+    {
+        UIManager.Instance.PlayerScore = 0;
+        _playerLives = 4;
+        SceneManager.LoadScene(1);
+    }
+
+
  
 }

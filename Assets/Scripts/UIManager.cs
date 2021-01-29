@@ -15,7 +15,7 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     private Text _scoreText, _topScoreText, _lives, _timer;
     [SerializeField]
-    private Text _yourTime, _avgTime, _topTime, _bounsPoints, _pointLetter, _bonusPanelText;
+    private Text _yourTime, _avgTime, _topTime, _bounsPoints, _pointLetter, _bonusPanelText, _finalScore, _finalTop;
     private int _topScore = 0;
     public int PlayerScore;
     private bool _bunusLife1 = false, _bonusLife2 = false;
@@ -110,6 +110,13 @@ public class UIManager : MonoBehaviour
         _pointLetter.text = value;
         _bonusPanelText.text = value;
     }
+
+    public void FinalPanelUpdate()
+    {
+        _finalScore.text = "Twój Wynik: " + PlayerScore;
+        _finalTop.text = "Rekord: " + _topScore;
+    }
+
 
     
     
